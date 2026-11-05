@@ -1,6 +1,6 @@
 Consider using the pymupdf_layout package for a greatly improved page layout analysis.
 rows without a readable agreement date: 0
-wrote 213 agreements to /Users/jacobherbstman/mpdu_data/full_run/data/int/02_data_cleaning/00_agreements_to_build.csv
+wrote 213 agreements to /Users/jacobherbstman/Desktop/montgomery_mpdu/data/int/02_data_cleaning/00_agreements_to_build.csv
   2005:  17 agreements,   5106 units,   763 MPDUs  MISMATCH agreements (official 15)
   2006:  10 agreements,   2956 units,   399 MPDUs  ok
   2007:   5 agreements,    825 units,   111 MPDUs  ok

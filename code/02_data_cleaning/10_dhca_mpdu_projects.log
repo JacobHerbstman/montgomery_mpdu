@@ -14,5 +14,5 @@ Meadows at Hurley Ridge        820030100      2006.0 Meadows at Hurley Ridge own
 
 DHCA projects not in the reports: 43 ({'ownership': 36, 'rental': 7}); with units agreeing: 1
   (not added: DHCA count / approved units match report shares within 0.5 pt for only 100% of 3 rental report projects with agreeing units)
-[saved] /Users/jacobherbstman/mpdu_data/full_run/data/int/02_data_cleaning/10_dhca_fills.csv
-[saved] /Users/jacobherbstman/mpdu_data/full_run/data/int/02_data_cleaning/10_dhca_candidates.csv
+[saved] /Users/jacobherbstman/Desktop/montgomery_mpdu/data/int/02_data_cleaning/10_dhca_fills.csv
+[saved] /Users/jacobherbstman/Desktop/montgomery_mpdu/data/int/02_data_cleaning/10_dhca_candidates.csv

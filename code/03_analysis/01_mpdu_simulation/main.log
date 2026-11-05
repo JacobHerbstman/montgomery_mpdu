@@ -24,5 +24,5 @@ actual_sh_mpdu
 (0.155, 0.2]      27
 (0.2, 0.5]        23
 
-[saved] /Users/jacobherbstman/mpdu_data/full_run/data/int/03_analysis/01_mpdu_simulation_results.csv
-[saved] /Users/jacobherbstman/mpdu_data/full_run/data/int/03_analysis/01_mpdu_full_frontier.csv  (69,798 option rows)
+[saved] /Users/jacobherbstman/Desktop/montgomery_mpdu/data/int/03_analysis/01_mpdu_simulation_results.csv
+[saved] /Users/jacobherbstman/Desktop/montgomery_mpdu/data/int/03_analysis/01_mpdu_full_frontier.csv  (69,798 option rows)
