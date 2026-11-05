@@ -1,0 +1,18 @@
+MPDU permits by level: {'unit': 1966, 'pure_model': 111, 'building': 54}
+  located in a site plan: 1296 / 2131
+
+projects: 126 ({'unit': 97, 'building': 29})
+in_reports       in reports  new
+level    usable                 
+building 0               14    4
+         1                9    2
+unit     0               51   22
+         1               22    2
+
+check against the reports (permit minus report):
+  building, usable=0: n=13; MPDUs exact 31%, share within 1 pt 46%, median share diff +0.0 pts
+  building, usable=1: n=8; MPDUs exact 100%, share within 1 pt 100%, median share diff +0.0 pts
+  unit, usable=0: n=45; MPDUs exact 9%, share within 1 pt 11%, median share diff +2.0 pts
+  unit, usable=1: n=21; MPDUs exact 48%, share within 1 pt 43%, median share diff -0.9 pts
+[saved] /Users/jacobherbstman/mpdu_data/full_run/data/int/02_data_cleaning/09_permit_mpdu_permits.csv
+[saved] /Users/jacobherbstman/mpdu_data/full_run/data/int/02_data_cleaning/09_permit_mpdu_projects.csv

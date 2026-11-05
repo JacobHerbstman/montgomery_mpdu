@@ -1,0 +1,30 @@
+.DS_Store
+__pycache__/
+
+# data/ links to data.nosync/, which iCloud does not sync (5+ GB of downloads and
+# intermediate files). Only the hand-coded inputs and the download manifests
+# (file, url, bytes, sha256) are tracked.
+/data.nosync/**
+!/data.nosync/**/
+!/data.nosync/raw/**/manifest.csv
+!/data.nosync/raw/mpdu_annual_reports/agreements_to_build_transcribed.csv
+!/data.nosync/raw/mpdu_annual_reports/manual_corrections.csv
+!/data.nosync/raw/mpdu_annual_reports/project_fixes.csv
+!/data.nosync/raw/mpdu_annual_reports/project_impact_tax.csv
+!/data.nosync/raw/mpdu_annual_reports/project_subsidy.csv
+!/data.nosync/raw/mpdu_annual_reports/project_tdr.csv
+!/data.nosync/raw/mpdu_annual_reports/site_plan_fills.csv
+!/data.nosync/raw/pb_resolutions/manual_coding.csv
+!/data.nosync/raw/pb_archive_reports/document_fills.csv
+!/data.nosync/raw/zoning_rules/zone_density_table.csv
+
+# Jacob's working materials kept in this folder, not part of the project
+/course/
+/evan_copy/
+/figures/
+/sources/
+/model_sketch/
+/replication/
+/institutional_details.md
+/meeting_prep.md
+/evan_meeting_notes.docx

@@ -1,0 +1,4 @@
+15% kink: at 0 units 60; mean of -3..-1 and +1..+3: 9.8; below kink 122, at or above 97
+20% kink: at 0 units 3; mean of -3..-1 and +1..+3: 6.7; below kink 192, at or above 27
+projects: 219; MPDU share 3.3-100.0%
+[saved] /Users/jacobherbstman/mpdu_data/full_run/output/figures/mpdu_kink_bunching.pdf; /Users/jacobherbstman/mpdu_data/full_run/output/tables/mpdu_kink_bunching_counts.csv

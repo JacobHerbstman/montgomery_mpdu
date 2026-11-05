@@ -1,0 +1,12 @@
+share_category,old,new,unknown,total
+fully affordable,1,1,0,2
+below its minimum,6,0,0,6
+at its minimum,80,17,0,97
+minimum to 15%,18,0,0,18
+at 15%,36,2,1,39
+15-20%,4,3,0,7
+at 20%,2,1,0,3
+20-25%,1,0,0,1
+at 25%,3,7,0,10
+above 25%,3,3,0,6
+total,154,34,1,189

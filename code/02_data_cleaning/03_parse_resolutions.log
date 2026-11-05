@@ -1,0 +1,13 @@
+documents parsed: 1276 (staff report rows: 825, usable: 338)
+  doc types: {'staff_report': 825, 'site_plan': 430, 'staging_allocation': 12, 'correspondence': 9}
+  plan matches target: 484  (same project, other amendment: 193)
+  zone                    960 / 1276
+  cr_r_far                396 / 1276
+  tract_acres            1011 / 1276
+  approved_units          966 / 1276
+  approved_res_gfa_sf     304 / 1276
+  mpdu_pct                590 / 1276
+  mpdu_count              414 / 1276
+  units_per_acre           65 / 1276
+  bonus_pct                93 / 1276
+[saved] /Users/jacobherbstman/mpdu_data/full_run/data/int/02_data_cleaning/03_pb_resolutions_parsed.csv

@@ -1,0 +1,11 @@
+site plans located: 3,856 ({'polygon': 3351, 'xy_point': 505})
+  in a Montgomery tract: 3,620; with ACS median rent: 3,603
+count    3603.0
+mean     1922.0
+std       445.0
+min       459.0
+25%      1711.0
+50%      1872.0
+75%      2140.0
+max      3501.0
+[saved] /Users/jacobherbstman/mpdu_data/full_run/data/int/02_data_cleaning/06_site_plan_tracts.csv

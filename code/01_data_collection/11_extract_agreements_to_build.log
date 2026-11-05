@@ -1,0 +1,24 @@
+Consider using the pymupdf_layout package for a greatly improved page layout analysis.
+rows without a readable agreement date: 0
+wrote 213 agreements to /Users/jacobherbstman/mpdu_data/full_run/data/int/02_data_cleaning/00_agreements_to_build.csv
+  2005:  17 agreements,   5106 units,   763 MPDUs  MISMATCH agreements (official 15)
+  2006:  10 agreements,   2956 units,   399 MPDUs  ok
+  2007:   5 agreements,    825 units,   111 MPDUs  ok
+  2008:   6 agreements,   1234 units,   174 MPDUs  ok
+  2009:   2 agreements,     78 units,    10 MPDUs  ok
+  2010:   8 agreements,   2161 units,   309 MPDUs  ok
+  2011:   9 agreements,   1346 units,   176 MPDUs  ok
+  2012:  11 agreements,   3218 units,   441 MPDUs  MISMATCH agreements (official 10)
+  2013:  14 agreements,   3424 units,   461 MPDUs  ok
+  2014:  11 agreements,   1929 units,   258 MPDUs  ok
+  2015:  16 agreements,   3704 units,   491 MPDUs  ok
+  2016:  12 agreements,   2000 units,   274 MPDUs  ok
+  2017:   3 agreements,    696 units,    88 MPDUs  ok
+  2018:  12 agreements,   3204 units,   541 MPDUs  ok
+  2019:  11 agreements,   1781 units,   310 MPDUs  ok
+  2020:   6 agreements,    960 units,   183 MPDUs  ok
+  2021:  12 agreements,   3126 units,   440 MPDUs  ok
+  2022:  11 agreements,   3965 units,   612 MPDUs  ok
+  2023:  14 agreements,   4101 units,   807 MPDUs  ok
+  2024:  12 agreements,   1495 units,   238 MPDUs  ok
+  2025:  11 agreements,   2796 units,   564 MPDUs  ok

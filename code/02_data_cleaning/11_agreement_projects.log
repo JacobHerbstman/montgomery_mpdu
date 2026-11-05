@@ -1,0 +1,42 @@
+agreements: 213; matched to report projects: 177 ({'counts': 158, '': 36, 'site plan': 15, 'name': 4})
+  totals equal a report project's: 158 of 173 matched by counts or site plan
+not in the sample: 36; added: 32
+ year                      project_name site_plan  total_units  mpdus  starred  add_to_sample
+ 2005                Rock Spring Center 820040170          392    107     True              0
+ 2005                       Quarry, The 820050290           97      0     True              0
+ 2005                    Fraley's Green 82003030A           53      7    False              1
+ 2007                   Woodside Courts 820060030           26      0    False              0
+ 2008        Villa Cortese - Building V 820070190           47      6    False              1
+ 2017                 Woodfield Commons 820150090           84     11    False              1
+ 2017                 900 Thayer Avenue 82006020A          124     16    False              1
+ 2018                     Victory Haven 820170040           72     11    False              1
+ 2018          Willow Manor at Fairland 82017005A          121     16    False              1
+ 2019               Elizabeth House III 820170140          267    103    False              1
+ 2020                     Knowles Manor 820190080           94     29    False              1
+ 2020                  850 Sligo Avenue 820190050           80     10    False              1
+ 2021              Sandy Spring Village  8198806A           56      7    False              1
+ 2022                 Guardian Building 820170100          176     22    False              1
+ 2022                4010 Randolph Road 820210050          192     52    False              1
+ 2022    Residences at Forest Glen, The 820210020          189     38    False              1
+ 2023             4725 Cheltenham Drive 820220020          217     34    False              1
+ 2023             7340 Wisconsin Avenue 820220060          110     17    False              1
+ 2023                         Grandview 820210190          512     77    False              1
+ 2023                Hillandale Gateway 820220170           98     25    False              1
+ 2023                  Sligo Apartments 820190130          463    116    False              1
+ 2023    Wildwood Manor Shopping Center 820220180          301     46    False              1
+ 2024                 Guardian Building 820170100          176     22    False              0
+ 2024                       MHP - Nebel 820220150          165     42    False              1
+ 2024          Flats at Knowles Station 82021003A           84     21    False              1
+ 2024  Westwood Shopping Center Phase 1 820180190           69      9    False              1
+ 2024 Preston Place and Lake Apartments 820220180          147     23    False              1
+ 2024           12710 Twinbrook Parkway 820220010           49      8    False              1
+ 2024                    Linthicum West 820210010          253     32    False              1
+ 2024                  Heritage Gardens       NaN           59      9    False              1
+ 2025                               NaN 820230080           86     13    False              1
+ 2025                               NaN 820210110          364     91    False              1
+ 2025                               NaN 820240040          236     59    False              1
+ 2025                               NaN 82012004C          268     41    False              1
+ 2025                               NaN E20250010          154    154    False              1
+ 2025                               NaN 820240080           44      6    False              1
+name matches (check): ['Clarksburg Village Phase II', 'Grosvenor Village', 'Reserve at Damascus', 'White Oak Apartments']
+[saved] /Users/jacobherbstman/mpdu_data/full_run/data/int/02_data_cleaning/11_agreement_projects.csv

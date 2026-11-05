@@ -1,0 +1,65 @@
+left out (project_fixes.csv): {'duplicate': 10, 'part': 3, "other project's plan": 1}
+projects with a resolution base: 198 (put back: OTHER_RULE 2, OTHER_PROGRAM 19), below base: 69
+parsed approved units agree with GIS (5%): 167 of 191
+
+below base by route (below / all):
+below_base     False  True 
+route                      
+cr_floor_area      1      5
+cr_mapped_fa       0      1
+stated_base       92     53
+stated_bonus      30      0
+zone_table         6     10
+
+likely cause:
+likely_cause
+at or above base                           129
+stated base, really below                   41
+within 5% of base (rounding)                13
+floor area -> units (assumed unit size)      6
+approved units disagree with GIS             4
+CR floor area, really below                  3
+units/acre x gross tract acres               2
+
+TDRs (project_tdr.csv):
+tdr
+none                   167
+used                    27
+available, not used      2
+density transfer         2
+
+subsidy (project_subsidy.csv):
+subsidy
+none                       174
+LIHTC                       18
+public land                  2
+HOC, no LIHTC                2
+LIHTC, after completion      1
+LIHTC, planned               1
+
+impact tax at 25% (project_impact_tax.csv):
+impact_tax
+none      190
+stated      5
+likely      3
+
+other program (OTHER_PROGRAM):
+other_program
+none                 179
+workforce housing      8
+Bethesda Overlay       7
+master plan bonus      2
+PD zone bonus          1
+ZTA 21-07              1
+
+base check:
+base_check
+checked       195
+unverified      3
+
+MPDUs vs minimum, below-base projects:
+mpdu_vs_min
+at       52
+above    16
+below     1
+[saved] /Users/jacobherbstman/mpdu_data/full_run/output/tables/base_density_audit.csv

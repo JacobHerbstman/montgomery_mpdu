@@ -1,0 +1,19 @@
+,all,base,bonus,choice
+projects,189.0,181.0,99.0,72.0
+"units, total",46465.0,44551.0,20430.0,14895.0
+"units, median",176.0,180.0,125.0,112.0
+"units, 25th pct",71.0,71.0,54.5,45.0
+"units, 75th pct",312.0,319.0,251.5,266.8
+"MPDUs, total",7256.0,6994.0,3619.0,2192.0
+"MPDU share, median (%)",14.3,14.0,15.0,15.0
+at its minimum (%),51.3,53.0,41.4,40.3
+at 15% (%),20.6,20.4,32.3,43.1
+15% minimum (%),9.5,9.4,9.1,0.0
+fully affordable (%),1.1,1.1,2.0,0.0
+rental (%),48.1,49.2,37.4,30.6
+for-sale (%),49.7,49.2,60.6,68.1
+"offering year, median",2016.0,2017.0,2016.0,2014.0
+"offering year, first",2005.0,2005.0,2005.0,2005.0
+"offering year, last",2025.0,2025.0,2025.0,2025.0
+new regime (%),18.0,18.2,23.2,8.3
+"tract median gross rent 2019, median ($/mo)",1842.5,1802.0,1798.5,1802.0

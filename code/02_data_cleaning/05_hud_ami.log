@@ -1,0 +1,31 @@
+WARNING *** OLE2 inconsistency: SSCS size is 0 but SSAT size is non-zero
+WARNING *** OLE2 inconsistency: SSCS size is 0 but SSAT size is non-zero
+WARNING *** OLE2 inconsistency: SSCS size is 0 but SSAT size is non-zero
+WARNING *** OLE2 inconsistency: SSCS size is 0 but SSAT size is non-zero
+WARNING *** OLE2 inconsistency: SSCS size is 0 but SSAT size is non-zero
+WARNING *** OLE2 inconsistency: SSCS size is 0 but SSAT size is non-zero
+  fy    ami  l50_4  l80_4                                                     hud_area
+2004  85400  43500  57500                                                         None
+2005  89300  44650  58000                                                         None
+2006  90300  45150  59600 Washington-Arlington-Alexandria, DC-VA-MD HUD Metro FMR Area
+2007  94500  47250  60000 Washington-Arlington-Alexandria, DC-VA-MD HUD Metro FMR Area
+2008  99000  49200  61500 Washington-Arlington-Alexandria, DC-VA-MD HUD Metro FMR Area
+2009 102700  51350  64000 Washington-Arlington-Alexandria, DC-VA-MD HUD Metro FMR Area
+2010 103500  51750  64400 Washington-Arlington-Alexandria, DC-VA-MD HUD Metro FMR Area
+2011 106100  53050  67600 Washington-Arlington-Alexandria, DC-VA-MD HUD Metro FMR Area
+2012 107500  53750  70250 Washington-Arlington-Alexandria, DC-VA-MD HUD Metro FMR Area
+2013 107300  53650  66750 Washington-Arlington-Alexandria, DC-VA-MD HUD Metro FMR Area
+2014 107000  53500  68500 Washington-Arlington-Alexandria, DC-VA-MD HUD Metro FMR Area
+2015 109200  54600  68000 Washington-Arlington-Alexandria, DC-VA-MD HUD Metro FMR Area
+2016 108600  54300  70150 Washington-Arlington-Alexandria, DC-VA-MD HUD Metro FMR Area
+2017 110300  55150  75050 Washington-Arlington-Alexandria, DC-VA-MD HUD Metro FMR Area
+2018 117200  58600  77450 Washington-Arlington-Alexandria, DC-VA-MD HUD Metro FMR Area
+2019 121300  60650  77600 Washington-Arlington-Alexandria, DC-VA-MD HUD Metro FMR Area
+2020 126000  63000  79600 Washington-Arlington-Alexandria, DC-VA-MD HUD Metro FMR Area
+2021 129000  64500  82300 Washington-Arlington-Alexandria, DC-VA-MD HUD Metro FMR Area
+2022 142300  71150  90000 Washington-Arlington-Alexandria, DC-VA-MD HUD Metro FMR Area
+2023 152100  75350  95300 Washington-Arlington-Alexandria, DC-VA-MD HUD Metro FMR Area
+2024 154700  77350  97800 Washington-Arlington-Alexandria, DC-VA-MD HUD Metro FMR Area
+2025 163900  81950 106800 Washington-Arlington-Alexandria, DC-VA-MD HUD Metro FMR Area
+2026 166100  83050 106800 Washington-Arlington-Alexandria, DC-VA-MD HUD Metro FMR Area
+[saved] /Users/jacobherbstman/mpdu_data/full_run/data/int/02_data_cleaning/05_hud_ami_montgomery.csv

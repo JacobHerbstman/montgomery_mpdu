@@ -1,0 +1,116 @@
+
+sample:
+                                                               projects
+step                                                                   
+report projects (annual reports, agreements, permits)               219
+report projects listed twice counted once (project_fixes.csv)       206
+all: plan groups once (08)                                          189
+  of which regime unknown                                             1
+base: with a resolution base, plan groups once (08)                 181
+bonus: MPDUs could buy units above base                              99
+choice: no subsidy, impact-tax flag or 15% minimum                   72
+wedge: priced density and own share (08 wedge_sample)               110
+(project_fixes.csv rows: {'duplicate': 10, 'part': 3, "other project's plan": 1}; 08 also leaves out the other project's plan rows and projects with no resolution base)
+
+summary:
+                                                 all     base    bonus   choice
+projects                                       189.0    181.0     99.0     72.0
+units, total                                 46465.0  44551.0  20430.0  14895.0
+units, median                                  176.0    180.0    125.0    112.0
+units, 25th pct                                 71.0     71.0     54.5     45.0
+units, 75th pct                                312.0    319.0    251.5    266.8
+MPDUs, total                                  7256.0   6994.0   3619.0   2192.0
+MPDU share, median (%)                          14.3     14.0     15.0     15.0
+at its minimum (%)                              51.3     53.0     41.4     40.3
+at 15% (%)                                      20.6     20.4     32.3     43.1
+15% minimum (%)                                  9.5      9.4      9.1      0.0
+fully affordable (%)                             1.1      1.1      2.0      0.0
+rental (%)                                      48.1     49.2     37.4     30.6
+for-sale (%)                                    49.7     49.2     60.6     68.1
+offering year, median                         2016.0   2017.0   2016.0   2014.0
+offering year, first                          2005.0   2005.0   2005.0   2005.0
+offering year, last                           2025.0   2025.0   2025.0   2025.0
+new regime (%)                                  18.0     18.2     23.2      8.3
+tract median gross rent 2019, median ($/mo)   1842.5   1802.0   1798.5   1802.0
+
+share:
+regime             old  new  unknown  total
+share_category                             
+fully affordable     1    1        0      2
+below its minimum    6    0        0      6
+at its minimum      80   17        0     97
+minimum to 15%      18    0        0     18
+at 15%              36    2        1     39
+15-20%               4    3        0      7
+at 20%               2    1        0      3
+20-25%               1    0        0      1
+at 25%               3    7        0     10
+above 25%            3    3        0      6
+total              154   34        1    189
+
+share_by_group:
+group              bonus available  ceiling at base  height limit  lump at 15%  own schedule  other program  unclear  base from approved units  no resolution base  total  choice (within bonus available)
+share_category                                                                                                                                                                                            
+fully affordable                 1                0             0            0             0              0        0                         0                   0      1                                0
+below its minimum                1                1             0            0             0              2        0                         0                   2      6                                1
+at its minimum                  30               25            12            7             3              0        2                         1                   0     80                               26
+minimum to 15%                   7                7             0            1             0              1        1                         0                   1     18                                7
+at 15%                          30                1             0            2             1              1        0                         0                   1     36                               29
+15-20%                           2                1             0            0             0              0        0                         0                   1      4                                2
+at 20%                           0                1             0            0             0              0        0                         0                   1      2                                0
+20-25%                           0                0             0            1             0              0        0                         0                   0      1                                0
+at 25%                           3                0             0            0             0              0        0                         0                   0      3                                0
+above 25%                        2                0             0            0             0              1        0                         0                   0      3                                1
+total                           76               36            12           11             4              5        3                         1                   6    154                               66
+
+position:
+position                         below base  at base  between  at 22%  above 22%  total
+group                                                                                  
+base from approved units                  0        1        0       0          0      1
+bonus available                          41        6       21      29          2     99
+ceiling at base                          14       23        0       0          0     37
+height limit                              5        7        0       0          0     12
+lump at 15%                               6        5        1       0          1     13
+other program                             0        1        1       0          4      6
+own schedule                              0        0        3       0          7     10
+unclear                                   1        2        0       0          0      3
+choice (within bonus available)          26        3       16      26          1     72
+
+position_by_share:
+position           below base  at base  between  at 22%  above 22%  total
+share_category                                                           
+fully affordable            1        0        1       0          0      2
+below its minimum           1        0        0       0          0      1
+at its minimum             29        5        5       2          0     41
+minimum to 15%              0        0        5       2          0      7
+at 15%                      3        0        7      22          0     32
+15-20%                      1        0        1       0          0      2
+at 20%                      1        0        0       0          0      1
+20-25%                      0        0        0       0          0      0
+at 25%                      3        1        2       1          2      9
+above 25%                   2        0        0       2          0      4
+total                      41        6       21      29          2     99
+
+flags:
+                          projects  TDRs or transfer  subsidy  25% impact tax  15% minimum  other program  base not checked
+group                                                                                                                      
+base from approved units         1                 0        0               0            0              0                 0
+bonus available                 99                15       15               5            9              0                 1
+ceiling at base                 37                 3        2               1            0              0                 0
+height limit                    12                 0        0               0            0              0                 2
+lump at 15%                     13                 0        3               1            0              0                 0
+other program                    6                 1        3               1            0              6                 0
+own schedule                    10                 0        0               0            8              7                 0
+unclear                          3                 0        0               0            0              0                 0
+total                          181                19       23               8           17             13                 3
+
+choice_by:
+position                    below base  at base  between  at 22%  above 22%  total
+period before Oct 2014              18        3       16      23          0     60
+       Oct 2014 - Oct 2018           4        0        0       2          0      6
+       from Oct 2018                 4        0        0       1          1      6
+tenure For-Sale                     19        2       13      15          0     49
+       Rental                        6        1        3      11          1     22
+       unknown                       1        0        0       0          0      1
+
+[saved] /Users/jacobherbstman/mpdu_data/full_run/output/tables/descriptives_*.csv; /Users/jacobherbstman/mpdu_data/full_run/output/figures/descriptives.pdf; /Users/jacobherbstman/mpdu_data/full_run/output/figures/descriptives/*.png

@@ -1,0 +1,29 @@
+projects with a resolution base: 181 (plan groups counted once)
+position               below base  at base  between  at 22%  above 22%
+bonus_rule                                                            
+25A bonus                      27        3       17      27          0
+Bethesda Overlay                0        0        2       0          7
+CBD before Ord. 15-35           0        1        0       0          0
+CR lump at 15%                  6        5        1       0          1
+CR points                       4        5        0       0          0
+RE-1 MPDU step                  0        0        1       0          0
+RMX bonus                       1        0        1       0          0
+ZTA 18-06                      13        3        3       2          2
+approved units                  0        1        0       0          0
+height cap                      5        7        0       0          0
+no bonus zone                   0        1        0       0          0
+other program                   0        1        1       0          4
+plan cap                       10       16        0       0          0
+unclear                         1        2        0       0          0
+
+position                  below base  at base  between  at 22%  above 22%
+group                                                                    
+base from approved units           0        1        0       0          0
+bonus available                   41        6       21      29          2
+ceiling at base                   14       23        0       0          0
+height limit                       5        7        0       0          0
+lump at 15%                        6        5        1       0          1
+other program                      0        1        1       0          4
+own schedule                       0        0        3       0          7
+unclear                            1        2        0       0          0
+[saved] /Users/jacobherbstman/mpdu_data/full_run/output/tables/building_size_bunching.csv; /Users/jacobherbstman/mpdu_data/full_run/output/tables/project_group.csv; /Users/jacobherbstman/mpdu_data/full_run/output/figures/building_size_bunching.pdf

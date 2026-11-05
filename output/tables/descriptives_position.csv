@@ -1,0 +1,10 @@
+group,below base,at base,between,at 22%,above 22%,total
+base from approved units,0,1,0,0,0,1
+bonus available,41,6,21,29,2,99
+ceiling at base,14,23,0,0,0,37
+height limit,5,7,0,0,0,12
+lump at 15%,6,5,1,0,1,13
+other program,0,1,1,0,4,6
+own schedule,0,0,3,0,7,10
+unclear,1,2,0,0,0,3
+choice (within bonus available),26,3,16,26,1,72

@@ -1,0 +1,10 @@
+group,projects,TDRs or transfer,subsidy,25% impact tax,15% minimum,other program,base not checked
+base from approved units,1,0,0,0,0,0,0
+bonus available,99,15,15,5,9,0,1
+ceiling at base,37,3,2,1,0,0,0
+height limit,12,0,0,0,0,0,2
+lump at 15%,13,0,3,1,0,0,0
+other program,6,1,3,1,0,6,0
+own schedule,10,0,0,0,8,7,0
+unclear,3,0,0,0,0,0,0
+total,181,19,23,8,17,13,3

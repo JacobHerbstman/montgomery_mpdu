@@ -1,0 +1,32 @@
+  2005: skipped 107 rows dated outside 2005
+2005: 16 offerings
+2006: 18 offerings
+2007: 5 offerings
+  2008: dropped withdrawn offering Arora Hills (Greenway Vill. Ph. 3, 4 & 5) 28 Aug 2008 (24 MPDUs)
+2008: 14 offerings
+2009: 12 offerings
+2010: 12 offerings
+2011: 10 offerings
+2012: 16 offerings
+
+wrote 103 offerings to /Users/jacobherbstman/mpdu_data/full_run/data/int/02_data_cleaning/00_foia_reports.dta
+with project totals: 87 / 103
+totals_source
+pipeline YYYY (site plan)                 57
+agreement to build YYYY (site plan)       22
+                                          16
+agreement to build YYYY (manual match)     3
+agreement to build YYYY (name)             3
+pipeline YYYY (name)                       2
+rows with consistency flags: 17
+ year  agreements  official_agreements  mpdus  official_mpdus  rental_mpdus  official_rental_mpdus  forsale_mpdus  official_forsale_mpdus  with_totals    ok
+ 2005          16                   15    400             385           208                    193            192                     192            7 False
+ 2006          18                   18    396             396             0                      0            396                     396           11  True
+ 2007           5                    5     77              77            53                     53             24                      24            5  True
+ 2008          14                   15    278             278           227                    227             51                      51           14 False
+ 2009          12                   12    165             165            96                     96             69                      69           12  True
+ 2010          12                   12    170             170            60                     60            110                     110           12  True
+ 2011          10                   10    113             113             0                      0            113                     113           10  True
+ 2012          16                   16    229             229            77                     77            152                     152           16  True
+  2005: Attachment B lists 16 offerings / 400 MPDUs (208 rental); the memo says 15 / 385 (193 rental), i.e. without the Wheaton Forest rental offering (15). All 16 are kept.
+  2008: the memo's 15 agreements include the withdrawn Arora Hills offering; its MPDU totals do not

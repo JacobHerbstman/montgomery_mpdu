@@ -1,0 +1,28 @@
+Projects: 219 ({'report': 185, 'agreement': 32, 'permit': 2})
+
+Base source: {'resolution': 190, 'inferred': 29}
+
+Frontier position:
+base_source        inferred  resolution
+strategy_label                         
+Above Required            0          52
+Approximate Match         1           0
+Below Minimum             6           0
+Below Required            0          13
+Dominant                 22         125
+
+Excluding fully affordable and below-minimum (n=211):
+  [inferred, n=23] took any bonus: 100.0%; bonus certain: 60.9%; median bonus | bonus>0: 22.2%
+  [resolution, n=188] took any bonus: 31.4%; bonus certain: 31.4%; median bonus | bonus>0: 20.5%
+  observed vs inferred base (n=188): inferred base within its consistent range 37%; observed base above actual total (not binding): 41%
+  MPDU share distribution:
+actual_sh_mpdu
+(0.0, 0.124]       9
+(0.124, 0.13]     70
+(0.13, 0.149]     36
+(0.149, 0.155]    46
+(0.155, 0.2]      27
+(0.2, 0.5]        23
+
+[saved] /Users/jacobherbstman/mpdu_data/full_run/data/int/03_analysis/01_mpdu_simulation_results.csv
+[saved] /Users/jacobherbstman/mpdu_data/full_run/data/int/03_analysis/01_mpdu_full_frontier.csv  (69,798 option rows)
