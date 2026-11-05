@@ -1,0 +1,549 @@
+
+  ___  ____  ____  ____  ____ ®
+ /__    /   ____/   /   ____/      StataNow 19.5
+___/   /   /___/   /   /___/       MP—Parallel Edition
+
+ Statistics and Data Science       Copyright 1985-2025 StataCorp LLC
+                                   StataCorp
+                                   4905 Lakeway Drive
+                                   College Station, Texas 77845 USA
+                                   800-782-8272        https://www.stata.com
+                                   979-696-4600        service@stata.com
+
+Stata license: Single-user 2-core , expiring 11 Jul 2027
+Serial number: 501909323556
+  Licensed to: Audrey
+               Princeton
+
+Notes:
+      1. Stata is running in batch mode.
+      2. Unicode is supported; see help unicode_advice.
+      3. More than 2 billion observations are allowed; see help obs_advice.
+      4. Maximum number of variables is set to 5,000 but can be increased;
+          see help set_maxvar.
+
+. do 02_append_open_data.do 
+
+. *****************************************************************************
+> **
+. * 02_append_open_data.do
+. *
+. * Builds one offering-level MPDU file:
+. *   - spine: offering agreements extracted from the DHCA annual reports
+. *     (data/int/01_ocr_reports.dta, written by code/01_data_collection/02_ext
+> ract_mpdu_offerings.py)
+. *     for every year the reports cover;
+. *   - appended: a cleaned version of the county open data
+. *     (data/raw/Moderately_Priced_Dwelling_Units_20260928.csv) for years the
+. *     reports do not cover.
+. *
+. * Output: data/int/02_mpdu_offerings_combined.dta
+. *
+. * Things to keep in mind when using the combined file:
+. *   1. Report years are taken from 01_ocr_reports.dta itself (currently
+. *      2013-2025). 2025 is incomplete in the reports (19 of 22 offerings; the
+. *      published PDF is cropped) but is still treated as a report year.
+. *   2. The two sources do not measure the same thing:
+. *        - reports: offering_date is the executed Offering Agreement date and
+. *          mpdus_in_offering is the number of MPDUs released in that offering
+> ;
+. *        - open data: "Offering Date" is undocumented and, where it can be
+. *          matched to the reports, is often 1-3 years EARLIER than the actual
+. *          offering; there is no per-offering MPDU count, so
+. *          mpdus_in_offering is missing.
+. *      Use `source' to separate them.
+. *   3. total_mpdus is the project's total MPDUs, available from both sources.
+. *      It is a project attribute repeated on every offering row of that
+. *      project, so summing it over rows overstates production.
+. *   4. Open-data offering dates after the data were pulled (28 Sep 2026) are
+. *      kept but flagged projected_date = 1.
+. *****************************************************************************
+> **
+. 
+. version 17
+
+. clear all
+
+. set more off
+
+. 
+. * Project root -- add a branch if running on a new machine
+. if "`c(username)'" == "aw0578" {
+.         global root "C:/Users/aw0578/Princeton Dropbox/Audrey Wang/MarylandMP
+> DU"
+. }
+
+. else if "`c(username)'" == "audreywang" {
+.         global root "/Users/audreywang/Library/CloudStorage/Dropbox-Princeton
+> /Audrey Wang/MarylandMPDU"
+. }
+
+. else {
+.         display as error "Unknown user `c(username)': set global root in 02_a
+> ppend_open_data.do"
+.         exit 198
+. }
+
+. 
+. global int  "$root/data/int"
+
+. global raw   "$root/data/raw"
+
+. 
+. local open_csv   "$raw/Moderately_Priced_Dwelling_Units_20260928.csv"
+
+. local pull_date  = td(28sep2026)
+
+. 
+. *----------------------------------------------------------------------------
+> --
+. * 1. Spine: offerings from the annual reports
+. *----------------------------------------------------------------------------
+> --
+. use "$int/01_ocr_reports.dta", clear
+(MPDU offering agreements, DHCA annual reports 2013-2025)
+
+. 
+. rename project_mpdus total_mpdus
+
+. 
+. * WFH-only offerings leave the project's MPDU column blank in the reports; ta
+> ke
+. * it from the same project's other offerings in the same report
+. bysort file site_plan project_name: egen double _fill = max(total_mpdus)
+
+. count if missing(total_mpdus) & !missing(_fill)
+  5
+
+. display as text "total_mpdus filled from same project in same report: " r(N)
+total_mpdus filled from same project in same report: 5
+
+. replace total_mpdus = _fill if missing(total_mpdus)
+(5 real changes made)
+
+. drop _fill
+
+. 
+. gen str11 source = "report"
+
+. gen byte projected_date = 0
+
+. 
+. levelsof offering_year, local(report_years)
+2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025
+
+. display as text "Years covered by the annual reports: `report_years'"
+Years covered by the annual reports: 2013 2014 2015 2016 2017 2018 2019 2020 20
+> 21 2022 2023 2024 2025
+
+. 
+. tempfile reports
+
+. save `reports'
+file C:\Users\aw0578\AppData\Local\Temp\ST_5d3c_000001.tmp saved as .dta
+    format
+
+. 
+. 
+. *----------------------------------------------------------------------------
+> --
+. * 2. Clean the open data
+. *----------------------------------------------------------------------------
+> --
+. import delimited using "`open_csv'", varnames(1) stringcols(_all) ///
+>     bindquote(strict) encoding("utf-8") clear
+(6 vars, 710 obs)
+
+. 
+. * expected columns: planningarea totalunits totalmpdu totalworkforce
+. *                   rentalindicator offeringdate
+. confirm variable planningarea totalunits totalmpdu totalworkforce ///
+>     rentalindicator offeringdate
+
+. 
+. local n0 = _N
+
+. 
+. * exact duplicate rows (147 in the 2026-09-28 pull, mostly blank records)
+. duplicates drop
+
+Duplicates in terms of all variables
+
+(147 observations deleted)
+
+. local n_dup = `n0' - _N
+
+. 
+. destring totalunits totalmpdu totalworkforce, replace
+totalunits: all characters numeric; replaced as int
+(13 missing values generated)
+totalmpdu: all characters numeric; replaced as int
+(5 missing values generated)
+totalworkforce: all characters numeric; replaced as byte
+(521 missing values generated)
+
+. 
+. rename planningarea   planning_area
+
+. rename totalunits     total_units
+
+. rename totalmpdu      total_mpdus
+
+. rename totalworkforce open_total_workforce
+
+. 
+. * "Rental Indicator" is "For-Sale & Rental" on every row: no information
+. drop rentalindicator
+
+. 
+. * records with no units are not projects (0 or missing units; these rows are
+. * also where MPDUs > total units occurred)
+. count if missing(total_units) | total_units <= 0
+  37
+
+. local n_nounits = r(N)
+
+. drop if missing(total_units) | total_units <= 0
+(37 observations deleted)
+
+. 
+. * offering date; undated rows cannot be placed in a year
+. gen offering_date = date(offeringdate, "MDY")
+(193 missing values generated)
+
+. format offering_date %td
+
+. count if missing(offering_date)
+  193
+
+. local n_nodate = r(N)
+
+. drop if missing(offering_date)
+(193 observations deleted)
+
+. drop offeringdate
+
+. 
+. gen offering_year = year(offering_date)
+
+. 
+. * keep only years the reports do not cover
+. gen byte in_report_years = 0
+
+. foreach y of local report_years {
+  2.     replace in_report_years = 1 if offering_year == `y'
+  3. }
+(26 real changes made)
+(21 real changes made)
+(18 real changes made)
+(18 real changes made)
+(16 real changes made)
+(17 real changes made)
+(17 real changes made)
+(10 real changes made)
+(14 real changes made)
+(14 real changes made)
+(19 real changes made)
+(21 real changes made)
+(23 real changes made)
+
+. count if in_report_years
+  234
+
+. local n_overlap = r(N)
+
+. drop if in_report_years
+(234 observations deleted)
+
+. drop in_report_years
+
+. 
+. gen str11 source = "open_data"
+
+. gen byte projected_date = offering_date > `pull_date'
+
+. 
+. tempfile open
+
+. save `open'
+file C:\Users\aw0578\AppData\Local\Temp\ST_5d3c_000002.tmp saved as .dta
+    format
+
+. 
+. *----------------------------------------------------------------------------
+> --
+. * 3. Combine
+. *----------------------------------------------------------------------------
+> --
+. use `reports', clear
+(MPDU offering agreements, DHCA annual reports 2013-2025)
+
+. append using `open'
+
+. 
+. * placeholder text ("N/A", "NA", "none", "TBD", "-", ...) means missing
+. ds, has(type string)
+project_name  street_add~s  tenure        file          check
+aka           city          developer     method        source
+site_plan     zip           unit_descr~n  note          planning_a~a
+
+. foreach v of varlist `r(varlist)' {
+  2.     quietly count if ustrregexm(strtrim(`v'), "^(n\s*/?\s*a|none|null|tbd|
+> unknown|not applicable|-+)$", 1)
+  3.     if r(N) > 0 display as text "`v': " r(N) " placeholder values set to b
+> lank"
+  4.     quietly replace `v' = "" if ustrregexm(strtrim(`v'), "^(n\s*/?\s*a|non
+> e|null|tbd|unknown|not applicable|-+)$", 1)
+  5. }
+planning_area: 9 placeholder values set to blank
+
+. 
+. *----------------------------------------------------------------------------
+> --
+. * 4. Link report offerings of the same project across reports
+. *----------------------------------------------------------------------------
+> --
+. * The 2024 report prints no site plan numbers and the (cropped) 2025 report
+. * prints no project names, so offerings of one project can carry different
+. * partial keys. Fill them in from other offerings of the same project.
+. * Original values are kept in site_plan_orig / project_name_orig.
+. 
+. gen str site_plan_orig    = site_plan
+(121 missing values generated)
+
+. gen str project_name_orig = project_name
+(118 missing values generated)
+
+. label variable site_plan_orig    "Site plan as extracted, before cross-report
+>  linking"
+
+. label variable project_name_orig "Project name as extracted, before cross-rep
+> ort linking"
+
+. 
+. * name key for matching: lowercase alphanumerics, "phase" -> "ph"
+. gen str name_key = ustrlower(project_name)
+(118 missing values generated)
+
+. replace name_key = ustrregexra(name_key, "phase", "ph")
+(31 real changes made)
+
+. replace name_key = ustrregexra(name_key, "[^a-z0-9]", "")
+(253 real changes made)
+
+. 
+. * 4a. Site plan from offerings with the same name and totals. Takes the modal
+. * site plan when it is unique; this also overrides a site plan that disagrees
+. * with the other offerings of the same name and totals.
+. egen _g = group(name_key total_units total_mpdus) if source == "report" & nam
+> e_key != ""
+(118 missing values generated)
+
+. bysort _g site_plan: gen _cnt = _N if !missing(_g) & site_plan != ""
+(140 missing values generated)
+
+. bysort _g: egen _maxcnt = max(_cnt)
+(133 missing values generated)
+
+. gen byte _top = !missing(_cnt) & _cnt == _maxcnt
+
+. egen byte _toptag = tag(_g site_plan) if _top
+
+. bysort _g: egen _ntop = total(_toptag)
+
+. gen str _topsp = site_plan if _top
+(141 missing values generated)
+
+. bysort _g (_topsp): replace _topsp = _topsp[_N]
+(8 real changes made)
+
+. count if !missing(_g) & _ntop == 1 & site_plan != _topsp
+  8
+
+. display as text "4a. site plan filled/overridden from same name and totals: "
+>  r(N)
+4a. site plan filled/overridden from same name and totals: 8
+
+. replace site_plan = _topsp if !missing(_g) & _ntop == 1 & site_plan != _topsp
+(8 real changes made)
+
+. drop _g _cnt _maxcnt _top _toptag _ntop _topsp
+
+. 
+. * 4b. Remaining offerings with a name but no site plan, matched to offerings
+. * with a site plan but no name on (total units, total MPDUs, tenure). Only
+. * one-to-one matches are used: one site plan among the unnamed offerings and
+. * one name among the offerings without a site plan.
+. gen byte _recip = source == "report" & site_plan == "" & name_key != ""
+
+. gen byte _donor = source == "report" & site_plan != "" & name_key == ""
+
+. egen _g = group(total_units total_mpdus tenure) if _recip | _donor
+(344 missing values generated)
+
+. egen byte _sptag = tag(_g site_plan) if _donor
+
+. egen byte _nmtag = tag(_g name_key) if _recip
+
+. bysort _g: egen _nsp = total(_sptag)
+
+. bysort _g: egen _nnm = total(_nmtag)
+
+. gen str _sp = site_plan if _donor
+(359 missing values generated)
+
+. bysort _g (_sp): replace _sp = _sp[_N]
+(3 real changes made)
+
+. count if _recip & _nsp == 1 & _nnm == 1
+  3
+
+. display as text "4b. site plan filled from unnamed offerings with the same to
+> tals: " r(N)
+4b. site plan filled from unnamed offerings with the same totals: 3
+
+. replace site_plan = _sp if _recip & _nsp == 1 & _nnm == 1
+(3 real changes made)
+
+. drop _recip _donor _g _sptag _nmtag _nsp _nnm _sp
+
+. 
+. * 4c. Name and developer for unnamed offerings, from the most recent named
+. * offering with the same site plan and totals.
+. egen _g = group(site_plan total_units total_mpdus) if source == "report" & si
+> te_plan != ""
+(111 missing values generated)
+
+. foreach v in project_name developer {
+  2.     gen byte _nohas = `v' == ""
+  3.     gen double _negdate = -offering_date
+  4.     bysort _g (_nohas _negdate): gen str _fill = `v'[1] if !missing(_g)
+  5.     count if !missing(_g) & `v' == "" & _fill != ""
+  6.     display as text "4c. `v' filled from same site plan and totals: " r(N)
+  7.     replace `v' = _fill if !missing(_g) & `v' == "" & _fill != ""
+  8.     drop _nohas _negdate _fill
+  9. }
+(118 missing values generated)
+  12
+4c. project_name filled from same site plan and totals: 12
+(12 real changes made)
+(122 missing values generated)
+  17
+4c. developer filled from same site plan and totals: 17
+(17 real changes made)
+
+. drop _g name_key
+
+. 
+. gen byte key_linked = (site_plan != site_plan_orig) | (project_name != projec
+> t_name_orig)
+
+. label variable key_linked "Site plan or name filled/changed by cross-report l
+> inking (section 4)"
+
+. 
+. label variable source               "Data source: report (DHCA annual report)
+>  or open_data"
+
+. label variable projected_date       "Open data: offering date after data pull
+>  (28 Sep 2026)"
+
+. label variable planning_area        "Planning area (open data only)"
+
+. label variable open_total_workforce "Open data: project total workforce units
+> "
+
+. label variable offering_date        "Offering date (report: agreement date; o
+> pen data: see notes)"
+
+. label variable total_mpdus          "Total MPDUs in the project (both sources
+> ; repeated per offering)"
+
+. label variable mpdus_in_offering    "MPDUs released in this offering (reports
+>  only)"
+
+. 
+. notes offering_date: For source report, the executed Offering Agreement date 
+> (DHCA counts MPDUs as built on this date).
+
+. notes offering_date: For source open_data, the county open data Offering Date
+> ; undocumented and often earlier than the actual offering.
+
+. notes total_mpdus: Project total, repeated on every offering row of a project
+>  in both sources; do not sum across rows. Sum mpdus_in_offering (reports) for
+>  MPDUs built.
+
+. notes mpdus_in_offering: Missing for source open_data (not in the open data).
+
+. 
+. order source offering_year offering_date projected_date project_name aka ///
+>       site_plan planning_area street_address city zip total_units ///
+>       total_mpdus mpdus_in_offering wfh_units open_total_workforce tenure ///
+>       developer unit_description
+
+. sort offering_date source
+
+. 
+. assert inlist(source, "report", "open_data")
+
+. assert !missing(offering_year)
+
+. 
+. label data "MPDU offerings: DHCA annual reports (2013-2025) + open data (othe
+> r years)"
+
+. compress
+  variable offering_year was double now int
+  variable offering_date was double now int
+  variable total_units was double now int
+  variable total_mpdus was double now int
+  variable mpdus_in_offering was double now int
+  variable wfh_units was double now byte
+  variable page was double now byte
+  variable row_on_page was double now byte
+  variable source was str11 now str9
+  (20,034 bytes saved)
+
+. save "$int/02_mpdu_offerings_combined.dta", replace
+file C:/Users/aw0578/Princeton Dropbox/Audrey
+    Wang/MarylandMPDU/data/int/02_mpdu_offerings_combined.dta saved
+
+. 
+. tab offering_year source, missing
+
+  Calendar |  Data source: report
+   year of | (DHCA annual report)
+  offering |     or open_data
+ agreement | open_data     report |     Total
+-----------+----------------------+----------
+      2004 |         2          0 |         2 
+      2005 |         7          0 |         7 
+      2006 |         4          0 |         4 
+      2007 |         3          0 |         3 
+      2008 |         9          0 |         9 
+      2009 |         5          0 |         5 
+      2010 |         6          0 |         6 
+      2011 |        18          0 |        18 
+      2012 |        19          0 |        19 
+      2013 |         0         30 |        30 
+      2014 |         0         24 |        24 
+      2015 |         0         27 |        27 
+      2016 |         0         22 |        22 
+      2017 |         0         29 |        29 
+      2018 |         0         22 |        22 
+      2019 |         0         16 |        16 
+      2020 |         0         14 |        14 
+      2021 |         0         24 |        24 
+      2022 |         0         15 |        15 
+      2023 |         0         15 |        15 
+      2024 |         0         22 |        22 
+      2025 |         0         19 |        19 
+      2026 |        20          0 |        20 
+      2027 |         2          0 |         2 
+      2028 |         2          0 |         2 
+      2029 |         2          0 |         2 
+-----------+----------------------+----------
+     Total |        99        279 |       378 
+
+. 
+end of do-file

@@ -1,0 +1,78 @@
+# MPDU Agreements to Build (Attachment A) from the scanned annual reports, transcribed by hand from the page images.
+# Text-PDF reports are read by code/01_data_collection/11_extract_agreements_to_build.py instead.
+# Each year's rows are checked in that script against the totals printed in the report (OFFICIAL there).
+# file and page give the PDF page; agreement_date is m/d/yyyy as printed; blank cells were blank in the report.
+file,page,project_name,aka,site_plan,total_units,mpdus,wfh_units,tenure,agreement_date,developer
+annual_report_mpdu_2013-2016.pdf,5,Fenwick,Fenwick Station,820120080,310,39,,Rental,3/26/2013,Fenwick Station Venture LLC
+annual_report_mpdu_2013-2016.pdf,5,"George, The",11141 Georgia Avenue,820120170,195,25,,Rental,4/10/2013,Lowe Enterprises
+annual_report_mpdu_2013-2016.pdf,5,The Darcy,Parking Lot 31/Lot 31A,820070180,88,13,11,For-Sale,4/16/2013,Stonebridge Associates
+annual_report_mpdu_2013-2016.pdf,5,The Flats @ Bethesda Ave.,Parking Lot 31/Lot 31A,820070180,162,14,24,Rental,4/16/2013,Stonebridge Associates
+annual_report_mpdu_2013-2016.pdf,5,Norbeck Crossing,Greenbriar at Norbeck,820110040,261,40,,For-Sale,5/17/2013,CalAtlantic Homes (fka Ryland)
+annual_report_mpdu_2013-2016.pdf,5,Little Falls Place,Hoyt Property,820120070,30,5,,For-Sale,6/18/2013,EYA
+annual_report_mpdu_2013-2016.pdf,5,Towns of Tanglewood,Kushner Property,820080100,36,5,,For-Sale,6/25/2013,K. Hovnanian Homes
+annual_report_mpdu_2013-2016.pdf,5,Cabin Branch Winchester Ph 1,Winchester Phase 1,82006029A,439,70,,For-Sale,8/15/2013,Winchester Homes
+annual_report_mpdu_2013-2016.pdf,5,Germantown Park,Seneca Hill,820120090,104,13,,For-Sale,8/15/2013,Beazer Homes Corp.
+annual_report_mpdu_2013-2016.pdf,5,7001 Arlington Road,,820120140,140,21,,Rental,9/18/2013,Associated Estates Realty Corp.
+annual_report_mpdu_2013-2016.pdf,5,Mallory Square,BNA,820120130,681,93,,Rental,9/18/2013,Woodfield Investments
+annual_report_mpdu_2013-2016.pdf,5,Residences @ Shady Grove,,820090070,149,19,,For-Sale,10/24/2013,Comstock Homes
+annual_report_mpdu_2013-2016.pdf,5,Waterford Hills; Alta Liberty Mills,,82011013A,470,59,,Both,11/8/2013,Buchanan Partners LLC
+annual_report_mpdu_2013-2016.pdf,5,Flats 8300,"8300, 8400 Wisconsin",82006036B,359,45,,Rental,12/13/2013,Stonebridge Associates
+annual_report_mpdu_2013-2016.pdf,6,7770 Norfolk Avenue,4900 Fairmont Avenue,820120120,200,30,,Rental,1/10/2014,JBG Companies
+annual_report_mpdu_2013-2016.pdf,6,Chelsea Heights,Chelsea School Project,820130040,64,8,,For-Sale,2/19/2014,EYA
+annual_report_mpdu_2013-2016.pdf,6,Solaire Bethesda,7100 Wisconsin Avenue,820130230,139,21,,Rental,3/31/2014,Washington Property Co.
+annual_report_mpdu_2013-2016.pdf,6,Camden Shady Grove,DANAC Stiles; Decoverly Hall,820130110,457,58,,Rental,6/11/2014,"Camden USA, Inc."
+annual_report_mpdu_2013-2016.pdf,6,Hanover Shady Grove,Shady Grove Executive Center,820120190,366,50,,Rental,8/1/2014,"Hanover Company, The"
+annual_report_mpdu_2013-2016.pdf,6,Bentley Park,Fairland Park,82005006A,247,31,,For-Sale,8/12/2014,"NVR, Inc."
+annual_report_mpdu_2013-2016.pdf,6,Central,8415 Fenton St.,820130050,243,31,,Rental,9/5/2014,"Grosvenor Americas JV, LLC"
+annual_report_mpdu_2013-2016.pdf,6,Element 28,Bethesda Commerce,820130240,101,13,,Rental,9/24/2014,Kettler
+annual_report_mpdu_2013-2016.pdf,6,The Lauren,4901 Hampden Lane,820070060,40,6,,For-Sale,10/20/2014,1788 Holdings
+annual_report_mpdu_2013-2016.pdf,6,Bethesda Mews,Alta Vista - ACC,820130030,34,5,,For-Sale,10/24/2014,Streetscape Partners
+annual_report_mpdu_2013-2016.pdf,6,Cloverly Forest,Anselmo Property,820110140,38,5,,For-Sale,12/4/2014,Richmond American Homes
+annual_report_mpdu_2013-2016.pdf,7,Trotters Glen,Trotters Run,820130060,69,10,,,1/29/2015,Toll Brothers
+annual_report_mpdu_2013-2016.pdf,7,Stonehall Bethesda,Stonehall; Woodmont View,82009001A,46,9,,For-Sale,1/30/2015,"Duball, LLC"
+annual_report_mpdu_2013-2016.pdf,7,"Henri, The",Pike and Rose Ph 2,820130120,569,72,,Rental,2/13/2015,Federal Realty Investmt Trust
+annual_report_mpdu_2013-2016.pdf,7,Clarksburg Square,Garnkirk Farms,820120100,392,49,,For-Sale,4/21/2015,The Duffie Companies
+annual_report_mpdu_2013-2016.pdf,7,Grosvenor Heights,American Forester's,820130130,152,23,,For-Sale,5/4/2015,EYA
+annual_report_mpdu_2013-2016.pdf,7,Potomac Highlands,Burley Property,820130260,23,4,,For-Sale,6/1/2015,Winchester Homes
+annual_report_mpdu_2013-2016.pdf,7,The Encore,"Clarksburg Village, Phase 3",820100040,90,12,,Rental,7/2/2015,Elm Street Development
+annual_report_mpdu_2013-2016.pdf,7,"Westside @ Shady Grove,","Co. Service Park, Ph 1TH",820130220,148,16,9,For-Sale,7/22/2015,EYA
+annual_report_mpdu_2013-2016.pdf,7,Glenmont Metrocentre Ph 1.1,Glenmont Metrocenter,820130270,171,22,,For-Sale,8/3/2015,Winchester Homes
+annual_report_mpdu_2013-2016.pdf,7,"Core, The",8621 Georgia Avenue,82011006A,292,35,17,Rental,8/14/2015,Foulger-Pratt Cos.
+annual_report_mpdu_2013-2016.pdf,7,"Daley, The",Westside at Shady Grove MF,82013022A,333,50,27,Rental,9/21/2015,Bozzuto Group
+annual_report_mpdu_2013-2016.pdf,7,The Pearl,The Blairs Phase 1,820140170,507,64,,Rental,9/25/2015,Tower Companies
+annual_report_mpdu_2013-2016.pdf,7,Montgomery Row @ Rock Spring,Rock Spring Park,81989049I,168,21,,For-Sale,10/6/2015,EYA
+annual_report_mpdu_2013-2016.pdf,7,AVA Wheaton,2425 Blueridge Avenue,820140190,319,41,,Rental,11/25/2015,Avalonbay Communities
+annual_report_mpdu_2013-2016.pdf,7,"Studio Plaza, Phase 1",Public Parking Lot 3,820130010,399,59,10,Rental,12/10/2015,Fairfield Residential
+annual_report_mpdu_2013-2016.pdf,7,Kensington Overlook,Kensington Heights,820130140,26,4,,For-Sale,12/17/2015,K. Hovnanian Homes
+annual_report_mpdu_2013-2016.pdf,8,Cheval Bethesda,4990 Fairmont Avenue,820140060,71,11,,For-Sale,3/17/2016,"Duball, LLC"
+annual_report_mpdu_2013-2016.pdf,8,West Lane,4901 Montgomery Ln,82008003A,112,17,,Rental,5/17/2016,SJG Properties
+annual_report_mpdu_2013-2016.pdf,8,Solaire 8250 Georgia Avenue,Ripley East,820150130,360,54,,Rental,7/20/2016,Washington Property Co.
+annual_report_mpdu_2013-2016.pdf,8,Chevy Chase Lake Townhomes,Chevy Chase Lake Drive,820150050,62,10,,For-Sale,8/10/2016,EYA
+annual_report_mpdu_2013-2016.pdf,8,Travilah Station,Travilah Grove,82013020A,131,17,,For-Sale,8/18/2016,Brookfield Residential
+annual_report_mpdu_2013-2016.pdf,8,Cabin Branch - Toll 2,Toll 2 - Cabin Branch,820100030,168,10,,For-Sale,9/22/2016,"NVR, Inc."
+annual_report_mpdu_2013-2016.pdf,8,The Point at Cabin Branch,,820070140,434,66,,For-Sale,9/22/2016,"NVR, Inc."
+annual_report_mpdu_2013-2016.pdf,8,Cabin Branch Winchester Ph 2,Winchester Phase 2,820110080,341,41,,For-Sale,9/23/2016,Winchester Homes
+annual_report_mpdu_2013-2016.pdf,8,White Oak,Whitehall Square Phase 2,82005018C,22,4,,For-Sale,11/16/2016,Pleasants Development Inc.
+annual_report_mpdu_2013-2016.pdf,8,Manor Oaks,Marian Fathers Property,820090130,54,8,,For-Sale,11/30/2016,"Natelli Communities, Inc."
+annual_report_mpdu_2013-2016.pdf,8,Mateny Hill,Mateny Hill Road Property,820160020,45,6,,For-Sale,12/14/2016,Elm Street Development
+annual_report_mpdu_2013-2016.pdf,8,Chevy Chase Lake MF,Chevy Chase Lake Apts,820150040,200,30,,Rental,12/22/2016,HOC
+annual_report_mpdu_2017.pdf,4,900 Thayer Avenue,The Adele,82006020A,124,16,,Rental,10/17/2017,Housing Opportunities Commission
+annual_report_mpdu_2017.pdf,4,Century,The Elms at Century,82003007B,488,61,,For-Sale & Rental,10/31/2017,Elm Street Development
+annual_report_mpdu_2017.pdf,4,Woodfield Commons,,820150090,84,11,,Rental,9/19/2017,"Conifer Realty, LLC"
+annual_report_mpdu_2020.pdf,6,850 Sligo Avenue,Moonlight,820190050,80,10,,Rental,7/15/2020,"Moonlight, Inc."
+annual_report_mpdu_2020.pdf,6,Cabin John Village (Phase 1),,820190020,48,6,,For-Sale,3/3/2020,EYA
+annual_report_mpdu_2020.pdf,6,Knowles Manor,Kensington Manor Senior Housing,820190080,94,29,,Rental,5/13/2020,"Affordable Housing Developers, Inc."
+annual_report_mpdu_2020.pdf,6,Solaire 8200 Dixon,Ripley II,82016007A,403,61,,Rental,1/23/2020,"Ripley West, LLC"
+annual_report_mpdu_2020.pdf,6,Tapestry,,820050370,67,10,,For-Sale,7/24/2020,Miller and Smith
+annual_report_mpdu_2020.pdf,6,Westside @ Shady Grove Metro (HOC),WSSG Multi-Family Building D,82013022A,268,67,13,Rental,12/21/2020,Housing Opportunities Commission
+annual_report_mpdu_2022.pdf,9,Ashton Market,Porter Road,820180160,23,3,0,Rental,3/31/2022,Nichols Development Company LLC
+annual_report_mpdu_2022.pdf,9,4909 Auburn Avenue,4915 Auburn Avenue,820190100,167,30,0,Rental,2/3/2022,Auburn Building Associates LP
+annual_report_mpdu_2022.pdf,9,8787 Georgia Avenue,,820180100,375,47,0,Rental,1/4/2022,"Stonebridge Associates, Inc."
+annual_report_mpdu_2022.pdf,9,Strathmore Square,,820220070,2149,323,0,Rental,11/29/2022,"Fivesquares Development, LLC"
+annual_report_mpdu_2022.pdf,9,Avalon Residential,Bellamy,820190070,50,8,0,For-Sale,5/9/2022,"Brookfield Washington, LLC"
+annual_report_mpdu_2022.pdf,9,Lerner Black Hill Part Two,Lerner Black Hill Phase 2A,820150060,292,37,0,Rental,6/1/2022,"Lerner Black Hill Two, LLC"
+annual_report_mpdu_2022.pdf,9,Guardian Building,8605 Cameron Street,820170100,176,22,0,Rental,7/18/2022,"Guardian Building Associates, LLC"
+annual_report_mpdu_2022.pdf,9,"Residences at Forest Glen, The",,820210020,189,38,0,Rental,12/27/2022,"Montgomery Housing Partnership, Inc."
+annual_report_mpdu_2022.pdf,9,4010 Randolph Road,,820210050,192,52,0,Rental,11/4/2022,AHC LP - 31Randolph / Habitat for Humanity
+annual_report_mpdu_2022.pdf,9,Armstrong Property,Damascus Village,820160110,55,7,0,For-Sale,12/19/2022,Armstrong Tire & Accessory Corp.
+annual_report_mpdu_2022.pdf,9,8015 Old Georgetown Road,8011/8015 Old Georgetown Road,82020013A,297,45,0,Rental,6/8/2022,JLB Realty LLC

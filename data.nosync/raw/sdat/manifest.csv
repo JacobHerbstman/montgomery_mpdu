@@ -1,0 +1,2 @@
+file,url,bytes,sha256,retrieved_utc,note
+sdat_montgomery_parcels.csv,https://opendata.maryland.gov/resource/ed4q-f8tm.csv,113774443,fd0a84c9fab8012699a3af572b9df7b93a44d32b953491e9238696bf4a9238ec,2026-09-29T15:42:41+00:00,$where jurisdiction_code_mdp_field_jurscode='MONT'; 30 of 186 columns; 355368 rows

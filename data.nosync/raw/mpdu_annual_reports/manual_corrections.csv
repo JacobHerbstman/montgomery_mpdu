@@ -1,0 +1,82 @@
+# Hand corrections to OCR output of code/01_data_collection/02_extract_mpdu_offerings.py,
+# each checked by eye against the scanned page image.
+# Keyed by file, page (PDF page number) and row_on_page (nth offering row on that page, top to bottom).
+# ocr_value is what the OCR produced; a correction is applied only if the cell still holds it.
+file,page,row_on_page,field,ocr_value,value,note
+annual_report_mpdu_2013-2016.pdf,9,3,site_plan,820070084,82007008A,OCR read A as 4
+annual_report_mpdu_2013-2016.pdf,9,8,site_plan,820070084,82007008A,OCR read A as 4
+annual_report_mpdu_2013-2016.pdf,9,10,mpdus_in_offering,,4,blank in OCR
+annual_report_mpdu_2013-2016.pdf,9,11,site_plan,620110050,820110050,OCR read 8 as 6
+annual_report_mpdu_2013-2016.pdf,9,12,total_units,73,773,OCR dropped a digit
+annual_report_mpdu_2013-2016.pdf,9,13,mpdus_in_offering,2,27,OCR dropped a digit
+annual_report_mpdu_2013-2016.pdf,9,14,project_name,Eleven5S Ripley,Eleven55 Ripley,
+annual_report_mpdu_2013-2016.pdf,9,14,site_plan,820060254,82006025A,OCR read A as 4
+annual_report_mpdu_2013-2016.pdf,9,17,mpdus_in_offering,23,28,OCR misread
+annual_report_mpdu_2013-2016.pdf,9,18,site_plan,820050384,82005038A,OCR read A as 4
+annual_report_mpdu_2013-2016.pdf,9,21,project_mpdus,4,64,OCR dropped a digit
+annual_report_mpdu_2013-2016.pdf,9,21,site_plan,619970074,81997007A,OCR misread
+annual_report_mpdu_2013-2016.pdf,9,22,site_plan,820070244,82007024A,OCR read A as 4
+annual_report_mpdu_2013-2016.pdf,9,24,mpdus_in_offering,3,9,OCR misread
+annual_report_mpdu_2013-2016.pdf,9,25,mpdus_in_offering,5,8,OCR misread
+annual_report_mpdu_2013-2016.pdf,9,27,mpdus_in_offering,3,5,OCR misread
+annual_report_mpdu_2013-2016.pdf,9,29,aka,8/11 Georgia Avenue,8711 Georgia Avenue,
+annual_report_mpdu_2013-2016.pdf,9,29,site_plan,820080234,82008023A,OCR read A as 4
+annual_report_mpdu_2013-2016.pdf,9,30,total_units,16380,1680,OCR misread
+annual_report_mpdu_2013-2016.pdf,10,1,aka,The Elms a@ Clarksburg Village,The Elms @ Clarksburg Village,
+annual_report_mpdu_2013-2016.pdf,10,2,site_plan,871011A,8-71011A,printed this way (older site plan numbering)
+annual_report_mpdu_2013-2016.pdf,10,3,site_plan,820080114,82008011A,OCR read A as 4
+annual_report_mpdu_2013-2016.pdf,10,7,aka,Pike and Rose Phase,Pike and Rose Phase I,
+annual_report_mpdu_2013-2016.pdf,10,12,site_plan,820110134,82011013A,OCR read A as 4
+annual_report_mpdu_2013-2016.pdf,10,12,total_units,47,470,OCR misread
+annual_report_mpdu_2013-2016.pdf,10,19,site_plan,820050384,82005038A,OCR read A as 4
+annual_report_mpdu_2013-2016.pdf,10,20,mpdus_in_offering,,8,blank in OCR
+annual_report_mpdu_2013-2016.pdf,10,20,site_plan,820060294,82006029A,OCR read A as 4
+annual_report_mpdu_2013-2016.pdf,10,21,site_plan,820050064,82005006A,OCR read A as 4
+annual_report_mpdu_2013-2016.pdf,10,23,site_plan,620060110,820060110,OCR read 8 as 6
+annual_report_mpdu_2013-2016.pdf,11,2,project_mpdus,53,59,OCR misread
+annual_report_mpdu_2013-2016.pdf,11,5,total_units,682,681,OCR misread
+annual_report_mpdu_2013-2016.pdf,11,7,aka,Pike and Rose Phase,Pike and Rose Phase I,
+annual_report_mpdu_2013-2016.pdf,11,8,total_units,38,88,OCR misread
+annual_report_mpdu_2013-2016.pdf,11,11,site_plan,820040154,82004015A,OCR read A as 4
+annual_report_mpdu_2013-2016.pdf,11,14,site_plan,820060294,82006029A,OCR read A as 4
+annual_report_mpdu_2013-2016.pdf,11,15,site_plan,620060110,820060110,OCR read 8 as 6
+annual_report_mpdu_2013-2016.pdf,11,23,site_plan,820060294,82006029A,OCR read A as 4
+annual_report_mpdu_2013-2016.pdf,11,26,site_plan,819890491,81989049I,printed with a final letter I (as in the text-based 2018-19 report)
+annual_report_mpdu_2013-2016.pdf,11,27,mpdus_in_offering,3,8,OCR misread
+annual_report_mpdu_2013-2016.pdf,11,27,total_units,680,1680,OCR dropped a digit
+annual_report_mpdu_2013-2016.pdf,12,1,total_units,73,773,OCR dropped a digit
+annual_report_mpdu_2013-2016.pdf,12,3,site_plan,620120120,820120120,OCR read 8 as 6
+annual_report_mpdu_2013-2016.pdf,12,4,mpdus_in_offering,,8,blank in OCR
+annual_report_mpdu_2013-2016.pdf,12,4,site_plan,820060294,82006029A,OCR read A as 4
+annual_report_mpdu_2013-2016.pdf,12,5,site_plan,820060368,82006036B,OCR misread
+annual_report_mpdu_2013-2016.pdf,12,9,site_plan,820060294,82006029A,OCR read A as 4
+annual_report_mpdu_2013-2016.pdf,12,13,site_plan,820060294,82006029A,OCR read A as 4
+annual_report_mpdu_2013-2016.pdf,12,15,site_plan,81989049,81989049I,OCR dropped a digit; final letter I as in the text-based 2018-19 report
+annual_report_mpdu_2013-2016.pdf,12,17,project_name,Westside @ Shady Grove PhiTH,Westside @ Shady Grove Ph1TH,
+annual_report_mpdu_2013-2016.pdf,12,21,project_name,Cabin Branch Winchester Phi,Cabin Branch Winchester Ph1,
+annual_report_mpdu_2013-2016.pdf,12,21,site_plan,820060294,82006029A,OCR read A as 4
+annual_report_mpdu_2013-2016.pdf,12,21,total_units,435,439,OCR misread
+annual_report_mpdu_2017.pdf,5,6,mpdus_in_offering,3,9,OCR misread
+annual_report_mpdu_2017.pdf,5,7,site_plan,820060294,82006029A,OCR read A as 4
+annual_report_mpdu_2017.pdf,5,9,project_mpdus,1,11,OCR dropped a digit
+annual_report_mpdu_2017.pdf,5,12,project_mpdus,38,35,OCR misread
+annual_report_mpdu_2017.pdf,5,12,site_plan,820110064,82011006A,OCR read A as 4
+annual_report_mpdu_2017.pdf,5,14,site_plan,S20130224,82013022A,OCR misread
+annual_report_mpdu_2017.pdf,5,15,offering_date,9/24/2017,5/24/2017,OCR misread month
+annual_report_mpdu_2017.pdf,5,15,site_plan,820130224,82013022A,OCR read A as 4
+annual_report_mpdu_2017.pdf,5,16,total_units,7,171,OCR misread
+annual_report_mpdu_2017.pdf,5,17,total_units,12,152,OCR misread
+annual_report_mpdu_2017.pdf,5,18,project_mpdus,2,72,OCR misread
+annual_report_mpdu_2017.pdf,5,22,site_plan,820090014,82009001A,OCR misread
+annual_report_mpdu_2017.pdf,5,27,total_units,1438,148,OCR misread
+annual_report_mpdu_2020.pdf,7,3,project_name,Cabin Branch Winchester Phase i,Cabin Branch Winchester Phase 1,
+annual_report_mpdu_2022.pdf,10,3,aka,Bloom MV Areas I-V1,Bloom MV Areas I-VI,
+annual_report_mpdu_2022.pdf,10,4,aka,Bloom MV Areas I-V,Bloom MV Areas I-VI,
+annual_report_mpdu_2022.pdf,10,7,project_mpdus,2,7,OCR misread
+annual_report_mpdu_2022.pdf,10,9,aka,Black Hilf Germanown Phase 2A Part One; Crystal Rock,Black Hill Germanown Phase 2A Part One; Crystal Rock,
+annual_report_mpdu_2022.pdf,10,9,project_mpdus,4,45,OCR dropped a digit
+annual_report_mpdu_2022.pdf,10,9,total_units,395,355,OCR misread
+annual_report_mpdu_2022.pdf,10,9,wfh_units,4,0,OCR misread
+annual_report_mpdu_2022.pdf,10,11,project_mpdus,6,64,OCR dropped a digit
+annual_report_mpdu_2022.pdf,10,12,wfh_units,,0,blank in OCR
+annual_report_mpdu_2022.pdf,10,14,aka,Ripley Il,Ripley II,

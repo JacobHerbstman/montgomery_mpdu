@@ -1,0 +1,147 @@
+Permit Number,src,added,Street Number,Street Name,n_units,n_mpdu,d
+327937,commercial,2003-12-18,20404,HONEY CRISP,14.0,7.0,BUILDING 21=14 UNITS (7 units are MPDU)
+327935,commercial,2003-12-18,20408,HONEY CRISP,14.0,8.0,BUILDING 19=14 UNITS (8 units are MPDU)
+327923,commercial,2003-12-18,20405,APPLE HARVEST,14.0,5.0,BUILDING 7=14 UNITS (5 units are MPDU)
+327918,commercial,2003-12-18,20403,APPLE HARVEST,12.0,6.0,BUILDING 2=12 UNITS (6 units are MPDU)
+327924,commercial,2003-12-18,20407,APPLE HARVEST,14.0,8.0,BUILDING 8=14 UNITS (8 units are MPDU)
+327934,commercial,2003-12-18,20410,HONEY CRISP,14.0,7.0,BUILDING 18=14 UNITS (7 units are MPDU)
+327931,commercial,2003-12-18,20408,APPLE HARVEST,14.0,7.0,BUILDING 15=14 UNITS (7 units are MPDU)
+384962,residential,2005-05-26,3829,GLEN EAGLES,,45.0,LOT 45 MPDU **REVISION SUBMITTED 3/27/06 TO REVERSE GABLES ON ROOF**
+384959,residential,2005-05-26,3833,GLEN EAGLES,,47.0,LOT 47 MPDU **REVISION SUBMITTED 3/27/06 TO REVERSE GABLES ON ROOF**
+384957,residential,2005-05-26,3743,GLEN EAGLES,,22.0,LOT 22 MPDU **REVISION SUBMITTED 3/27/06 TO REVERSE GABLES ON ROOF**
+384958,residential,2005-05-26,3831,GLEN EAGLES,,46.0,LOT 46 MPDU **REVISION SUBMITTED 3/27/06 TO REVERSE GABLES ON ROOF**
+384961,residential,2005-05-26,3827,GLEN EAGLES,,44.0,LOT 44 MPDU **REVISION SUBMITTED 3/27/06 TO REVERSE GABLES ON ROOF**
+384956,residential,2005-05-26,3741,GLEN EAGLES,,21.0,LOT 21 MPDU **REVISION SUBMITTED 3/27/06 TO REVERSE GABLES ON ROOF**
+384954,residential,2005-05-26,3751,GLEN EAGLES,,24.0,LOT 24 MPDU **REVISION SUBMITTED 3/27/06 TO REVERSE GABLES ON ROOF**
+384960,residential,2005-05-26,3835,GLEN EAGLES,,48.0,LOT 48 MPDU **REVISION SUBMITTED 3/27/06 TO REVERSE GABLES ON ROOF**
+384942,residential,2005-05-26,3753,GLEN EAGLES,,27.0,LOT 27 MPDU **REVISION SUBMITTED 3/27/06 TO REVERSE GABLES ON ROOF**
+403335,commercial,2005-11-08,7710,WOODMONT,158.0,158.0,"27 out of 158 units are mpdu's BETHESDA METRO STATION POLICY AREA / Revision 2/20/08 Electrical, Mechanical, Architectual, Life Safety *2nd REVISION 7/24/08 - mechanical architectural and life safety."
+411633,commercial,2006-02-09,9615,DEWITT,66.0,14.0,"*GREEN TAPE PROJECT* @ Lot 61 (bldg. 101) 66 apartments (includes 14 MPDU's & 7 accessable units) & Catholic Charities transitional housing on basement level Code Modifications: M-2006-041,042,044 & M"
+457545,residential,2007-06-22,23840,BENNETT CHASE,,411786.0,MODEL - PARKSIDE IRC 2003 LOT 44 BLOCK B REFER BACK MODEL 411786 MPDU. *Permit has been extended and will expire on 9/27/2009* REVISION 09/29/09 site revision
+459552,commercial,2007-07-11,23127,ROBERTS TAVERN,,894.0,MODEL: 0894 MPDU (Bldg #7) (Unit 3171)
+466645,commercial,2007-09-26,23117,ROBERTS TAVERN,,894.0,MODEL: 0894 MPDU (Bldg #8) (Unit 3181)
+466646,commercial,2007-09-26,23115,ROBERTS TAVERN,,894.0,MODEL: 0894 MPDU (Bldg #8) (Unit 3183)
+466641,commercial,2007-09-26,23125,ROBERTS TAVERN,,894.0,MODEL: 0894 MPDU (Bldg #8) (Unit 3173)
+466642,commercial,2007-09-26,23123,ROBERTS TAVERN,,894.0,MODEL: 0894 MPDU (Bldg #8) (Unit 3175) -1 over 1
+466644,commercial,2007-09-26,23119,ROBERTS TAVERN,,894.0,MODEL: 0894 MPDU (Bldg #8) (Unit 3179)
+466643,commercial,2007-09-26,23121,ROBERTS TAVERN,,894.0,MODEL: 0894 MPDU (Bldg #8) (Unit 3177)
+472555,commercial,2007-11-29,11412,ROCKVILLE,,28.0,"New Const.//24 story residential retail - bldg.'A'-(28 MPDU units in Building A)**structural, electrical,mechanical and architectual revisions submitted on 1/27/2010;JTM**submitted two sets of enginee"
+482225,commercial,2008-04-10,23029,STRINGTOWN,,894.0,"0894 MPDU/1 over 1 townhouses-Parcel A, Unit 1103"
+482222,commercial,2008-04-10,23031,STRINGTOWN,,1.0,"1 over 1 townhouses-Parcel A, Unit 1101-0894 MPDU-Building 1 MPDU"
+543615,residential,2010-07-14,22904,ARORA HILLS,,2006.0,REFER-BACK EDGEMONT MODEL IRC 2006 MPDU
+543613,residential,2010-07-14,22908,ARORA HILLS,,2006.0,REFER-BACK EDGEMONT MODEL IRC 2006 MPDU
+543612,residential,2010-07-14,22910,ARORA HILLS,,2006.0,REFER-BACK EDGEMONT MODEL IRC 2006 MPDU
+543617,residential,2010-07-14,22900,ARORA HILLS,,2006.0,REFER-BACK EDGEMONT MODEL IRC 2006 MPDU
+543616,residential,2010-07-14,22902,ARORA HILLS,,2006.0,REFER-BACK EDGEMONT MODEL IRC 2006 MPDU
+543614,residential,2010-07-14,22906,ARORA HILLS,,2006.0,REFER-BACK EDGEMONT MODEL IRC 2006 MPDU
+561283,commercial,2011-02-18,1155,RIPLEY,351.0,48.0,Construct Multifamily Building. 351 Total MFD Units 331 Market Rate units & 48 MPDUs) Silver Spring Green Tape
+584182,commercial,2011-11-09,4850,RUGBY,219.0,32.0,Bethesda Gallery Phase 2 - Multi-Family 219 Units/32 units MPDU - Mercantile Garage Phase 2 - MIXED USE - MERCANTILE/MULTI-FAMILY/GARAGE PHASE 2 - Valid permit as of 3/1/2016 - DEMO/REBUILD - (Permit 
+591046,commercial,2012-02-10,10756,SYMPHONY PARK,,2.0,Unit A-Elev. 2 MPDU
+591045,commercial,2012-02-10,10754,SYMPHONY PARK,,1.0,Unit A-Elev. 1 MPDU
+599143,commercial,2012-05-15,7170,WOODMONT,162.0,14.0,Construction of MFD/Mercantile Building. 162 units 14 MPDU'S 9/30/14 - EXTENSION GRANTED NEW EXPIRATION -SEE SUPP LOG-10/29/2014 9/30/14 - REVISION - ALL DISCIPLINES EXCEPT SITE - $350K COST PER APPLI
+599153,commercial,2012-05-15,7187,WOODMONT,88.0,13.0,Construction of MFD/Mercantile Building. 88 units 13 MPDU'S EXTENSION - 9/30/14 - 6 MONTH EXTENSION GRANTED- SEE SUPP LOG - NEW EXP 10/29/14 -MS 9/30/14 - REVISION - ALL DISCIPLINES EXCEPT SITE / $500
+601455,commercial,2012-06-08,11801,GRAND PARK,174.0,30.0,"CONSTRUCT MULTI FAMILY (174 units), MERCANTILE AND PARKING GARAGE 30 MPDU'S BLOCK 12 U/O 287847 *REVISION 12/18/13-SEE LOG* Charge minimum permit fee for Revision 12/18/13 "
+601464,commercial,2012-06-08,11570,OLD GEORGETOWN,319.0,32.0,"CONSTRUCT MULTI FAMILY (319 units), MERCANTILE AND PARKING GARAGE 32 MPDU'S BLOCK 10"
+603709,commercial,2012-06-29,11860,COUNTRY SQUIRE,,4.0,"Revision issued on 4/18/2013 Revision 05/02/2013 Architectual, Mechanical and Electrical 4 MPDUS IN THIS BUILDING"
+603712,commercial,2012-06-29,11901,BREEZY MEADOW,,4.0,"Revision issued on 4/18/2013 Revision 05/02/2013 Electrical, Mechanical and Architectural 4 MPDU's in this building"
+619432,commercial,2012-11-29,8616,SECOND,310.0,39.0,SILVER SPRING ENTERPRISE ZONE-Building 310 UNITS (39 MPDU'S) *Revision submitted on 8/1/2013-mechanical and electrical REVISION - 11/29/13 - ARCHITECTURAL - SEE LOG Use the Estimated Project Cost of $
+623087,commercial,2013-01-11,8300,WISCONSIN,359.0,45.0,Mixed Used: 359 Units 45 MPDUs (U/O #286781) REVISION - 3/2/15 - ARCH/ELEC/MECH CHANGES TO 12500 SQ FT. NO ADD COST PER APP-MS
+637493,commercial,2013-06-05,12400,PARK POTOMAC,84.0,10.0,Multi family building 84 units - 10 mpdus. 74 subject to impact tax Revision submitted for architectural on 4/7/2014 There is no increase in project value due to the revision of 4/7/2014. Charge minim
+637494,commercial,2013-06-05,12430,PARK POTOMAC,75.0,8.0,Multi family building 75 units - 8 mpdus. 67 units subject to impact tax *Permit extended until 6/22/2015*
+637490,commercial,2013-06-05,12430,PARK POTOMAC,4.0,4.0,Multi family building and garage 4 units - 4 mpdus. 0 units subject to impact tax -Revision submitted for architectural on 4/7/2014 There is no increase in project value due to the revision of 4/7/201
+648867,residential,2013-09-17,13237,TIVOLI LAKE,,16.0,MPDU = 16EA
+648876,residential,2013-09-17,13245,TIVOLI LAKE,,16.0,MPDU=16EA
+651736,commercial,2013-10-16,929,BONIFANT,149.0,139.0,Silver Spring Enterprise Zone - New MFD - 149 Units (139 MPDU) - GREEN TAPE
+655822,commercial,2013-11-21,1320,FENWICK,104.0,13.0,"SILVER SPRING REVITALIZATION AREA (GREEN TAPE) CONVERT EXISTING BUSINESS OFFICES INTO MULTI-FAMILY DWELLINGS (104 UNITS), 13 MPDU'S The applicant has obtain a separate demolition permit from that of t"
+658248,commercial,2013-12-18,11870,GRAND PARK,264.0,46.0,"multi family and mercantile (264 units-- *46 MPDU's* PER EXECUTED AGREEMENT WITH DHCA*) BLOCK 6 - Floor plans show 35 MPDUs having an aggregate area of 24,536 SF. Vrushali Oak, Design AIA for this pro"
+658717,commercial,2013-12-23,7100,WISCONSIN,,21.0,"NEW MULTI-USE BUILDING INCLUDING GARAGE. SEPARATE S&S ALREADY APPLIED FOR. *21 MPDU'S* Calcalated value was determined by using the ICC use values Table that was effective between August, 2013 to Febr"
+660684,commercial,2014-01-16,4915,HAMPDEN,55.0,9.0,"CONSTRUCT MULTI FAMILY BUILDING (55 UNITS PLUS GARAGE) 9 MPDU'S **REVISION** 9/16/16 Elect, Mech,Arch/Life Safety & Structural (Cost Est. $6204.00)LW"
+662466,commercial,2014-02-05,9300,CORPORATE,191.0,30.0,NEW MFD / BUILDING 1 / 191 UNITS INCLUDING 30 MPDU *REVISION 5/13/16*
+662469,commercial,2014-02-05,9305,CORPORATE,56.0,8.0,NEW MFD / BUILDING 2A/ 56 total UNITS (8 MPDU's) *REVISION 5/13/16*
+664313,commercial,2014-02-25,4901,HAMPDEN,,6.0,"NEW MULTI FAMILY, GARAGE & ASSEMBLY USES *6 MPDU'S* SHELL & CORE U/O# 310186 Revision 07/15/2015 Structural, Electrical, Mechanical, and Architectual 500 sq ft (COS $16,476)"
+665797,commercial,2014-03-12,3750,CLARA DOWNEY,32.0,8.0,MFD (32 units w/8 MPDU's) 9/10/14 - revision to elec and mech. $10k - 45374 sq ft - MS **Revision issued on 11/6/2014* 
+669209,commercial,2014-04-11,9305,CORPORATE,63.0,7.0,NEW MFD / BUILDING 2B/ 63 total UNITS (7 MPDU's) *REVISION 5/13/16*
+669210,commercial,2014-04-11,9305,CORPORATE,56.0,5.0,NEW MFD / BUILDING 2C/ 56 UNITS INCLUDING 5 MPDU *REVISION 5/13/16*
+670388,commercial,2014-04-23,100,COMMERCE,,13.0,"Multi-family building, retail, garage, assembly, mercantile 88 market rate units, 13 MPDU's"
+670584,commercial,2014-04-24,9709,KEY WEST,,7.0,Camden USA-Building B 7 MPDU Units 
+670581,commercial,2014-04-24,9709,KEY WEST,,15.0,Camden USA-Building A Extension 01/13/2017-07/13/2017 15 MPDU Units
+670585,commercial,2014-04-24,9709,KEY WEST,,36.0,Camden USA-Building C 36 MPDU Units
+687232,commercial,2014-09-09,3910,DOC BERLIN,16.0,,NEW MFD 16 UNITS & GARAGE - NO MPDU
+687709,commercial,2014-09-12,8621,GEORGIA,,35.0,Construction-Multi-family units (292) 35 MPDU UNITS **** SILVER SPRING ENTERPRISE ZONE - GREEN TAPE**** *REVISION 2/29/16*
+691305,commercial,2014-10-14,8302,WOODMONT,46.0,9.0,"DEMOLITION/REBUILD CONSTRUCT MIXED USE BUILDING (U/O SHELL #324387) 46 TOTAL UNITS===9 MPDU'S *Revision submitted on 9/15/2015 for architectural, life safety, structural, mechanical and electrical.* R"
+716587,commercial,2015-06-15,180,HIGH PARK,,8.0,"Customer Wants To Use ePlans, MFD - NEW CONSTRUCTION HIGH-RISE (Super-structure), 14 FLOORS, UNITS - 284 to include 8 MPDU's (UNITS ARE RENTALS) NOTE: Garage and Foundation to Grade submitted under pe"
+721668,commercial,2015-07-24,4960,FAIRMONT,,11.0,"Develop the property with a 17-story, 71 unit luxury high rise condominium building (11 MPDUs). This site will also contain related site amenities and improvements inclusive of parking, access roadway"
+722618,commercial,2015-07-31,3911,DOC BERLIN,32.0,8.0,32 Units total (8 MPDUS)-4 Stories
+761997,commercial,2016-06-29,3835,DOC BERLIN,,,CONSTRUCT 16 UNIT MULTI FAMILY DWELLING (NO MPDU'S) U/O# 353255
+773086,commercial,2016-09-20,22029,BROADWAY,,401.0,"Customer Wants To Use ePlans,MPDU UNIT: 401 C SUBDIVISION: CABIN BRANCH UNIT NAME: MATISSE"
+773084,commercial,2016-09-20,22025,BROADWAY,,401.0,"Customer Wants To Use ePlans,MPDU UNIT: 401 A SUBDIVISION: CABIN BRANCH UNIT NAME: MATISSE Square footage calculation per Eplan and square footage calculation sheet by builder/architect equals 1976 sq"
+773088,commercial,2016-09-20,22033,BROADWAY,,401.0,"Customer Wants To Use ePlans,MPDU UNIT: 401 E SUBDIVISION: CABIN BRANCH UNIT NAME: MATISSE"
+773090,commercial,2016-09-20,22037,BROADWAY,,401.0,"Customer Wants To Use ePlans,MPDU UNIT: 401 G SUBDIVISION: CABIN BRANCH UNIT NAME: MATISSE"
+773092,commercial,2016-09-20,22041,BROADWAY,,401.0,"Customer Wants To Use ePlans,MPDU UNIT: 401 J SUBDIVISION: CABIN BRANCH UNIT NAME: MATISSE"
+776428,commercial,2016-10-13,3825,DOC BERLIN,,8.0,32 UNIT CONDOMINIMUM BUILDING (8 MPDU'S) U/O# 354878
+795009,commercial,2017-04-05,15250,SIESTA KEY,75.0,11.0,/Customer Wants To Use ePlans Building 4 of 6 all on same plans - 795005 / 795007 / 795008 / 795009 / 795011 75total units - 37 1 BEDROOM UNITS / 27 MARKET VALUE UNITS / 11 MPDU UNITS
+795011,commercial,2017-04-05,15250,SIESTA KEY,45.0,5.0,/Customer Wants To Use ePlans Building 5 of 6 all on same plans - 795005 / 795007 / 795008 / 795009 / 795011 ( 795013 garage) 45 total units - 33 1 BEDROOM UNITS / 7 MARKET VALUE UNITS / 5 MPDU UNITS
+795007,commercial,2017-04-05,15250,SIESTA KEY,53.0,9.0,/Customer Wants To Use ePlans Building 2 of 6 all on same plans - 795005 / 795007 / 795008 / 795009 / 795011 53 total units - 21 1 BEDROOM UNITS / 23 MARKET VALUE UNITS / 9 MPDU UNITS
+795005,commercial,2017-04-05,15250,SIESTA KEY,58.0,7.0,"Revision 1 - Add kitchen exhaust, revised bathroom fans, and added vestibule in garage. ,Customer Wants To Use ePlansRevision 795005 - stoop and window modifications and duct work and mechanical close"
+795008,commercial,2017-04-05,15250,SIESTA KEY,84.0,11.0,/Customer Wants To Use ePlans Building 3 of 6 all on same plans - 795005 / 795007 / 795008 / 795009 / 795011 84 total units - 41 1 BEDROOM UNITS / 32 MARKET VALUE UNITS / 11 MPDU UNITS
+802625,residential,2017-06-13,109,KANDINSKY,,86.0,"Customer Wants To Use ePlans,Lot 86 MPDU Knox#788983 Glenmont Metrocentre"
+802624,residential,2017-06-13,107,KANDINSKY,,85.0,"Customer Wants To Use ePlans,Lot 85 MPDU Knox#788983 Glenmont Metrocentre"
+828529,commercial,2018-02-21,23906,CATAWBA HILL,,816898.0,"Customer Wants To Use ePlans,Clarksburg Town Center lot 83N Cassatt Model 14' Ref # 816898 MPDU"
+828531,commercial,2018-02-21,23902,CATAWBA HILL,,816898.0,"Customer Wants To Use ePlans,Clarksburg Town Center lot 85N Cassatt Model 14' Ref # 816898 MPDU"
+828530,commercial,2018-02-21,23904,CATAWBA HILL,,816898.0,"Customer Wants To Use ePlans,Clarksburg Town Center lot 84N Cassatt Model 14' Ref # 816898 MPDU"
+831313,commercial,2018-03-21,5410,MC GRATH,294.0,37.0,"Revision ,1 - moving 2 ada parking signs and restriping spaces,Customer Wants To Use ePlansCustomer Wants To Use ePlans,Parcel G is a multi-family apartment complex located at North Bethesda Center ne"
+840161,commercial,2018-06-05,22551,CABIN BRANCH,132.0,35.0,"Customer Wants To Use ePlans,BUILDING 1, LOT 1, CONSTRUCT NEW MULTIFAMILY (APARTMENT) BUILDING. ** 132 UNITS ( 97 MARKET RATE UNITS PLUS 35 MPDU'S)** **U&O CERT IS UPLOADED IN PDOX IN THE APPROVED FOL"
+840165,commercial,2018-06-05,22461,CABIN BRANCH,140.0,33.0,"Customer Wants To Use ePlans,BUILDING 2, LOT 2, CONSTRUCT NEW MULTIFAMILY (APARTMENT) BUILDING. **140 units (107 market rate units, 33 MPDU's)**"
+861544,residential,2018-12-19,2358,WYETH,,788985.0,"Customer Wants To Use ePlans,Glenmont Metrocentre Lot 119 Knox Ref # 788985 MPDU"
+861542,residential,2018-12-19,2354,WYETH,,788985.0,"Customer Wants To Use ePlans,Glenmont Metrocentre Lot 117 KnoxII REVERSE Ref # 788985 MPDU"
+861543,residential,2018-12-19,2356,WYETH,,788985.0,"Customer Wants To Use ePlans,Glenmont Metrocentre Lot 118 Knox Ref # 788985 MPDU"
+864119,commercial,2019-01-22,4900,MOORLAND,229.0,35.0,"Revision ,01 - Revision to an issued permit per attached narrative. ,Customer Wants To Use ePlans Customer Wants To Use ePlans,CONSTRUCT NEW 7-STORY MULTI-FAMILY HIGH RISE R-2: 242,540 SF A-3: 3,681 S"
+871383,residential,2019-04-05,2359,WYETH,,160.0,"Customer Wants To Use ePlans,Glenmont Metrocentre Lot 160 MPDU Knox refer to #788985"
+871385,residential,2019-04-05,2355,WYETH,,162.0,"Customer Wants To Use ePlans,Glenmont Metrocentre Lot 162 MPDU Knox refer to #788985"
+871384,residential,2019-04-05,2357,WYETH,,161.0,"Customer Wants To Use ePlans,Glenmont Metrocentre Lot 161 MPDU Knox refer to #788985"
+880133,residential,2019-06-23,12011,PUTNAM,,112.0,"Customer Wants To Use ePlans,North Quarter (Randolph Farms) lot 112 MPDU 41MR"
+880134,residential,2019-06-23,12009,PUTNAM,,113.0,"Revision 880134 - foundation wall revised see detail explanation ,Customer Wants To Use ePlans Customer Wants To Use ePlans,North Quarter (Randolph Farms) Lot 113 MPDU 41MRREVISION issued 9/10/19 (emc"
+880135,residential,2019-06-23,12007,PUTNAM,,114.0,"Customer Wants To Use ePlans,North Quarter (Randolph Farms) Lot 114 MPDU 41MR**"
+896108,commercial,2019-11-11,3820,CHAPLIN,,24.0,"Revision ,3 - Revision to BLDG B1 SW exterior rated wall and water curtain design. ,Customer Wants To Use ePlans Revision ,2 - Provide rooftop exhaust fans for climate control in elevators.,Customer W"
+897459,residential,2019-11-21,22710,OBSERVATION,,2.0,"Customer Wants To Use ePlans,LOT A090- MPDU (2 MPDU UNITS IN THIS ROW TOTAL) New 3-story Townhouse. REFER BACK #845700 (BELLMONT II IRC); OPTIONS: BUILT IN REVERSE; ELEV. 3B, 1-CAR GARAGE, INTERIOR UN"
+914903,residential,2020-05-28,179,KLEE,,895359.0,"Customer Wants To Use ePlans,Glenmont Metrocenter Lot 200 MT Vernon IRC STD refer to : 895359 MPDU"
+918783,commercial,2020-07-02,8005,GRAMERCY,185.0,46.0,"Customer Wants To Use ePlans,BLDG B - above podium; 185 residential RENTAL UNITS including 46 MPDUs, 2nd of 4 permits for MF BLDG D."
+918779,commercial,2020-07-02,8005,GRAMERCY,60.0,16.0,"Customer Wants To Use e-Plans for BLDG A under A/P # 918779 - above podium; 60 residential RENTAL UNITS including 16 MPDUs, 1 of 4 permits for MF BLDG D which incorporates the four buildings. Sub perm"
+918789,commercial,2020-07-02,8005,GRAMERCY,23.0,4.0,"Customer Wants To Use ePlans,BLDG AB - below podium; retail, amenity, 23 residential RENTAL UNITS including 4 MPDUs, 3rd of 4 permits for MF BLDG D Podium Constructions. "
+919557,residential,2020-07-10,5044,RANDOLPH,,46.0,"Customer Wants To Use ePlans,North Quarter Lot 46 MPDU"
+930416,residential,2020-10-19,103,SHORT OAK,,2.0,"Customer Wants To Use ePlans,LOT A085. 3 STY TOWNHOUSE; MPDU (1 OF 2 MPDU'S in this row); REFER BACK to previously approved Pure Model """"Belmont II IRC-STD"""" RB#916750; Options: Interior Unit, Elev. 2"
+936343,commercial,2020-12-14,4924,ST ELMO,276.0,42.0,"Revision ,4 - Protection for outside terrace of adjacent restaurant - Scaffolding ,Customer Wants To Use ePlans Revision ,2 - Owner and field changes. ,Customer Wants To Use ePlans Revision ,1 - To ad"
+942440,residential,2021-02-17,5036,RANDOLPH,,43.0,"Customer Wants To Use ePlans,North Quarter Lot 43 MPDU. NO ARCHITECTUALS, NO DECK."
+942433,residential,2021-02-17,5026,RANDOLPH,,39.0,"Customer Wants To Use ePlans,North Quarter Lot 39 MPDU"
+942436,residential,2021-02-17,5028,RANDOLPH,,40.0,"Customer Wants To Use ePlans,North Quarter Lot 40 MPDU"
+942444,residential,2021-02-17,5032,RANDOLPH,,41.0,"Customer Wants To Use ePlans,North Quarter Lot 41 MPDU"
+942439,residential,2021-02-17,5034,RANDOLPH,,42.0,"Customer Wants To Use ePlans,North Quarter Lot 42 MPDU"
+942431,residential,2021-02-17,5024,RANDOLPH,,38.0,"Customer Wants To Use ePlans,North Quarter Lot 38 MPDU. NO ARCHITECTUALS, NO DECK."
+947774,residential,2021-04-03,5060,OAKMOORE,,83.0,"Customer Wants To Use ePlans,North Quarter lot 83MPDU"
+955729,residential,2021-06-09,5014,RANDOLPH,,34.0,"Customer Wants To Use ePlans,North Quarter Lot 34 MPDU"
+955733,residential,2021-06-09,5016,RANDOLPH,,35.0,"Customer Wants To Use ePlans,North Quarter Lot 35 MPDU"
+962313,commercial,2021-08-04,8015,OLD GEORGETOWN,297.0,45.0,"Revision ,02 - PER THE INSPECTOR, REVISING PLAN TO SHOW RELOCATED POOL EQUIPMENT PANELS DUE TO NOT ENOUGH SPACE.,Customer Wants To Use ePlans Revision ,01 - REVISION TO 1 PLAN DETAIL AND ASSOCIATED PA"
+980078,commercial,2022-01-13,20835,CRYSTAL ROCK,60.0,53.0,"Customer Wants To Use ePlans,Construct new apartment building K3 - one of three new building in this development. Drawing plans for K2 and K3 uploaded in ePlans to project 980075 which is the K1 build"
+980075,commercial,2022-01-13,20750,CENTURY,56.0,7.0,"Customer Wants To Use ePlans,Construct new apartment building designated K1 - one of three new bldgs in this development. All plan drawings for bldgs K2 and K3 will be with this project. K1 - 20750 Ce"
+980080,commercial,2022-01-13,311,BALTUSROL,60.0,7.0,"Customer Wants To Use ePlans,Construct new apartment building P1 - one of three new buildings in this development. Drawing plans for P2 and P3 will be uploaded in ePlans to this P1 project PRIMARY PER"
+980076,commercial,2022-01-13,13220,OAKLAND HILLS,28.0,5.0,"Customer Wants To Use ePlans,Construct new apartment building K2 - one of three new building in this development. Drawing plans for K2 and K3 uploaded in ePlans to project 980075 which is the K1 build"
+980082,commercial,2022-01-13,20825,CRYSTAL ROCK,60.0,6.0,"Customer Wants To Use ePlans,Construct new apartment building P3 - one of three new buildings in this development. Drawing plans for P2 and P3 will be uploaded in ePlans to P1 project 980080. PRIMARY "
+984521,commercial,2022-02-24,10339,OLD GEORGETOWN,72.0,12.0,"Revision ,1 - Revision of foundation plan to include foundation of tower crane for construction. ,Customer Wants To Use ePlans Customer Wants To Use ePlans,The project is a mixed-use development conta"
+985808,commercial,2022-03-08,7051,ROCKLEDGE,247.0,26.0,"Revision ,4 - Client changes,Customer Wants To Use ePlansRevision ,4- REVISIONS TO TWO �EXPOSED �BALCONIES IN ORDER TO PROVIDE WEATHER PROTECTION,Customer Wants To Use ePlans Revision ,3 - Precast Ped"
+986812,commercial,2022-03-16,8860,PINEY BRANCH,,141.0,"Revision ,2 - Protection of existing HVAC ductwork (connecting more than 3-stories).,Customer Wants To Use ePlans Revision ,1 - updates for ARCH, ELE, and PLB per plans and narrative,Customer Wants To"
+995504,commercial,2022-06-02,10511,STRATHMORE HALL,220.0,33.0,"Revision 995504,995504 - Alterations to the exit discharge from Stair B-S1.,Customer Wants To Use ePlansRevision ,995504 - 3B - Revision of retail canopy and entrance doors. ,Customer Wants To Use ePl"
+1002119,commercial,2022-08-01,10509,SUMMIT,84.0,84.0,"Customer Wants To Use ePlans,SIBLING PERMIT TO 1002118 - SUPER STRUCTURE ABOVE PODIUM ***Total Number/% of MPDUs: 84 units / 21 MPDUs (25%)***"
+1049138,commercial,2023-11-02,6018,MONTROSE,,1045195.0,"Revision ,1049138 - Please don't hesitate to get in touch with Artie Haglich @ 443-271-8331 for general questions (Tri Pointe Homes DC Metro) RE: PERMIT# 1049138, 6020 Montrose Road We need to change "
+1069174,residential,2024-05-02,10160,KINGS GROVE,,46.0,"Customer Wants To Use ePlans,Reserve at Damascus lot 46 MPDU BROOKVILLE"
+1075286,residential,2024-06-19,10171,KINGS GROVE,,35.0,"Customer Wants To Use ePlans,Reserve at Damascus lot 35 MPDU BROOKVILLE"
+1075944,residential,2024-06-25,9719,SANVITALIA,,29.0,"Customer Wants To Use ePlans,AMALYN lot 29 MPDU Interior"
+1104477,commercial,2025-02-05,10048,BLACKWELL,,10.0,"Customer Wants To Use ePlans,This ATTACHED SHED on lot 44D (10 unit MPDU condo bldg - units A-J plus shed). Plans are to be found under a/p 1104463. Unit 3 Shed"
+1135579,commercial,2025-10-06,10755,STILLWATER,,1111136.0,"Customer Wants To Use ePlans,Strathmore View-BLDG#11, Lot 99-4sty Town; REFER BACK# 1111136 MPDU (Unit 1438.1-AFF); Options- Int Unit, Blt STD, Elev. 1. 1st FL- 2 car tandem garage. 2nd FL-Rear Kitche"
+1135573,commercial,2025-10-06,10761,STILLWATER,,1111136.0,"Customer Wants To Use ePlans,Strathmore View-BLDG#11, Lot 96-4sty Town; REFER BACK# 1111136 MPDU (Unit 1438.1-AFF); Options- Int Unit, Blt REV, Elev. 1. 1st FL- 2 car tandem garage. 2nd FL-Rear Kitche"
+1135581,commercial,2025-10-06,10753,STILLWATER,,1111136.0,"Customer Wants To Use ePlans,Strathmore View-BLDG#11, Lot 100-4sty Town; REFER BACK# 1111136 MPDU (Unit 1438.1-AFF); Options- Int Unit, Blt STD, Elev. 1. 1st FL- 2 car tandem garage. 2nd FL-Rear Kitch"
+1139674,commercial,2025-11-04,5049,DULCET,,1111136.0,"Customer Wants To Use ePlans,Strathmore View-BLDG#1, Lot 21-4sty Town; REFER BACK# 1111136 MPDU (Unit 1438.1-AFF); Options- Int Unit, Blt STD, Elev. 1. 1st FL- 2 car tandem garage. 2nd FL-Rear Kitchen"
+1159019,commercial,2026-05-21,10723,STILLWATER,,1111136.0,"Customer Wants To Use ePlans,Strathmore View-BLDG#8, Lot 112-4sty Town; REFER BACK# 1111136 MPDU (Unit 1438.1-AFF); Options- Int Unit, Blt REV, Elev. 1. 1st FL- 2 car tandem garage. 2nd FL-Rear Kitche"
+1159018,commercial,2026-05-21,10725,STILLWATER,,1111136.0,"Customer Wants To Use ePlans,Strathmore View-BLDG#8, Lot 111-4sty Town; REFER BACK# 1111136 MPDU (Unit 1438.1-AFF); Options- Int Unit, Blt REV, Elev. 1. 1st FL- 2 car tandem garage. 2nd FL-Rear Kitche"
+1159021,commercial,2026-05-21,10721,STILLWATER,,1111136.0,"Customer Wants To Use ePlans,Strathmore View-BLDG#8, Lot 113-4sty Town; REFER BACK# 1111136 MPDU (Unit 1438.1-AFF); Options- Int Unit, Blt STD, Elev. 1. 1st FL- 2 car tandem garage. 2nd FL-Rear Kitche"
+1162769,commercial,2026-06-24,10808,ACADEMY PARK,,1111136.0,"Customer Wants To Use ePlans,Strathmore View-BLDG#7, Lot 86-4sty Town; REFER BACK# 1111136 MPDU (Unit 1438.1-AFF); Options- Int Unit, Blt STD, Elev. 1. 1st FL- 2 car tandem garage. 2nd FL-Rear Kitchen"
+1162770,commercial,2026-06-24,10806,ACADEMY PARK,,1111136.0,"Customer Wants To Use ePlans,Strathmore View-BLDG#7, Lot 87-4sty Town; REFER BACK# 1111136 MPDU (Unit 1438.1-AFF); Options- Int Unit, Blt REV, Elev. 1. 1st FL- 2 car tandem garage. 2nd FL-Rear Kitchen"

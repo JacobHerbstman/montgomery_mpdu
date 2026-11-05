@@ -1,0 +1,3 @@
+file,url,bytes,sha256,retrieved_utc,note
+residential_permits_m88u-pqki.csv,https://data.montgomerycountymd.gov/api/views/m88u-pqki/rows.csv?accessType=DOWNLOAD,51285025,62e80a679589afa4f223c18a9d10d38684da706f7bf84d4d1d00d63bea1dc7b7,2026-09-29T15:41:23+00:00,"dataMontgomery Residential Permit, all rows"
+commercial_permits_i26v-w6bd.csv,https://data.montgomerycountymd.gov/api/views/i26v-w6bd/rows.csv?accessType=DOWNLOAD,13816233,99736976fbc3600c6aac972e0588c8d991cf5288e83d411c01e863c2d8a5888f,2026-10-01T14:41:22+00:00,"dataMontgomery Commercial Permits, all rows"

@@ -1,0 +1,347 @@
+file,field,value,note
+81999002H__Downtown-Silver-Spring-Site-Plan-No.-81999002M-MCPB-No.-20-047-06182020.pdf,usable,0,decision only redesigns public use space; no residential change
+82003007B__Century-Site-Plan-No-82003007F-MCPB-no-23-092.pdf,tract_acres,10.88,"decision: 233 du, 346,440 sf MF residential, incl 20% MPDUs on 10.88 acres (Phase I-C)"
+82003007B__Century-Site-Plan-No-82003007F-MCPB-no-23-092.pdf,approved_res_gfa_sf,346440,"decision: 233 du, 346,440 sf MF residential, incl 20% MPDUs on 10.88 acres (Phase I-C)"
+82003007B__Century-Site-Plan-No.-82003007E-MCPB-No.-19-078.pdf,approved_units,488,"cond 14: Phase I = 160 TH + 28 2-over-2 + 300 MF = 488 du, 25% MPDUs (122 units), 902,530 SF res"
+82003007B__Century-Site-Plan-No.-82003007E-MCPB-No.-19-078.pdf,mpdu_count,122,"cond 14: Phase I = 160 TH + 28 2-over-2 + 300 MF = 488 du, 25% MPDUs (122 units), 902,530 SF res"
+82004015A__Park-Potomac-Site-Plan-No.-82004015N-MCPB-No.-18-052.pdf,mpdu_pct,13.6,450 MF du incl 61 MPDUs; I-3 zone
+82004015A__Park-Potomac-Site-Plan-No.-82004015P-MCPB-No.-19-135-01092020.pdf,zone,I-3,"amendment adopts staff report only; 450 du incl 61 MPDUs, I-3"
+82004015A__Park-Potomac-Site-Plan-No.-82004015P-MCPB-No.-19-135-01092020.pdf,mpdu_pct,13.6,"amendment adopts staff report only; 450 du incl 61 MPDUs, I-3"
+82004015A__Park-Potomac-Site-Plan-No.-82004015P-MCPB-No.-19-135-01092020.pdf,usable,0,"amendment adopts staff report only; 450 du incl 61 MPDUs, I-3"
+820050370__13-085_20130530_07112013_820050370_tapestry.pdf,max_units_permitted,68,data table: maximum density 68 units (2.44 du/ac on 28.06 usable ac); MPDU cond: 20 percent density bonus
+820050370__13-085_20130530_07112013_820050370_tapestry.pdf,bonus_pct,20,data table: maximum density 68 units (2.44 du/ac on 28.06 usable ac); MPDU cond: 20 percent density bonus
+82005038A__10-139_20100923_11182010_82005038A_gallerypark.pdf,approved_units,265,original approval 265 du incl 34 MPDUs on 23.82 ac; cond: 12.5 percent MPDUs
+82005038A__10-139_20100923_11182010_82005038A_gallerypark.pdf,mpdu_count,34,original approval 265 du incl 34 MPDUs on 23.82 ac; cond: 12.5 percent MPDUs
+82006017A__NoBe-Market-Formerly-North-Bethesda-Market-I-Site-Plan-No-82006017I-MCPB-No.-23-019.pdf,approved_units,440,"recital: up to 440 MF du incl 15% MPDUs on 5.91 ac TS-M; 3,500 sf is loft space, not total"
+82006017A__NoBe-Market-Formerly-North-Bethesda-Market-I-Site-Plan-No-82006017I-MCPB-No.-23-019.pdf,approved_res_gfa_sf,,"recital: up to 440 MF du incl 15% MPDUs on 5.91 ac TS-M; 3,500 sf is loft space, not total"
+82006025A__10-065_20100408_5272010_82006025A_ripleystreetnorth.pdf,approved_units,385,amendment increases maximum dwelling units from 314 to 385
+82006029A__11-125_20111201_06282012_82006029A_correctedwinchesterphaseIcabinbranchcommunity.pdf,zone,MXPD & RMX-1/TDR,440 du: 232 on 56.92 ac MXPD (53 MPDUs) + 208 on 84.99 ac RMX/TDR-1 (17 MPDUs) = 70 MPDUs
+82006029A__11-125_20111201_06282012_82006029A_correctedwinchesterphaseIcabinbranchcommunity.pdf,mpdu_count,70,440 du: 232 on 56.92 ac MXPD (53 MPDUs) + 208 on 84.99 ac RMX/TDR-1 (17 MPDUs) = 70 MPDUs
+82006029A__11-125_20111201_06282012_82006029A_correctedwinchesterphaseIcabinbranchcommunity.pdf,mpdu_pct,15.9,440 du: 232 on 56.92 ac MXPD (53 MPDUs) + 208 on 84.99 ac RMX/TDR-1 (17 MPDUs) = 70 MPDUs
+82006029A__11-125_20111201_06282012_82006029A_correctedwinchesterphaseIcabinbranchcommunity.pdf,units_per_acre,,440 du: 232 on 56.92 ac MXPD (53 MPDUs) + 208 on 84.99 ac RMX/TDR-1 (17 MPDUs) = 70 MPDUs
+82006029A__11-125_20111201_06282012_82006029A_correctedwinchesterphaseIcabinbranchcommunity_000.pdf,zone,MXPD & RMX-1/TDR,duplicate of the corrected resolution
+82006029A__11-125_20111201_06282012_82006029A_correctedwinchesterphaseIcabinbranchcommunity_000.pdf,mpdu_count,70,duplicate of the corrected resolution
+82006029A__11-125_20111201_06282012_82006029A_correctedwinchesterphaseIcabinbranchcommunity_000.pdf,mpdu_pct,15.9,duplicate of the corrected resolution
+82006029A__11-125_20111201_06282012_82006029A_correctedwinchesterphaseIcabinbranchcommunity_000.pdf,units_per_acre,,duplicate of the corrected resolution
+82006036B__12-083_20120503_07122012_8200603B_8300wisconsinavenue.pdf,mpdu_count,45,cond: 12.5 percent MPDUs (up to 45 with the maximum 360 du); max FAR 3.0
+82006036B__12-083_20120503_07122012_8200603B_8300wisconsinavenue.pdf,mpdu_pct,12.5,cond: 12.5 percent MPDUs (up to 45 with the maximum 360 du); max FAR 3.0
+820060380__11-120_20120202_02022012_820060380_8021georgiaavenue.pdf,usable,0,use of amenity contribution; 210 MF du incl 27 MPDUs on 1.88 ac (Silver Spring CBD)
+820060380__11-120_20120202_02022012_820060380_8021georgiaavenue.pdf,mpdu_pct,12.9,use of amenity contribution; 210 MF du incl 27 MPDUs on 1.88 ac (Silver Spring CBD)
+820070140__13-055_20130418_04232013_820070140_toll1cabinbranch.pdf,zone,MXPD & RMX-1/TDR-3,436 du on 12.88 ac MXPD + 67.85 ac RMX-1/TDR-3; 66 MPDUs (15.0%); 12.5% (55) is the minimum; master plan 5-7 du/ac
+820070140__13-055_20130418_04232013_820070140_toll1cabinbranch.pdf,tract_acres,80.73,436 du on 12.88 ac MXPD + 67.85 ac RMX-1/TDR-3; 66 MPDUs (15.0%); 12.5% (55) is the minimum; master plan 5-7 du/ac
+820070140__13-055_20130418_04232013_820070140_toll1cabinbranch.pdf,mpdu_pct,15.0,436 du on 12.88 ac MXPD + 67.85 ac RMX-1/TDR-3; 66 MPDUs (15.0%); 12.5% (55) is the minimum; master plan 5-7 du/ac
+820070140__13-055_20130418_04232013_820070140_toll1cabinbranch.pdf,units_per_acre,,436 du on 12.88 ac MXPD + 67.85 ac RMX-1/TDR-3; 66 MPDUs (15.0%); 12.5% (55) is the minimum; master plan 5-7 du/ac
+820070220__09-015_20081106_06182009_820070220_clarksburgtowncenter.pdf,approved_units,1213,"1,213 du incl 152 MPDUs (12.5%); 6.90 du/ac on 175.80 residential ac; 7 du/ac permitted (1,428 du) in RMX-2 table"
+820070220__09-015_20081106_06182009_820070220_clarksburgtowncenter.pdf,mpdu_count,152,"1,213 du incl 152 MPDUs (12.5%); 6.90 du/ac on 175.80 residential ac; 7 du/ac permitted (1,428 du) in RMX-2 table"
+820070220__09-015_20081106_06182009_820070220_clarksburgtowncenter.pdf,mpdu_pct,12.5,"1,213 du incl 152 MPDUs (12.5%); 6.90 du/ac on 175.80 residential ac; 7 du/ac permitted (1,428 du) in RMX-2 table"
+820070220__09-015_20081106_06182009_820070220_clarksburgtowncenter.pdf,tract_acres,175.8,"1,213 du incl 152 MPDUs (12.5%); 6.90 du/ac on 175.80 residential ac; 7 du/ac permitted (1,428 du) in RMX-2 table"
+820070220__09-015_20081106_06182009_820070220_clarksburgtowncenter.pdf,max_units_permitted,1428,"1,213 du incl 152 MPDUs (12.5%); 6.90 du/ac on 175.80 residential ac; 7 du/ac permitted (1,428 du) in RMX-2 table"
+820070220__09-015_20081211_07092009_820070220_clarksburgtowncenter.pdf,approved_units,1213,"1,213 du incl 152 MPDUs (12.5%); 6.90 du/ac on 175.80 residential ac; 7 du/ac permitted (1,428 du) in RMX-2 table"
+820070220__09-015_20081211_07092009_820070220_clarksburgtowncenter.pdf,mpdu_count,152,"1,213 du incl 152 MPDUs (12.5%); 6.90 du/ac on 175.80 residential ac; 7 du/ac permitted (1,428 du) in RMX-2 table"
+820070220__09-015_20081211_07092009_820070220_clarksburgtowncenter.pdf,mpdu_pct,12.5,"1,213 du incl 152 MPDUs (12.5%); 6.90 du/ac on 175.80 residential ac; 7 du/ac permitted (1,428 du) in RMX-2 table"
+820070220__09-015_20081211_07092009_820070220_clarksburgtowncenter.pdf,tract_acres,175.8,"1,213 du incl 152 MPDUs (12.5%); 6.90 du/ac on 175.80 residential ac; 7 du/ac permitted (1,428 du) in RMX-2 table"
+820070220__09-015_20081211_07092009_820070220_clarksburgtowncenter.pdf,max_units_permitted,1428,"1,213 du incl 152 MPDUs (12.5%); 6.90 du/ac on 175.80 residential ac; 7 du/ac permitted (1,428 du) in RMX-2 table"
+820070220__10-007_20100114_01282010_820070220_clarksburgtowncenter.pdf,usable,0,"enforcement finding on condition 16; 1,213 du incl 152 MPDUs"
+820070220__10-007_20100114_01282010_820070220_clarksburgtowncenter.pdf,approved_units,1213,"enforcement finding on condition 16; 1,213 du incl 152 MPDUs"
+820070220__10-007_20100114_01282010_820070220_clarksburgtowncenter.pdf,mpdu_count,152,"enforcement finding on condition 16; 1,213 du incl 152 MPDUs"
+820070220__10-007_20100114_01282010_820070220_clarksburgtowncenter.pdf,mpdu_pct,12.5,"enforcement finding on condition 16; 1,213 du incl 152 MPDUs"
+82007024A__11-104_20111027_12152011_82007024A_hallmangrove.pdf,approved_units,28,"original 820070240: 28 du (17 SFD, 11 SFA) incl 4 MPDUs"
+82007024A__11-104_20111027_12152011_82007024A_hallmangrove.pdf,mpdu_count,4,"original 820070240: 28 du (17 SFD, 11 SFA) incl 4 MPDUs"
+82007024A__11-104_20111027_12152011_82007024A_hallmangrove.pdf,mpdu_pct,14.3,"original 820070240: 28 du (17 SFD, 11 SFA) incl 4 MPDUs"
+820070250__09-143_20091112_12102009_820070250_mainhartproperty.pdf,approved_units,32,32 townhouses incl 12.5 percent MPDUs on 3.28 ac RT-10
+820070250__09-143_20091112_12102009_820070250_mainhartproperty.pdf,zone,RT-10,32 townhouses incl 12.5 percent MPDUs on 3.28 ac RT-10
+82008011A__11-090_20110922_11102011_82008011A_northbethesdacenterparcelsFIJ.pdf,approved_units,327,Parcel F: 327 MF du incl 41 MPDUs (820080110); TS-M
+82008011A__11-090_20110922_11102011_82008011A_northbethesdacenterparcelsFIJ.pdf,mpdu_count,41,Parcel F: 327 MF du incl 41 MPDUs (820080110); TS-M
+82008011A__11-090_20110922_11102011_82008011A_northbethesdacenterparcelsFIJ.pdf,mpdu_pct,12.5,Parcel F: 327 MF du incl 41 MPDUs (820080110); TS-M
+82008011A__11-090_20110922_11102011_82008011A_northbethesdacenterparcelsFIJ.pdf,zone,TS-M,Parcel F: 327 MF du incl 41 MPDUs (820080110); TS-M
+82008011A__North-Bethesda-Center-Parcel-F-Site-Plan-Amendment-No.-82008011C-MCPB-No.-22-067-1.pdf,approved_units,327,Parcel F: 327 MF du incl 41 MPDUs (820080110); TS-M
+82008011A__North-Bethesda-Center-Parcel-F-Site-Plan-Amendment-No.-82008011C-MCPB-No.-22-067-1.pdf,mpdu_count,41,Parcel F: 327 MF du incl 41 MPDUs (820080110); TS-M
+82008011A__North-Bethesda-Center-Parcel-F-Site-Plan-Amendment-No.-82008011C-MCPB-No.-22-067-1.pdf,mpdu_pct,12.5,Parcel F: 327 MF du incl 41 MPDUs (820080110); TS-M
+82008011A__North-Bethesda-Center-Parcel-F-Site-Plan-Amendment-No.-82008011C-MCPB-No.-22-067-1.pdf,zone,TS-M,Parcel F: 327 MF du incl 41 MPDUs (820080110); TS-M
+82008011A__North-Bethesda-Center-Parcel-F-Site-Plan-Amendment-No.-82008011C-MCPB-No.-22-067.pdf,approved_units,327,Parcel F: 327 MF du incl 41 MPDUs (820080110); TS-M
+82008011A__North-Bethesda-Center-Parcel-F-Site-Plan-Amendment-No.-82008011C-MCPB-No.-22-067.pdf,mpdu_count,41,Parcel F: 327 MF du incl 41 MPDUs (820080110); TS-M
+82008011A__North-Bethesda-Center-Parcel-F-Site-Plan-Amendment-No.-82008011C-MCPB-No.-22-067.pdf,mpdu_pct,12.5,Parcel F: 327 MF du incl 41 MPDUs (820080110); TS-M
+82008011A__North-Bethesda-Center-Parcel-F-Site-Plan-Amendment-No.-82008011C-MCPB-No.-22-067.pdf,zone,TS-M,Parcel F: 327 MF du incl 41 MPDUs (820080110); TS-M
+82008011A__North-Bethesda-Center-Parcel-F-Site-Plan-Amendment-No.-82008011C-MCPB-No.-22-067-1.pdf,usable,0,amendment: parking garage connection only
+82008011A__North-Bethesda-Center-Parcel-F-Site-Plan-Amendment-No.-82008011C-MCPB-No.-22-067.pdf,usable,0,amendment: parking garage connection only
+820080190__09-095_20090730_09102009_820080190_batchellorsforest.pdf,bonus_pct,22,37 lots incl 5 MPDUs; cond: 22 percent density bonus for providing 15 percent MPDUs
+82009001A__13-105_20130711_07252013_82009001A_woodmontview.pdf,usable,0,amendment waives commercial parking; C-T zone
+820090070__09-135_20091022_11052009_820090070_shadygrovemetroparcelp-14.pdf,approved_units,156,"36 TH + 3 SFD + 117 MF = 156 du, 21 MPDUs (13%); 5% density bonus; PD-35 x 4.26 ac permits 149 units before bonus"
+820090070__09-135_20091022_11052009_820090070_shadygrovemetroparcelp-14.pdf,bonus_pct,5,"36 TH + 3 SFD + 117 MF = 156 du, 21 MPDUs (13%); 5% density bonus; PD-35 x 4.26 ac permits 149 units before bonus"
+820090070__09-135_20091022_11052009_820090070_shadygrovemetroparcelp-14.pdf,base_units_permitted,149,"36 TH + 3 SFD + 117 MF = 156 du, 21 MPDUs (13%); 5% density bonus; PD-35 x 4.26 ac permits 149 units before bonus"
+820090110__09-077_20090702_07302009_820090110_themonty.pdf,mpdu_pct,15,"max 200 units incl 30 MPDUs (15 percent), CBD-2, 1.12 ac"
+820090140__09-123_20090917_10012009_820090140_ourismanford.pdf,mpdu_pct,12.5,"340 du incl 43 MPDUs (12.5%), C-2, 4.08 ac"
+820100030__13-056_20130418_04232013_820100030_toll2cabinbranch.pdf,mpdu_pct,6.0,168 du incl 10 MPDUs (Toll MPDUs credited across both Toll site plans); tract/upa are Cabin Branch-wide
+820100030__13-056_20130418_04232013_820100030_toll2cabinbranch.pdf,tract_acres,,168 du incl 10 MPDUs (Toll MPDUs credited across both Toll site plans); tract/upa are Cabin Branch-wide
+820100030__13-056_20130418_04232013_820100030_toll2cabinbranch.pdf,units_per_acre,,168 du incl 10 MPDUs (Toll MPDUs credited across both Toll site plans); tract/upa are Cabin Branch-wide
+820100030__13-056_20130418_04232013_820100030_toll2cabinbranch.pdf,zone,RMX-1/TDR-3,168 du incl 10 MPDUs (Toll MPDUs credited across both Toll site plans); tract/upa are Cabin Branch-wide
+820100040__10-077_20100415_07292010_82010040_clarksburgvillagephase3.pdf,bonus_pct,0,100 age-restricted MF du incl 13 MPDUs; not receiving any density bonus
+820110010__10-149_20101028_11042010_820110010_wheatonsafeway.pdf,tract_acres,1.92,486 du incl 12.5% MPDUs on 1.92 gross ac CBD-3; 5.29 FAR of 8.0 max
+820110020__11-032_20110421_09082011_820110020_woodmontcentral.pdf,zone,CBD-R2 & CBD-1,"455 du, 585,577 sf residential on 48,966 sf CBD-R2 + 19,122 sf CBD-1; option a 12.5% no bonus / option b 15% with 22% bonus; annual report shows 15.0% built, i.e. option b"
+820110020__11-032_20110421_09082011_820110020_woodmontcentral.pdf,tract_acres,1.563,"455 du, 585,577 sf residential on 48,966 sf CBD-R2 + 19,122 sf CBD-1; option a 12.5% no bonus / option b 15% with 22% bonus; annual report shows 15.0% built, i.e. option b"
+820110020__11-032_20110421_09082011_820110020_woodmontcentral.pdf,approved_res_gfa_sf,585577,"455 du, 585,577 sf residential on 48,966 sf CBD-R2 + 19,122 sf CBD-1; option a 12.5% no bonus / option b 15% with 22% bonus; annual report shows 15.0% built, i.e. option b"
+820110020__11-032_20110421_09082011_820110020_woodmontcentral.pdf,mpdu_pct,15,"455 du, 585,577 sf residential on 48,966 sf CBD-R2 + 19,122 sf CBD-1; option a 12.5% no bonus / option b 15% with 22% bonus; annual report shows 15.0% built, i.e. option b"
+820110020__11-032_20110421_09082011_820110020_woodmontcentral.pdf,bonus_pct,22,"455 du, 585,577 sf residential on 48,966 sf CBD-R2 + 19,122 sf CBD-1; option a 12.5% no bonus / option b 15% with 22% bonus; annual report shows 15.0% built, i.e. option b"
+820110040__12-033_20120308_05172012_820110040_greenbriaratnorbeckcrossing.pdf,bonus_pct,22,262 du incl 15% MPDUs; 22 percent density bonus for 15 percent MPDUs; R-200/TDR-7
+820110040__12-033_20120308_05172012_820110040_greenbriaratnorbeckcrossing.pdf,zone,R-200/TDR-7,262 du incl 15% MPDUs; 22 percent density bonus for 15 percent MPDUs; R-200/TDR-7
+820110050__11-079_20110915_01122012_820110050_bowiemillproperty.pdf,bonus_pct,22,114 du incl 34 MPDUs (30%) + 34 WFH; 22% bonus; PD-3 at 3 du/ac = maximum base density 98 units
+820110050__11-079_20110915_01122012_820110050_bowiemillproperty.pdf,base_units_permitted,98,114 du incl 34 MPDUs (30%) + 34 WFH; 22% bonus; PD-3 at 3 du/ac = maximum base density 98 units
+820110080__11-126_20111201_06282012_820110080_winchesterIIphasecabinbranchcommunity.pdf,approved_units,341,341 du: 234 on 25.10 ac MXPD (39 MPDUs) + 107 on 13.10 ac RMX/TDR-1 (2 MPDUs)
+820110080__11-126_20111201_06282012_820110080_winchesterIIphasecabinbranchcommunity.pdf,mpdu_count,41,341 du: 234 on 25.10 ac MXPD (39 MPDUs) + 107 on 13.10 ac RMX/TDR-1 (2 MPDUs)
+820110080__11-126_20111201_06282012_820110080_winchesterIIphasecabinbranchcommunity.pdf,mpdu_pct,12.0,341 du: 234 on 25.10 ac MXPD (39 MPDUs) + 107 on 13.10 ac RMX/TDR-1 (2 MPDUs)
+820110080__11-126_20111201_06282012_820110080_winchesterIIphasecabinbranchcommunity.pdf,tract_acres,38.2,341 du: 234 on 25.10 ac MXPD (39 MPDUs) + 107 on 13.10 ac RMX/TDR-1 (2 MPDUs)
+820110080__11-126_20111201_06282012_820110080_winchesterIIphasecabinbranchcommunity.pdf,zone,MXPD & RMX-1/TDR,341 du: 234 on 25.10 ac MXPD (39 MPDUs) + 107 on 13.10 ac RMX/TDR-1 (2 MPDUs)
+820110080__11-126_20111201_06282012_820110080_winchesterIIphasecabinbranchcommunity.pdf,units_per_acre,,341 du: 234 on 25.10 ac MXPD (39 MPDUs) + 107 on 13.10 ac RMX/TDR-1 (2 MPDUs)
+820110080__11-126_20111201_06282012_820110080_winchesterIIphasecabinbranchcommunity_000.pdf,approved_units,341,duplicate of 11-126
+820110080__11-126_20111201_06282012_820110080_winchesterIIphasecabinbranchcommunity_000.pdf,mpdu_count,41,duplicate of 11-126
+820110080__11-126_20111201_06282012_820110080_winchesterIIphasecabinbranchcommunity_000.pdf,mpdu_pct,12.0,duplicate of 11-126
+820110080__11-126_20111201_06282012_820110080_winchesterIIphasecabinbranchcommunity_000.pdf,tract_acres,38.2,duplicate of 11-126
+820110080__11-126_20111201_06282012_820110080_winchesterIIphasecabinbranchcommunity_000.pdf,zone,MXPD & RMX-1/TDR,duplicate of 11-126
+820110080__11-126_20111201_06282012_820110080_winchesterIIphasecabinbranchcommunity_000.pdf,units_per_acre,,duplicate of 11-126
+820110100__11-102_20111020_01192012_820110100_10914georgiaavenue.pdf,units_per_acre,,245 MF du incl 12.5% on 2.36 ac TS-R; max 2.5 FAR or 150 du/ac (354 du)
+820110100__11-102_20111020_01192012_820110100_10914georgiaavenue.pdf,max_units_permitted,354,245 MF du incl 12.5% on 2.36 ac TS-R; max 2.5 FAR or 150 du/ac (354 du)
+82011013A__MCPB-12-147-Village-West-at-Germantown-Center-82011013A-Final.pdf,max_units_permitted,794,470 du incl 12.5% on 26.48 ac RMX-2; 17.75 du/ac vs 30 du/ac allowed (794 du)
+820110140__12-017_20120126_04122012_820110140_anselmoproperty.pdf,mpdu_count,5,38 du incl 5 MPDUs (13.20%) on 42.28 ac RE-1; reduced density 0.9 du/ac for SPA; max 1.22 du/ac with MPDUs
+820110140__12-017_20120126_04122012_820110140_anselmoproperty.pdf,mpdu_pct,13.2,38 du incl 5 MPDUs (13.20%) on 42.28 ac RE-1; reduced density 0.9 du/ac for SPA; max 1.22 du/ac with MPDUs
+820110140__12-017_20120126_04122012_820110140_anselmoproperty.pdf,units_per_acre,,38 du incl 5 MPDUs (13.20%) on 42.28 ac RE-1; reduced density 0.9 du/ac for SPA; max 1.22 du/ac with MPDUs
+820120070__12-064_20120607_07262012_820120070_hoytproperty.pdf,approved_units,30,30 TH incl 5 MPDUs on 1.81 ac RT-15; 22% bonus for >15% MPDUs; max density 18.3 du/ac
+820120070__12-064_20120607_07262012_820120070_hoytproperty.pdf,mpdu_count,5,30 TH incl 5 MPDUs on 1.81 ac RT-15; 22% bonus for >15% MPDUs; max density 18.3 du/ac
+820120070__12-064_20120607_07262012_820120070_hoytproperty.pdf,mpdu_pct,16.7,30 TH incl 5 MPDUs on 1.81 ac RT-15; 22% bonus for >15% MPDUs; max density 18.3 du/ac
+820120070__12-064_20120607_07262012_820120070_hoytproperty.pdf,bonus_pct,22,30 TH incl 5 MPDUs on 1.81 ac RT-15; 22% bonus for >15% MPDUs; max density 18.3 du/ac
+820120070__12-064_20120607_07262012_820120070_hoytproperty.pdf,tract_acres,1.81,30 TH incl 5 MPDUs on 1.81 ac RT-15; 22% bonus for >15% MPDUs; max density 18.3 du/ac
+820120070__12-064_20120607_07262012_820120070_hoytproperty.pdf,units_per_acre,18.3,30 TH incl 5 MPDUs on 1.81 ac RT-15; 22% bonus for >15% MPDUs; max density 18.3 du/ac
+820120080__12-048_20120426_05172012_820120080_fenwickstation.pdf,mpdu_count,39,310 du incl 12.5% (39 min) on 2.84 ac CBD-1; max 125 units/acre
+820120080__12-048_20120426_05172012_820120080_fenwickstation.pdf,units_per_acre,125,310 du incl 12.5% (39 min) on 2.84 ac CBD-1; max 125 units/acre
+820120120__12-071_20120614_09062012_820120120_4900fairmontavenue.pdf,bonus_pct,22,"250 MF du, 15% MPDUs, 22% density bonus for 15% MPDUs; 250,799 sf residential"
+820120140__12-108_20121101_20130110_820120140_7001arlingtonroad.pdf,bonus_pct,,140 MF du incl 15% on 2.7 ac PD-44; max 1.66 FAR / 145 units; 44 du/ac if 12.5% MPDUs
+820120140__12-108_20121101_20130110_820120140_7001arlingtonroad.pdf,max_units_permitted,145,140 MF du incl 15% on 2.7 ac PD-44; max 1.66 FAR / 145 units; 44 du/ac if 12.5% MPDUs
+820120150__13-047_20130404_04042013_820120150_winchesrerphaseIII.pdf,mpdu_pct,5.4,185 du incl 10 MPDUs (credited across Winchester phases); approved at 5 du/ac
+820120150__13-047_20130404_04042013_820120150_winchesrerphaseIII.pdf,zone,RMX-1/TDR,185 du incl 10 MPDUs (credited across Winchester phases); approved at 5 du/ac
+820120150__13-047_20130404_04042013_820120150_winchesrerphaseIII.pdf,tract_acres,,185 du incl 10 MPDUs (credited across Winchester phases); approved at 5 du/ac
+820120150__13-047_20130404_04042013_820120150_winchesrerphaseIII.pdf,units_per_acre,5,185 du incl 10 MPDUs (credited across Winchester phases); approved at 5 du/ac
+820120190__13-006_20130117_01172013_820120190_hanovershadygrove.pdf,approved_units,366,"452,211 sf residential for up to 366 units on 6.92 ac CR-1.5 C-1.5 R-1.5 H-100"
+820130010__13-023_20130221_04252013_820130010_studioplaza.pdf,bonus_pct,22,415 du incl 61 MPDUs (15% of non-WFHUs) + 10 WFHUs; 22 percent residential density bonus for 15% MPDUs; tract area differs between the two versions of the resolution
+820130010__13-023_20130221_04252013_820130010_studioplaza.pdf,tract_acres,,415 du incl 61 MPDUs (15% of non-WFHUs) + 10 WFHUs; 22 percent residential density bonus for 15% MPDUs; tract area differs between the two versions of the resolution
+820130010__13-023_20130221_06272013_820130010_studioplaza_corrected.pdf,bonus_pct,22,415 du incl 61 MPDUs (15% of non-WFHUs) + 10 WFHUs; 22 percent residential density bonus for 15% MPDUs; tract area differs between the two versions of the resolution
+820130010__13-023_20130221_06272013_820130010_studioplaza_corrected.pdf,tract_acres,,415 du incl 61 MPDUs (15% of non-WFHUs) + 10 WFHUs; 22 percent residential density bonus for 15% MPDUs; tract area differs between the two versions of the resolution
+820130030__13-052_20130411_04252013_820130030_bethesdamews.pdf,tract_acres,9.87,34 du incl five MPDUs (12.5%) under the R-60/MPDU option on 9.87 ac
+820130040__13-064_20130425_06132013_820130040_chelseacourt.pdf,approved_units,64,63 TH incl eight MPDUs + 1 SFD = 64 du; 12.5% MPDUs; 22% bonus is only in the permitted column; limited to 64 du by binding element
+820130040__13-064_20130425_06132013_820130040_chelseacourt.pdf,mpdu_count,8,63 TH incl eight MPDUs + 1 SFD = 64 du; 12.5% MPDUs; 22% bonus is only in the permitted column; limited to 64 du by binding element
+820130040__13-064_20130425_06132013_820130040_chelseacourt.pdf,bonus_pct,,63 TH incl eight MPDUs + 1 SFD = 64 du; 12.5% MPDUs; 22% bonus is only in the permitted column; limited to 64 du by binding element
+820130040__13-064_20130425_06132013_820130040_chelseacourt.pdf,max_units_permitted,64,63 TH incl eight MPDUs + 1 SFD = 64 du; 12.5% MPDUs; 22% bonus is only in the permitted column; limited to 64 du by binding element
+820130050__13-026_20130228_04252013_820130050_8415fentonstreet.pdf,zone,CBD-1 & CBD-0.5 & R-60,"259 du incl 12.5% MPDUs on 2.7 ac of CBD-1, CBD-0.5, R-60 and Fenton Village Overlay"
+820130060__13-092_20130722_07222013_820130060_trottersglen.pdf,bonus_pct,19,69 du incl 10 MPDUs (14.49%) on 175.8 ac RNC; density bonus of 1.19; 0.39 du/ac
+820130110__13-154_201312031_12052013_820130110_camdenshadygrovesiteplan.pdf,approved_res_gfa_sf,498072,"up to 498,072 sf (1.5 FAR) residential for up to 475 du on 7.62 ac"
+820130120__14-065_20140724_07242014_820130120_pikerosephaseII.pdf,usable,0,"staging allocation request, not a site plan approval"
+820130120__14-065_20140724_07242014_820130120_pikerosephaseII.pdf,doc_type,staging_allocation,"staging allocation request, not a site plan approval"
+820130120__PikeandRosePhase-llStagingAllocationRequestNo.26400SitePlanNo.820130120MCPBNo.16-01620160211.pdf,usable,0,"staging allocation request, not a site plan approval"
+820130120__PikeandRosePhase-llStagingAllocationRequestNo.26400SitePlanNo.820130120MCPBNo.16-01620160211.pdf,doc_type,staging_allocation,"staging allocation request, not a site plan approval"
+820130140__13-115_20130725_07252013_820130140_kensingtonheights.pdf,approved_units,26,1 SFD + 25 TH = 26 du; four MPDUs required (decision text says 13.3%)
+820130140__13-115_20130725_07252013_820130140_kensingtonheights.pdf,mpdu_count,4,1 SFD + 25 TH = 26 du; four MPDUs required (decision text says 13.3%)
+820130140__13-115_20130725_07252013_820130140_kensingtonheights.pdf,mpdu_pct,15.4,1 SFD + 25 TH = 26 du; four MPDUs required (decision text says 13.3%)
+82013020A__15-083_20150716_07302015_82013020A_travilahgrove.pdf,mpdu_count,17,"131 TH incl 17 MPDUs (12.5%) on 13.72 gross ac; CR zone standard method, 0.5 FAR (298,938 sf)"
+82013020A__15-083_20150716_07302015_82013020A_travilahgrove.pdf,tract_acres,13.72,"131 TH incl 17 MPDUs (12.5%) on 13.72 gross ac; CR zone standard method, 0.5 FAR (298,938 sf)"
+82013020A__15-083_20150716_07302015_82013020A_travilahgrove.pdf,zone,CR standard method 0.5 FAR,"131 TH incl 17 MPDUs (12.5%) on 13.72 gross ac; CR zone standard method, 0.5 FAR (298,938 sf)"
+82013020A__15-083_20150716_07302015_82013020A_travilahgrove.pdf,approved_res_gfa_sf,298938,"131 TH incl 17 MPDUs (12.5%) on 13.72 gross ac; CR zone standard method, 0.5 FAR (298,938 sf)"
+820130220__13-190_20140123_01232014_820130220_shadygrovestation.pdf,approved_units,1521,"1,521 du incl 211 MPDUs + 116 WFH on 41.8 gross ac TOMX/TDR; 1.42 FAR"
+820130220__13-190_20140123_01232014_820130220_shadygrovestation.pdf,mpdu_count,211,"1,521 du incl 211 MPDUs + 116 WFH on 41.8 gross ac TOMX/TDR; 1.42 FAR"
+820130220__13-190_20140123_01232014_820130220_shadygrovestation.pdf,mpdu_pct,13.9,"1,521 du incl 211 MPDUs + 116 WFH on 41.8 gross ac TOMX/TDR; 1.42 FAR"
+820130220__13-190_20140123_01232014_820130220_shadygrovestation.pdf,tract_acres,41.8,"1,521 du incl 211 MPDUs + 116 WFH on 41.8 gross ac TOMX/TDR; 1.42 FAR"
+820130220__13-190_20140123_01232014_820130220_shadygrovestation.pdf,zone,TOMX/TDR,"1,521 du incl 211 MPDUs + 116 WFH on 41.8 gross ac TOMX/TDR; 1.42 FAR"
+82013022A__14-097_20141023_10232014_82013022A_shadygrovestationwestside.pdf,approved_units,1521,"1,521 du incl 211 MPDUs + 116 WFH on 41.8 gross ac TOMX/TDR; 1.42 FAR"
+82013022A__14-097_20141023_10232014_82013022A_shadygrovestationwestside.pdf,mpdu_count,211,"1,521 du incl 211 MPDUs + 116 WFH on 41.8 gross ac TOMX/TDR; 1.42 FAR"
+82013022A__14-097_20141023_10232014_82013022A_shadygrovestationwestside.pdf,mpdu_pct,13.9,"1,521 du incl 211 MPDUs + 116 WFH on 41.8 gross ac TOMX/TDR; 1.42 FAR"
+82013022A__14-097_20141023_10232014_82013022A_shadygrovestationwestside.pdf,tract_acres,41.8,"1,521 du incl 211 MPDUs + 116 WFH on 41.8 gross ac TOMX/TDR; 1.42 FAR"
+82013022A__14-097_20141023_10232014_82013022A_shadygrovestationwestside.pdf,zone,TOMX/TDR,"1,521 du incl 211 MPDUs + 116 WFH on 41.8 gross ac TOMX/TDR; 1.42 FAR"
+82013022A__Shady-Grove-Station-Phase-1-West-Shady-Grove-Station-Westside-Site-Plan-No.-82013022C-MCPB-No.-18-044.pdf,usable,0,"transfers 61 units between buildings; project stays 1,521 du"
+82013022A__Shady-Grove-Station-Phase-1-West-Shady-Grove-Station-Westside-Site-Plan-No.-82013022C-MCPB-No.-18-044.pdf,approved_units,1521,"transfers 61 units between buildings; project stays 1,521 du"
+82013022A__Shady-Grove-Station-Phase-1-West-Shady-Grove-Station-Westside-Site-Plan-No.-82013022C-MCPB-No.-18-044.pdf,zone,TOMX/TDR,"transfers 61 units between buildings; project stays 1,521 du"
+82013022A__Shady-Grove-Station-Phase-1-West-Site-Plan-No.-82013022E-MCPB-No.-19-010.pdf,approved_units,1520,"project limited to 406 TH + 1,114 MF = 1,520 du"
+82013022A__Shady-Grove-Station-Phase-1-West-Site-Plan-No.-82013022E-MCPB-No.-19-010.pdf,zone,TOMX/TDR,"project limited to 406 TH + 1,114 MF = 1,520 du"
+82013022A__Shady-Grove-Station-West-Side-Site-Plan-Amend-82013022H-MCPB-No.-23-053.pdf,approved_units,1525,"project limited to 411 TH + 1,114 MF = 1,525 du (+5 TH in Blocks R/T)"
+82013022A__Shady-Grove-Station-West-Side-Site-Plan-Amend-82013022H-MCPB-No.-23-053.pdf,zone,TOMX/TDR,"project limited to 411 TH + 1,114 MF = 1,525 du (+5 TH in Blocks R/T)"
+82013022A__Shady-Grove-Station-West-Side-Site-Plan-Amend-82013022H-MCPB-No.-23-054.pdf,approved_units,1525,"project limited to 411 TH + 1,114 MF = 1,525 du"
+82013022A__Shady-Grove-Station-West-Side-Site-Plan-Amend-82013022H-MCPB-No.-23-054.pdf,zone,TOMX/TDR,"project limited to 411 TH + 1,114 MF = 1,525 du"
+82013022A__Shady-Grove-Station-West-Side-Site-Plan-No.-82013022G-MCPB-No.-20-093-10012020.pdf,approved_units,1520,"project limited to 406 TH + 1,114 MF = 1,520 du"
+82013022A__Shady-Grove-Station-West-Side-Site-Plan-No.-82013022G-MCPB-No.-20-093-10012020.pdf,zone,TOMX/TDR,"project limited to 406 TH + 1,114 MF = 1,520 du"
+820130230__13-102_20130711_07312013_820130230_7100wisconsinave.pdf,bonus_pct,22,145 MF du incl 15% MPDUs on 0.58 ac CBD-R2; 3.63 FAR incorporating a 22 percent density bonus
+820130230__13-102_20130711_07312013_820130230_7100wisconsinave.pdf,units_per_acre,,145 MF du incl 15% MPDUs on 0.58 ac CBD-R2; 3.63 FAR incorporating a 22 percent density bonus
+820130260__13-166_20131205_12052013_820130260_potomachighlandsiteplan.pdf,approved_units,23,23 TH incl 4 MPDUs; 22 percent density bonus for 4 MPDUs (stated as 15 percent)
+820130260__13-166_20131205_12052013_820130260_potomachighlandsiteplan.pdf,mpdu_count,4,23 TH incl 4 MPDUs; 22 percent density bonus for 4 MPDUs (stated as 15 percent)
+820130260__13-166_20131205_12052013_820130260_potomachighlandsiteplan.pdf,mpdu_pct,17.4,23 TH incl 4 MPDUs; 22 percent density bonus for 4 MPDUs (stated as 15 percent)
+820130260__13-166_20131205_12052013_820130260_potomachighlandsiteplan.pdf,bonus_pct,22,23 TH incl 4 MPDUs; 22 percent density bonus for 4 MPDUs (stated as 15 percent)
+820130270__14-008_20140227_03202014_820130270_glenmontmetrocenterphase1.1.pdf,approved_units,171,171 TH incl 22 MPDUs on 9.46 ac (TS-R standards); 18.1 du/ac in Phase 1.1
+820130270__14-008_20140227_03202014_820130270_glenmontmetrocenterphase1.1.pdf,tract_acres,9.46,171 TH incl 22 MPDUs on 9.46 ac (TS-R standards); 18.1 du/ac in Phase 1.1
+820130270__14-008_20140227_03202014_820130270_glenmontmetrocenterphase1.1.pdf,mpdu_pct,12.9,171 TH incl 22 MPDUs on 9.46 ac (TS-R standards); 18.1 du/ac in Phase 1.1
+820140060__14-017_20140403_04032014_820140060_4990fairmontave.pdf,tract_acres,0.337,"72 du incl 15% MPDUs on 14,685 sf CBD-2; 131,052 sf residential; 22% residential bonus for 15% MPDUs"
+820140170__14-108_20141113_11132014_820140170_theblairs.pdf,tract_acres,3.79,"up to 605,000 sf residential, max 507 units, on 3.79 gross tract ac CBD-R2; MPDUs per DHCA letter"
+82014018A__East-Village-at-North-Bethesda-Gateway-Site-Plan-No.-820140180-MCPB-NO.-16-091-09082016-CORRECTED.pdf,tract_acres,5.123,"614 du incl 12.5% (77) MPDUs; 557,918 sf residential = R-2.5 x 223,167 sf gross tract"
+82014018A__East-Village-at-North-Bethesda-Gateway-Site-Plan-No.-82014018A-MCPB-No.-19-095-07182019.pdf,tract_acres,5.123,"567 du incl 12.5% MPDUs; 549,972 sf residential; gross tract 223,167 sf"
+820140190__14-114_2014121-04_12042014_820140190_avawheaton.pdf,zone,"CR-4, C-3.5, R-3.5",324 du on 3.7 ac CR-4 C-3.5 R-3.5 (height not legible)
+820140190__14-114_2014121-04_12042014_820140190_avawheaton.pdf,zone_family,CR,324 du on 3.7 ac CR-4 C-3.5 R-3.5 (height not legible)
+820140190__14-114_2014121-04_12042014_820140190_avawheaton.pdf,cr_total_far,4,324 du on 3.7 ac CR-4 C-3.5 R-3.5 (height not legible)
+820140190__14-114_2014121-04_12042014_820140190_avawheaton.pdf,cr_c_far,3.5,324 du on 3.7 ac CR-4 C-3.5 R-3.5 (height not legible)
+820140190__14-114_2014121-04_12042014_820140190_avawheaton.pdf,cr_r_far,3.5,324 du on 3.7 ac CR-4 C-3.5 R-3.5 (height not legible)
+820150070__15-066_20150625_06252015_820150070_grosvenorplace.pdf,approved_units,46,46 TH incl 7 MPDUs on 4.13 ac R-30 optional method; maximum density 73 units (17.69 du/ac)
+820150070__15-066_20150625_06252015_820150070_grosvenorplace.pdf,mpdu_pct,15.2,46 TH incl 7 MPDUs on 4.13 ac R-30 optional method; maximum density 73 units (17.69 du/ac)
+820150070__15-066_20150625_06252015_820150070_grosvenorplace.pdf,max_units_permitted,73,46 TH incl 7 MPDUs on 4.13 ac R-30 optional method; maximum density 73 units (17.69 du/ac)
+820150070__15-066_20150625_06252015_820150070_grosvenorplace.pdf,units_per_acre,,46 TH incl 7 MPDUs on 4.13 ac R-30 optional method; maximum density 73 units (17.69 du/ac)
+820150120__GlenmontMetroCentrePhase1.2and1.3SitePlanNo.820150120MCPBNo.15-14812102015.pdf,approved_units,,Phases 1.2 and 1.3 at 40.69 du/ac on 7.52 ac; unit count not legible in OCR
+820150120__GlenmontMetroCentrePhase1.2and1.3SitePlanNo.820150120MCPBNo.15-14812102015.pdf,units_per_acre,40.69,Phases 1.2 and 1.3 at 40.69 du/ac on 7.52 ac; unit count not legible in OCR
+820160060__Dowdens-Station-Site-Plan-No.-820160060-MCPB-NO.-16-107-09222016.pdf,bonus_pct,8.2,"105 du (21 SFD + 84 TH) incl 14 MPDUs (13.3%) on 24.37 ac PD-4; 8.2% bonus density provided; 118 units with the full 21.6% bonus, i.e. 97 base units"
+820160060__Dowdens-Station-Site-Plan-No.-820160060-MCPB-NO.-16-107-09222016.pdf,mpdu_pct,13.3,"105 du (21 SFD + 84 TH) incl 14 MPDUs (13.3%) on 24.37 ac PD-4; 8.2% bonus density provided; 118 units with the full 21.6% bonus, i.e. 97 base units"
+820160060__Dowdens-Station-Site-Plan-No.-820160060-MCPB-NO.-16-107-09222016.pdf,max_units_permitted,118,"105 du (21 SFD + 84 TH) incl 14 MPDUs (13.3%) on 24.37 ac PD-4; 8.2% bonus density provided; 118 units with the full 21.6% bonus, i.e. 97 base units"
+820160060__Dowdens-Station-Site-Plan-No.-820160060-MCPB-NO.-16-107-09222016.pdf,base_units_permitted,97,"105 du (21 SFD + 84 TH) incl 14 MPDUs (13.3%) on 24.37 ac PD-4; 8.2% bonus density provided; 118 units with the full 21.6% bonus, i.e. 97 base units"
+82016007A__Ripley-II-Site-Plan-No.-820160070-09222016-MCPB-NO.-16-099.pdf,approved_res_gfa_sf,419181,"440 MF du incl 15% MPDUs; 419,181 sf residential on 1.66 ac CR-5.0 C-4.0 R-4.75 H-200T"
+82016007A__Ripley-II-Site-Plan-No.-820160070-09222016-MCPB-NO.-16-099.pdf,mpdu_count,,"440 MF du incl 15% MPDUs; 419,181 sf residential on 1.66 ac CR-5.0 C-4.0 R-4.75 H-200T"
+82016007A__Ripley-II-Site-Plan-No.-820160070-09222016-MCPB-NO.-16-099.pdf,bonus_pct,,"440 MF du incl 15% MPDUs; 419,181 sf residential on 1.66 ac CR-5.0 C-4.0 R-4.75 H-200T"
+82016007A__Ripley-II-Site-Plan-No.-820160070-09222016-MCPB-NO.-16-099.pdf,tract_acres,1.672,"440 MF du incl 15% MPDUs; 419,181 sf residential on 1.66 ac CR-5.0 C-4.0 R-4.75 H-200T"
+82016007A__Ripley-II-Site-Plan-No.-82016007A-MCPB-No.-19-041.pdf,approved_res_gfa_sf,419181,"height amendment; program unchanged: 440 MF du incl 15% MPDUs, 419,181 sf residential, gross tract 72,835 sf"
+82016007A__Ripley-II-Site-Plan-No.-82016007A-MCPB-No.-19-041.pdf,tract_acres,1.672,"height amendment; program unchanged: 440 MF du incl 15% MPDUs, 419,181 sf residential, gross tract 72,835 sf"
+820160140__SligoArtspaceSitePlanNo.820160140MCPBNO.16-06007212016.pdf,approved_units,79,"68 MF + 11 TH = 79 du; 110,000 sf residential (0.92 FAR)"
+820170020__Randolph-Farms-Site-Plan-No.-820170020-MCPB-No.-17-062.pdf,tract_acres,8.44,"104 TH incl 12.5% MPDUs on 8.44 ac RT-15; 15 du/ac permitted, 109 du by private covenant"
+820170020__Randolph-Farms-Site-Plan-No.-820170020-MCPB-No.-17-062.pdf,max_units_permitted,109,"104 TH incl 12.5% MPDUs on 8.44 ac RT-15; 15 du/ac permitted, 109 du by private covenant"
+820170060__Bradfords-Landing-Site-Plan-No.-820170060-MCPB-NO.-17-054-06292017.pdf,bonus_pct,22,244 du incl 25% MPDUs on 28.3 ac R-200/TDR-7; 143 TDRs; 22% density bonus; master plan max 7 du/ac
+820170060__Bradfords-Landing-Site-Plan-No.-820170060-MCPB-NO.-17-054-06292017.pdf,zone,R-200/TDR-7,244 du incl 25% MPDUs on 28.3 ac R-200/TDR-7; 143 TDRs; 22% density bonus; master plan max 7 du/ac
+820170060__Bradfords-Landing-Site-Plan-No.-820170060-MCPB-NO.-17-054-06292017.pdf,units_per_acre,,244 du incl 25% MPDUs on 28.3 ac R-200/TDR-7; 143 TDRs; 22% density bonus; master plan max 7 du/ac
+820170130__Bloom-Montgomery-Village-Site-Plan-No.820170130-MCPB-No.-17-111.pdf,mpdu_pct,13.8,494 du incl 68 MPDUs on 147 ac CRN-0.5 C-0.0 R-0.5 H-65 / TLD
+820170160__Correction-of-Resolution-memo-820170160-Mount-Prospect-signed.pdf,usable,0,memo correcting the Mount Prospect resolution
+820170160__Mt-Prospect-Site-Plan-No.-820170160-MCPB-No.-18-017.pdf,approved_units,187,limited to 187 total du (120 SFD + 66 SFA + 1 existing) incl 24 MPDUs on PD-2
+820170160__Mt-Prospect-Site-Plan-No.-820170160-MCPB-No.-18-017.pdf,mpdu_pct,12.8,limited to 187 total du (120 SFD + 66 SFA + 1 existing) incl 24 MPDUs on PD-2
+820170160__Mt-Prospect-Site-Plan-No.-820170160-MCPB-No.-18·017.pdf,approved_units,187,limited to 187 total du (120 SFD + 66 SFA + 1 existing) incl 24 MPDUs on PD-2
+820170160__Mt-Prospect-Site-Plan-No.-820170160-MCPB-No.-18·017.pdf,mpdu_pct,12.8,limited to 187 total du (120 SFD + 66 SFA + 1 existing) incl 24 MPDUs on PD-2
+820170170__WMAL-Bethesda-Site-Plan-No.-820170170-MCPB-No.-18-124.pdf,max_units_permitted,309,309 du incl 12.5% + 1 MPDUs (40) on 74.83 ac R-90; maximum density (74.83-4.30) x 4.39 = 309 units
+820180010__North-Bethesda-Town-Center-Parcel-GSite-Plan-No.-820180010-MCPB-No.-18-003.pdf,approved_res_gfa_sf,320000,"MF building up to 320,000 sf with up to 294 du incl 12.5% MPDUs (Parcel G of a 32.42-ac site)"
+820180010__North-Bethesda-Town-Center-Parcel-GSite-Plan-No.-820180010-MCPB-No.-18-003.pdf,tract_acres,,"MF building up to 320,000 sf with up to 294 du incl 12.5% MPDUs (Parcel G of a 32.42-ac site)"
+820180020__Montgomery-Village-Center-Site-Plan-No.-820180020-MCPB-No.-18-038-1.pdf,approved_units,32,"32-unit MF condo building incl two MPDUs, 35,100 sf residential, on 18.78 ac CRT-1.5 C-0.75 R-1.0 H-75; the preliminary plan covers 115 du"
+820180020__Montgomery-Village-Center-Site-Plan-No.-820180020-MCPB-No.-18-038-1.pdf,mpdu_count,2,"32-unit MF condo building incl two MPDUs, 35,100 sf residential, on 18.78 ac CRT-1.5 C-0.75 R-1.0 H-75; the preliminary plan covers 115 du"
+820180020__Montgomery-Village-Center-Site-Plan-No.-820180020-MCPB-No.-18-038-1.pdf,mpdu_pct,6.3,"32-unit MF condo building incl two MPDUs, 35,100 sf residential, on 18.78 ac CRT-1.5 C-0.75 R-1.0 H-75; the preliminary plan covers 115 du"
+820180020__Montgomery-Village-Center-Site-Plan-No.-820180020-MCPB-No.-18-038-1.pdf,tract_acres,18.78,"32-unit MF condo building incl two MPDUs, 35,100 sf residential, on 18.78 ac CRT-1.5 C-0.75 R-1.0 H-75; the preliminary plan covers 115 du"
+820180020__Montgomery-Village-Center-Site-Plan-No.-820180020-MCPB-No.-18-038.pdf,approved_units,32,"32-unit MF condo building incl two MPDUs, 35,100 sf residential, on 18.78 ac CRT-1.5 C-0.75 R-1.0 H-75; the preliminary plan covers 115 du"
+820180020__Montgomery-Village-Center-Site-Plan-No.-820180020-MCPB-No.-18-038.pdf,mpdu_count,2,"32-unit MF condo building incl two MPDUs, 35,100 sf residential, on 18.78 ac CRT-1.5 C-0.75 R-1.0 H-75; the preliminary plan covers 115 du"
+820180020__Montgomery-Village-Center-Site-Plan-No.-820180020-MCPB-No.-18-038.pdf,mpdu_pct,6.3,"32-unit MF condo building incl two MPDUs, 35,100 sf residential, on 18.78 ac CRT-1.5 C-0.75 R-1.0 H-75; the preliminary plan covers 115 du"
+820180020__Montgomery-Village-Center-Site-Plan-No.-820180020-MCPB-No.-18-038.pdf,tract_acres,18.78,"32-unit MF condo building incl two MPDUs, 35,100 sf residential, on 18.78 ac CRT-1.5 C-0.75 R-1.0 H-75; the preliminary plan covers 115 du"
+820180060__Cabin-Branch-Multi-Family-Site-Plan-No.-820180060-MCPB-No.-18-021.pdf,mpdu_count,68,272 MF du incl 25% MPDUs and 48 TDRs
+820180120__8280-Wisconsin-Avenue-Site-Plan-No.-820180120-MCPB-No.-18-107.pdf,usable,0,"resolution approves 820180230, a non-residential R&D/office project; wrong match for 820180120"
+820180120__8280-Wisconsin-Avenue-Site-Plan-No.-820180120-MCPB-No.-18-107.pdf,resolution_plan,820180230,"resolution approves 820180230, a non-residential R&D/office project; wrong match for 820180120"
+820180120__8280-Wisconsin-Avenue-Site-Plan-No.-820180120-MCPB-No.-18-107.pdf,plan_match,False,"resolution approves 820180230, a non-residential R&D/office project; wrong match for 820180120"
+820180120__8280-Wisconsin-Avenue-Site-Plan-No.-820180120-MCPB-No.-18-107.pdf,same_project,False,"resolution approves 820180230, a non-residential R&D/office project; wrong match for 820180120"
+820180120__ZOM-Bethesda-Site-Plan-No.-820180120-MCPB-No.-18-081.pdf,tract_acres,1.845,"up to 230 MF du incl 15% MPDUs, 253,200 sf, on 80,381 sf of CR 2.25/2.0/1.0 (three zones)"
+820180120__ZOM-Bethesda-Site-Plan-No.-820180120-MCPB-No.-18-081.pdf,zone,CR-2.25 & CR-2.0 & CR-1.0,"up to 230 MF du incl 15% MPDUs, 253,200 sf, on 80,381 sf of CR 2.25/2.0/1.0 (three zones)"
+820180120__ZOM-Bethesda-Site-Plan-No.-820180120-MCPB-No.-18-081.pdf,cr_r_far,,"up to 230 MF du incl 15% MPDUs, 253,200 sf, on 80,381 sf of CR 2.25/2.0/1.0 (three zones)"
+820180120__ZOM-Bethesda-Site-Plan-No.-820180120-MCPB-No.-18-081.pdf,mpdu_count,,"up to 230 MF du incl 15% MPDUs, 253,200 sf, on 80,381 sf of CR 2.25/2.0/1.0 (three zones)"
+820180160__Ashton-Market-Site-Plan-No.-820180160-MCPB-No.-18-123.pdf,approved_units,23,20 TH + 3 MF = 23 du incl 12.5% MPDUs on 3.04 ac CRT-0.75 C-0.75 R-0.25 H-35 and TF-10
+820180160__Ashton-Market-Site-Plan-No.-820180160-MCPB-No.-18-123.pdf,zone,"CRT-0.75, C-0.75, R-0.25, H-35 & TF-10",20 TH + 3 MF = 23 du incl 12.5% MPDUs on 3.04 ac CRT-0.75 C-0.75 R-0.25 H-35 and TF-10
+820180170__Edgemont-at-Bethesda-II-Site-Plan-No.-820180170-MCPN-No.-18-095.pdf,mpdu_count,,"276 du (incl 122 existing) incl 15% MPDUs; 300,743 sf residential incl 138,083 sf BOZ density"
+820180170__Edgemont-at-Bethesda-II-Site-Plan-No.-820180170-MCPN-No.-18-095.pdf,boz_density_sf,138083,"276 du (incl 122 existing) incl 15% MPDUs; 300,743 sf residential incl 138,083 sf BOZ density"
+820180220__Fairchild-Apartments-Site-Plan-No.-820180220-MCPB-No.-18-136.pdf,approved_res_gfa_sf,201720,"212 MF du incl 12.5% MPDUs; 201,720 sf new residential on 5.49 ac CR-2.0 C-1.5 R-1.5 H-145T"
+820190020__Cabin-John-Village-Site-Plan-No.-820190020-MCPB-No.-19-047.pdf,approved_units,48,48 TH incl 12.5% MPDUs on 13.39 ac CRT-0.75 C-0.5 R-0.25 H-35 and R-90
+820190020__Cabin-John-Village-Site-Plan-No.-820190020-MCPB-No.-19-047.pdf,tract_acres,13.39,48 TH incl 12.5% MPDUs on 13.39 ac CRT-0.75 C-0.5 R-0.25 H-35 and R-90
+820190020__Cabin-John-Village-Site-Plan-No.-820190020-MCPB-No.-19-047.pdf,zone,"CRT-0.75, C-0.5, R-0.25, H-35 & R-90",48 TH incl 12.5% MPDUs on 13.39 ac CRT-0.75 C-0.5 R-0.25 H-35 and R-90
+820190070__Avalon-Residential-Site-Plan-No.-820190070-MCPB-No.-19-074-06202019.pdf,approved_units,50,16 SFA + 34 SFD = 50 du incl 16% MPDUs (8 units) on 10.28 ac TF-5; 4.78 du/ac
+820190070__Avalon-Residential-Site-Plan-No.-820190070-MCPB-No.-19-074-06202019.pdf,zone,TF-5,16 SFA + 34 SFD = 50 du incl 16% MPDUs (8 units) on 10.28 ac TF-5; 4.78 du/ac
+820190070__Avalon-Residential-Site-Plan-No.-820190070-MCPB-No.-19-074-06202019.pdf,zone_family,TF,16 SFA + 34 SFD = 50 du incl 16% MPDUs (8 units) on 10.28 ac TF-5; 4.78 du/ac
+820190070__Avalon-Residential-Site-Plan-No.-820190070-MCPB-No.-19-074-06202019.pdf,mpdu_count,8,16 SFA + 34 SFD = 50 du incl 16% MPDUs (8 units) on 10.28 ac TF-5; 4.78 du/ac
+820190110__Metro-Tower-Site-Plan-No.-820190110-MCPB-No.-19-086-07182019.pdf,mpdu_count,,"366 MF du incl 15% MPDUs; 389,000 sf residential incl 188,506 sf BOZ density; mapped 4.5 FAR after prior transfer"
+820190110__Metro-Tower-Site-Plan-No.-820190110-MCPB-No.-19-086-07182019.pdf,boz_density_sf,188506,"366 MF du incl 15% MPDUs; 389,000 sf residential incl 188,506 sf BOZ density; mapped 4.5 FAR after prior transfer"
+820200090__7000-Wisconsin-Avenue-Site-Plan-No.-820200090-MCPB-No.-20-030-04232020.pdf,mpdu_count,36,"200 MF du incl 17.6% (36) MPDUs; 200,000 sf residential; residential mapped 85,187 sf (2.75 FAR); MPDU density 29,520 sf; remainder is BOZ density"
+820200090__7000-Wisconsin-Avenue-Site-Plan-No.-820200090-MCPB-No.-20-030-04232020.pdf,boz_density_sf,85293,"200 MF du incl 17.6% (36) MPDUs; 200,000 sf residential; residential mapped 85,187 sf (2.75 FAR); MPDU density 29,520 sf; remainder is BOZ density"
+820200160__Creekside-at-Cabin-Branch-Site-Plan-No.-820200160-MCPB-No.-21-097-09092021.pdf,max_units_permitted,394,326 du incl 12.5% MPDUs on 402.6 ac RNC optional method; data table maximum 394 units
+820210080__Northpark-at-Montrose-Phase-I-Site-Plan-No.-820210080-MCPB-No.-21-052-06242021.pdf,approved_units,141,"Phase I: 107 TH + 34 two-over-two = 141 du, 325,924 sf residential, 22 MPDUs (15%), on 12.62 ac of three CR zones"
+820210080__Northpark-at-Montrose-Phase-I-Site-Plan-No.-820210080-MCPB-No.-21-052-06242021.pdf,tract_acres,12.62,"Phase I: 107 TH + 34 two-over-two = 141 du, 325,924 sf residential, 22 MPDUs (15%), on 12.62 ac of three CR zones"
+820210080__Northpark-at-Montrose-Phase-I-Site-Plan-No.-820210080-MCPB-No.-21-052-06242021.pdf,cr_r_far,,"Phase I: 107 TH + 34 two-over-two = 141 du, 325,924 sf residential, 22 MPDUs (15%), on 12.62 ac of three CR zones"
+820210080__Northpark-at-Montrose-Phase-I-Site-Plan-No.-820210080-MCPB-No.-21-052-06242021.pdf,zone,CR-2.0 C-1.0 R-1.5 H-200 & CR-2.0 C-0.25 R-1.75 H-75 & CRN-0.75 C-0.0 R-0.75 H-50,"Phase I: 107 TH + 34 two-over-two = 141 du, 325,924 sf residential, 22 MPDUs (15%), on 12.62 ac of three CR zones"
+820210170__King-Souder-Property-Site-Plan-No.-820210170-MCPB-No.-21-129-12092021.pdf,tract_acres,9.06,"62 TH incl 25% MPDUs; 158,000 sf residential on 9.06 ac CRT-1.0 C-0.5 R-0.5 H-55T with TDR 1.16 overlay; 15-20 du/ac is the master plan range"
+820210170__King-Souder-Property-Site-Plan-No.-820210170-MCPB-No.-21-129-12092021.pdf,units_per_acre,,"62 TH incl 25% MPDUs; 158,000 sf residential on 9.06 ac CRT-1.0 C-0.5 R-0.5 H-55T with TDR 1.16 overlay; 15-20 du/ac is the master plan range"
+820220100__North-Bethesda-Center-Parcel-H-Site-Plan-No.-820220100-MCPB-No.-22-066-1.pdf,approved_res_gfa_sf,340000,"365 MF du incl 12.5% MPDUs; 340,000 sf residential; Parcel H 1.62 ac; reviewed under TS-M zoning in effect 2014"
+820220100__North-Bethesda-Center-Parcel-H-Site-Plan-No.-820220100-MCPB-No.-22-066-1.pdf,tract_acres,1.62,"365 MF du incl 12.5% MPDUs; 340,000 sf residential; Parcel H 1.62 ac; reviewed under TS-M zoning in effect 2014"
+820220100__North-Bethesda-Center-Parcel-H-Site-Plan-No.-820220100-MCPB-No.-22-066-1.pdf,zone,TS-M,"365 MF du incl 12.5% MPDUs; 340,000 sf residential; Parcel H 1.62 ac; reviewed under TS-M zoning in effect 2014"
+820220100__North-Bethesda-Center-Parcel-H-Site-Plan-No.-820220100-MCPB-No.-22-066-1.pdf,zone_family,TS,"365 MF du incl 12.5% MPDUs; 340,000 sf residential; Parcel H 1.62 ac; reviewed under TS-M zoning in effect 2014"
+820220100__North-Bethesda-Center-Parcel-H-Site-Plan-No.-820220100-MCPB-No.-22-066-1.pdf,cr_total_far,,"365 MF du incl 12.5% MPDUs; 340,000 sf residential; Parcel H 1.62 ac; reviewed under TS-M zoning in effect 2014"
+820220100__North-Bethesda-Center-Parcel-H-Site-Plan-No.-820220100-MCPB-No.-22-066-1.pdf,cr_c_far,,"365 MF du incl 12.5% MPDUs; 340,000 sf residential; Parcel H 1.62 ac; reviewed under TS-M zoning in effect 2014"
+820220100__North-Bethesda-Center-Parcel-H-Site-Plan-No.-820220100-MCPB-No.-22-066-1.pdf,cr_r_far,,"365 MF du incl 12.5% MPDUs; 340,000 sf residential; Parcel H 1.62 ac; reviewed under TS-M zoning in effect 2014"
+820220100__North-Bethesda-Center-Parcel-H-Site-Plan-No.-820220100-MCPB-No.-22-066-1.pdf,cr_height_ft,,"365 MF du incl 12.5% MPDUs; 340,000 sf residential; Parcel H 1.62 ac; reviewed under TS-M zoning in effect 2014"
+820220100__North-Bethesda-Center-Parcel-H-Site-Plan-No.-820220100-MCPB-No.-22-066.pdf,approved_res_gfa_sf,340000,"365 MF du incl 12.5% MPDUs; 340,000 sf residential; Parcel H 1.62 ac; reviewed under TS-M zoning in effect 2014"
+820220100__North-Bethesda-Center-Parcel-H-Site-Plan-No.-820220100-MCPB-No.-22-066.pdf,tract_acres,1.62,"365 MF du incl 12.5% MPDUs; 340,000 sf residential; Parcel H 1.62 ac; reviewed under TS-M zoning in effect 2014"
+820220100__North-Bethesda-Center-Parcel-H-Site-Plan-No.-820220100-MCPB-No.-22-066.pdf,zone,TS-M,"365 MF du incl 12.5% MPDUs; 340,000 sf residential; Parcel H 1.62 ac; reviewed under TS-M zoning in effect 2014"
+820220100__North-Bethesda-Center-Parcel-H-Site-Plan-No.-820220100-MCPB-No.-22-066.pdf,zone_family,TS,"365 MF du incl 12.5% MPDUs; 340,000 sf residential; Parcel H 1.62 ac; reviewed under TS-M zoning in effect 2014"
+820220100__North-Bethesda-Center-Parcel-H-Site-Plan-No.-820220100-MCPB-No.-22-066.pdf,cr_total_far,,"365 MF du incl 12.5% MPDUs; 340,000 sf residential; Parcel H 1.62 ac; reviewed under TS-M zoning in effect 2014"
+820220100__North-Bethesda-Center-Parcel-H-Site-Plan-No.-820220100-MCPB-No.-22-066.pdf,cr_c_far,,"365 MF du incl 12.5% MPDUs; 340,000 sf residential; Parcel H 1.62 ac; reviewed under TS-M zoning in effect 2014"
+820220100__North-Bethesda-Center-Parcel-H-Site-Plan-No.-820220100-MCPB-No.-22-066.pdf,cr_r_far,,"365 MF du incl 12.5% MPDUs; 340,000 sf residential; Parcel H 1.62 ac; reviewed under TS-M zoning in effect 2014"
+820220100__North-Bethesda-Center-Parcel-H-Site-Plan-No.-820220100-MCPB-No.-22-066.pdf,cr_height_ft,,"365 MF du incl 12.5% MPDUs; 340,000 sf residential; Parcel H 1.62 ac; reviewed under TS-M zoning in effect 2014"
+820220100__North-Bethesda-Parcel-H-Site-Plan-No.-820220100-MCPB-No.-22-066-CORRECTEDpdf.pdf,approved_res_gfa_sf,340000,"365 MF du incl 12.5% MPDUs; 340,000 sf residential; Parcel H 1.62 ac; reviewed under TS-M zoning in effect 2014"
+820220100__North-Bethesda-Parcel-H-Site-Plan-No.-820220100-MCPB-No.-22-066-CORRECTEDpdf.pdf,tract_acres,1.62,"365 MF du incl 12.5% MPDUs; 340,000 sf residential; Parcel H 1.62 ac; reviewed under TS-M zoning in effect 2014"
+820220100__North-Bethesda-Parcel-H-Site-Plan-No.-820220100-MCPB-No.-22-066-CORRECTEDpdf.pdf,zone,TS-M,"365 MF du incl 12.5% MPDUs; 340,000 sf residential; Parcel H 1.62 ac; reviewed under TS-M zoning in effect 2014"
+820220100__North-Bethesda-Parcel-H-Site-Plan-No.-820220100-MCPB-No.-22-066-CORRECTEDpdf.pdf,zone_family,TS,"365 MF du incl 12.5% MPDUs; 340,000 sf residential; Parcel H 1.62 ac; reviewed under TS-M zoning in effect 2014"
+820220100__North-Bethesda-Parcel-H-Site-Plan-No.-820220100-MCPB-No.-22-066-CORRECTEDpdf.pdf,cr_total_far,,"365 MF du incl 12.5% MPDUs; 340,000 sf residential; Parcel H 1.62 ac; reviewed under TS-M zoning in effect 2014"
+820220100__North-Bethesda-Parcel-H-Site-Plan-No.-820220100-MCPB-No.-22-066-CORRECTEDpdf.pdf,cr_c_far,,"365 MF du incl 12.5% MPDUs; 340,000 sf residential; Parcel H 1.62 ac; reviewed under TS-M zoning in effect 2014"
+820220100__North-Bethesda-Parcel-H-Site-Plan-No.-820220100-MCPB-No.-22-066-CORRECTEDpdf.pdf,cr_r_far,,"365 MF du incl 12.5% MPDUs; 340,000 sf residential; Parcel H 1.62 ac; reviewed under TS-M zoning in effect 2014"
+820220100__North-Bethesda-Parcel-H-Site-Plan-No.-820220100-MCPB-No.-22-066-CORRECTEDpdf.pdf,cr_height_ft,,"365 MF du incl 12.5% MPDUs; 340,000 sf residential; Parcel H 1.62 ac; reviewed under TS-M zoning in effect 2014"
+820220120__ELP-Bethesda-at-Rock-Spring-Phase-1B-Site-Plan-No-820220120-MCPB-No.-22-055.pdf,usable,0,"Phase 1B: 5,700 sf marketing/retail building and linear park; no dwelling units"
+820220120__ELP-Bethesda-at-Rock-Spring-Phase-1B-Site-Plan-No-820220120-MCPB-No.-22-055.pdf,approved_res_gfa_sf,,"Phase 1B: 5,700 sf marketing/retail building and linear park; no dwelling units"
+820220120__ELP-Phase-1B-Site-Plan-No-820220120-MCPB-No.-22-055.pdf,usable,0,"Phase 1B: 5,700 sf marketing/retail building and linear park; no dwelling units"
+820220120__ELP-Phase-1B-Site-Plan-No-820220120-MCPB-No.-22-055.pdf,approved_res_gfa_sf,,"Phase 1B: 5,700 sf marketing/retail building and linear park; no dwelling units"
+820220190__The-Claiborne-Site-Plan-No.-820220190-MCPB-22-093pdf.pdf,boz_density_sf,36273,"84 MF du incl 15% MPDUs; 92,000 sf residential incl 36,273 sf BOZ density and 7,741 sf transferred"
+820220220__4910-4920-Strathmore-Avenue-Site-Plan-No-820220220-MCPB-No-22-119.pdf,approved_units,113,"9 SFD + 104 TH = 113 du incl 15% MPDUs on 15.81 ac CRNF-0.75 C-0.25 R-0.75 H-50; max residential 516,658 sf; 482,000 sf total includes a 138,000 sf residential care facility"
+820220220__4910-4920-Strathmore-Avenue-Site-Plan-No-820220220-MCPB-No-22-119.pdf,tract_acres,15.81,"9 SFD + 104 TH = 113 du incl 15% MPDUs on 15.81 ac CRNF-0.75 C-0.25 R-0.75 H-50; max residential 516,658 sf; 482,000 sf total includes a 138,000 sf residential care facility"
+820220220__4910-4920-Strathmore-Avenue-Site-Plan-No-820220220-MCPB-No-22-119.pdf,zone,"CRNF-0.75, C-0.25, R-0.75, H-50","9 SFD + 104 TH = 113 du incl 15% MPDUs on 15.81 ac CRNF-0.75 C-0.25 R-0.75 H-50; max residential 516,658 sf; 482,000 sf total includes a 138,000 sf residential care facility"
+820220220__4910-4920-Strathmore-Avenue-Site-Plan-No-820220220-MCPB-No-22-119.pdf,zone_family,CRNF,"9 SFD + 104 TH = 113 du incl 15% MPDUs on 15.81 ac CRNF-0.75 C-0.25 R-0.75 H-50; max residential 516,658 sf; 482,000 sf total includes a 138,000 sf residential care facility"
+820220220__4910-4920-Strathmore-Avenue-Site-Plan-No-820220220-MCPB-No-22-119.pdf,cr_total_far,0.75,"9 SFD + 104 TH = 113 du incl 15% MPDUs on 15.81 ac CRNF-0.75 C-0.25 R-0.75 H-50; max residential 516,658 sf; 482,000 sf total includes a 138,000 sf residential care facility"
+820220220__4910-4920-Strathmore-Avenue-Site-Plan-No-820220220-MCPB-No-22-119.pdf,cr_c_far,0.25,"9 SFD + 104 TH = 113 du incl 15% MPDUs on 15.81 ac CRNF-0.75 C-0.25 R-0.75 H-50; max residential 516,658 sf; 482,000 sf total includes a 138,000 sf residential care facility"
+820220220__4910-4920-Strathmore-Avenue-Site-Plan-No-820220220-MCPB-No-22-119.pdf,cr_r_far,0.75,"9 SFD + 104 TH = 113 du incl 15% MPDUs on 15.81 ac CRNF-0.75 C-0.25 R-0.75 H-50; max residential 516,658 sf; 482,000 sf total includes a 138,000 sf residential care facility"
+820220220__4910-4920-Strathmore-Avenue-Site-Plan-No-820220220-MCPB-No-22-119.pdf,cr_height_ft,50,"9 SFD + 104 TH = 113 du incl 15% MPDUs on 15.81 ac CRNF-0.75 C-0.25 R-0.75 H-50; max residential 516,658 sf; 482,000 sf total includes a 138,000 sf residential care facility"
+820220220__4910-4920-Strathmore-Avenue-Site-Plan-No-820220220-MCPB-No-22-119.pdf,approved_res_gfa_sf,344000,"9 SFD + 104 TH = 113 du incl 15% MPDUs on 15.81 ac CRNF-0.75 C-0.25 R-0.75 H-50; max residential 516,658 sf; 482,000 sf total includes a 138,000 sf residential care facility"
+82003007B__Century-Site-Plan-No-82003007F-MCPB-no-23-092.pdf,nonres_gfa_sf,248130,"Phase I-C: 48,550 sf retail + 199,580 sf hotel non-residential under CR-2.0 total"
+82003007B__Century-Site-Plan-No-82003007F-MCPB-no-23-092.pdf,unit_type,MF,"Phase I-C: 48,550 sf retail + 199,580 sf hotel non-residential under CR-2.0 total"
+82006017A__NoBe-Market-Formerly-North-Bethesda-Market-I-Site-Plan-No-82006017I-MCPB-No.-23-019.pdf,nonres_gfa_sf,175591,"TS-M 3.0 FAR on 5.91 ac; approved commercial on site 175,591 sf (223,000 incl. 59,900 sf cellar not counted)"
+82006017A__NoBe-Market-Formerly-North-Bethesda-Market-I-Site-Plan-No-82006017I-MCPB-No.-23-019.pdf,unit_type,MF,"TS-M 3.0 FAR on 5.91 ac; approved commercial on site 175,591 sf (223,000 incl. 59,900 sf cellar not counted)"
+820100070__10-112_20100715_09162010_820100070_darenstownattravilah.pdf,density_acres,4.89,data table: net tract area 4.89 ac (5.24 gross less 0.35 ac dedication)
+820100070__10-112_20100715_09162010_820100070_darenstownattravilah.pdf,unit_type,TH,data table: net tract area 4.89 ac (5.24 gross less 0.35 ac dedication)
+82008023A__11-035_20110421_07282011_82008023A_8711georgiaave.pdf,approved_units,160,condition limits the property to not more than 160 high-rise residential units (office-to-residential amendment)
+82008023A__11-035_20110421_07282011_82008023A_8711georgiaave.pdf,unit_type,MF,condition limits the property to not more than 160 high-rise residential units (office-to-residential amendment)
+820120020__12-027_20120223_03082012_820120020_midpikeplaza.pdf,tract_acres,6.77,"951,000 sf incl. up to 341,800 sf non-residential and 493 units on 6.77 gross ac CR-3 C-1.5 R-2.5 H-200"
+820120020__12-027_20120223_03082012_820120020_midpikeplaza.pdf,nonres_gfa_sf,341800,"951,000 sf incl. up to 341,800 sf non-residential and 493 units on 6.77 gross ac CR-3 C-1.5 R-2.5 H-200"
+820120020__12-027_20120223_03082012_820120020_midpikeplaza.pdf,unit_type,MF,"951,000 sf incl. up to 341,800 sf non-residential and 493 units on 6.77 gross ac CR-3 C-1.5 R-2.5 H-200"
+820120020__12-027_20120223_03082012_820120020_midpikeplaza.pdf,zone,"CR-3, C-1.5, R-2.5, H-200","951,000 sf incl. up to 341,800 sf non-residential and 493 units on 6.77 gross ac CR-3 C-1.5 R-2.5 H-200"
+820120020__12-027_20120223_03082012_820120020_midpikeplaza.pdf,zone_family,CR,"951,000 sf incl. up to 341,800 sf non-residential and 493 units on 6.77 gross ac CR-3 C-1.5 R-2.5 H-200"
+820120020__12-027_20120223_03082012_820120020_midpikeplaza.pdf,cr_total_far,3,"951,000 sf incl. up to 341,800 sf non-residential and 493 units on 6.77 gross ac CR-3 C-1.5 R-2.5 H-200"
+820120020__12-027_20120223_03082012_820120020_midpikeplaza.pdf,cr_c_far,1.5,"951,000 sf incl. up to 341,800 sf non-residential and 493 units on 6.77 gross ac CR-3 C-1.5 R-2.5 H-200"
+820120020__12-027_20120223_03082012_820120020_midpikeplaza.pdf,cr_r_far,2.5,"951,000 sf incl. up to 341,800 sf non-residential and 493 units on 6.77 gross ac CR-3 C-1.5 R-2.5 H-200"
+820120020__12-027_20120223_03082012_820120020_midpikeplaza.pdf,cr_height_ft,200,"951,000 sf incl. up to 341,800 sf non-residential and 493 units on 6.77 gross ac CR-3 C-1.5 R-2.5 H-200"
+820130030__13-052_20130411_04252013_820130030_bethesdamews.pdf,density_acres,9.79,density on usable area: 9.79 ac x 6.10 (MPDU max) per data table
+820130030__13-052_20130411_04252013_820130030_bethesdamews.pdf,unit_type,TH,density on usable area: 9.79 ac x 6.10 (MPDU max) per data table
+820130270__14-008_20140227_03202014_820130270_glenmontmetrocenterphase1.1.pdf,unit_type,TH,171 townhouses; TS-R density measured on the 30.70-ac parent development plan
+820150120__GlenmontMetroCentrePhase1.2and1.3SitePlanNo.820150120MCPBNo.15-14812102015.pdf,approved_units,306,260 MF + 46 TH = 306 du (decision)
+820150120__GlenmontMetroCentrePhase1.2and1.3SitePlanNo.820150120MCPBNo.15-14812102015.pdf,unit_type,MF,260 MF + 46 TH = 306 du (decision)
+820160200__7272-Wisconsin-Avenue-Site-Plan-No.-820160200-MCPB-NO.-16-141-0105192017.pdf,nonres_gfa_sf,375372,"360,800 sf office + 14,572 sf retail under CR-8.0 total on 2.69 ac"
+820160200__7272-Wisconsin-Avenue-Site-Plan-No.-820160200-MCPB-NO.-16-141-0105192017.pdf,unit_type,MF,"360,800 sf office + 14,572 sf retail under CR-8.0 total on 2.69 ac"
+820170020__Randolph-Farms-Site-Plan-No.-820170020-MCPB-No.-17-062.pdf,approved_units,104,104 single-family attached townhomes on 8.44 ac RT-15
+820170020__Randolph-Farms-Site-Plan-No.-820170020-MCPB-No.-17-062.pdf,unit_type,TH,104 single-family attached townhomes on 8.44 ac RT-15
+820170130__Bloom-Montgomery-Village-Site-Plan-No.820170130-MCPB-No.-17-111.pdf,cr_r_far,,site spans CRN-0.5 and TLD zones (open space required separately in each); one mapped FAR does not apply
+820170130__Bloom-Montgomery-Village-Site-Plan-No.820170130-MCPB-No.-17-111.pdf,unit_type,TH,site spans CRN-0.5 and TLD zones (open space required separately in each); one mapped FAR does not apply
+820180020__Montgomery-Village-Center-Site-Plan-No.-820180020-MCPB-No.-18-038-1.pdf,usable,0,resolution approves a 32-unit building within an 18.78-ac mixed retail center; site capacity not comparable to the 104-unit report project
+820180160__Ashton-Market-Site-Plan-No.-820180160-MCPB-No.-18-123.pdf,cr_r_far,,site spans CRT-0.75 C-0.75 R-0.25 and TF-10; one mapped FAR does not apply
+820180160__Ashton-Market-Site-Plan-No.-820180160-MCPB-No.-18-123.pdf,unit_type,TH,site spans CRT-0.75 C-0.75 R-0.25 and TF-10; one mapped FAR does not apply
+820180220__Fairchild-Apartments-Site-Plan-No.-820180220-MCPB-No.-18-136.pdf,nonres_gfa_sf,20933,"retains 20,933 sf existing restaurant uses"
+820180220__Fairchild-Apartments-Site-Plan-No.-820180220-MCPB-No.-18-136.pdf,unit_type,MF,"retains 20,933 sf existing restaurant uses"
+820190020__Cabin-John-Village-Site-Plan-No.-820190020-MCPB-No.-19-047.pdf,unit_type,TH,48 townhouses on the 2.29-ac residential portion of a 13.39-ac commercial center site
+820210170__King-Souder-Property-Site-Plan-No.-820210170-MCPB-No.-21-129-12092021.pdf,unit_type,TH,62 townhouses
+820220220__4910-4920-Strathmore-Avenue-Site-Plan-No-820220220-MCPB-No-22-119.pdf,approved_res_gfa_sf,344000,"482,000 sf includes a 138,000 sf residential care facility (not dwelling units) under the R-0.75 cap"
+820220220__4910-4920-Strathmore-Avenue-Site-Plan-No-820220220-MCPB-No-22-119.pdf,nonres_gfa_sf,138000,"482,000 sf includes a 138,000 sf residential care facility (not dwelling units) under the R-0.75 cap"
+820220220__4910-4920-Strathmore-Avenue-Site-Plan-No-820220220-MCPB-No-22-119.pdf,unit_type,TH,"482,000 sf includes a 138,000 sf residential care facility (not dwelling units) under the R-0.75 cap"
+820140190__14-114_2014121-04_12042014_820140190_avawheaton.pdf,unit_type,MF,324 MF units
+820110100__11-102_20111020_01192012_820110100_10914georgiaavenue.pdf,unit_type,MF,245 MF units; TS-R also limited to 2.5 FAR
+820220100__North-Bethesda-Center-Parcel-H-Site-Plan-No.-820220100-MCPB-No.-22-066-1.pdf,unit_type,MF,365 MF units
+82006036B__12-083_20120503_07122012_8200603B_8300wisconsinavenue.pdf,base_units_permitted,360,"amendment raises density to the CBD-1 optional-method maximum 3.0 FAR with up to 360 MF du; 12.5% MPDUs earn no bonus, so 360 is at base (CBD du/ac table limits are not applied in these resolutions)"
+820110010__10-149_20101028_11042010_820110010_wheatonsafeway.pdf,base_units_permitted,735,"486 du at 5.29 FAR of the 8.0 FAR CBD-3 maximum; base scaled to 8.0 FAR (486 x 8.0/5.29), assumes the non-residential share is unchanged"
+82011006A__13-045_20130404_04042013_82011006A_8621georgiaavenue.pdf,base_units_permitted,292,"292 du at 5.5 FAR vs CBD-2 maximum 5.0 FAR; the extra 0.5 FAR is the workforce-housing allowance under 59-A-6.18 (17 WFHUs), not an MPDU bonus, so 292 is treated as base"
+820070220__09-015_20081106_06182009_820070220_clarksburgtowncenter.pdf,base_units_permitted,1428,"RMX-2 data table: 7 du/ac permitted = 1,428 du; approved 1,213 at 12.5% MPDUs (no bonus earned)"
+82011013A__MCPB-12-147-Village-West-at-Germantown-Center-82011013A-Final.pdf,base_units_permitted,502,"binding cap is the Sector Plan 0.8 FAR (zone allows 30 du/ac = 794): approved 0.75 FAR incl 14,426 sf commercial; residential capacity 0.8 x 26.48 ac - 14,426 = 908,349 sf vs 850,679 sf used -> 470 x 908,349/850,679"
+820110100__11-102_20111020_01192012_820110100_10914georgiaavenue.pdf,base_units_permitted,245,"resolution: 2.5 FAR and 150 du/ac maxima are both above the density proposed (245 du); actual FAR illegible, so 245 is a lower bound on base"
+820130050__13-026_20130228_04252013_820130050_8415fentonstreet.pdf,base_units_permitted,259,"combined CBD-1/CBD-0.5 density permitted 257,002 sf vs approximately 257,000-261,000 sf approved (table garbled): at base with 12.5% MPDUs"
+82013020A__15-083_20150716_07302015_82013020A_travilahgrove.pdf,base_units_permitted,131,"CR standard method: 0.5 FAR (298,938 sf) permitted and approved; 12.5% MPDUs, at base"
+820180010__North-Bethesda-Town-Center-Parcel-GSite-Plan-No.-820180010-MCPB-No.-18-003.pdf,base_units_permitted,500,"Development Plan G-801 limits Parcel G to 500 du (density limited by units, not FAR); 294 approved with 12.5% MPDUs"
+820220100__North-Bethesda-Center-Parcel-H-Site-Plan-No.-820220100-MCPB-No.-22-066-1.pdf,base_units_permitted,500,"Development Plan G-801 limits Parcel H to 500 du (density limited by units, not FAR); 365 approved with 12.5% MPDUs (pre-2018 rules)"
+820180120__ZOM-Bethesda-Site-Plan-No.-820180120-MCPB-No.-18-081.pdf,base_units_permitted,203,"BOZ data table: 209,176 sf residential = 16,697 mapped (84,967 less 68,270 transferred) + 168,233 BOZ + 24,246 MPDU density; base excludes only the MPDU density: 230 x 184,930/209,176"
+820200090__7000-Wisconsin-Avenue-Site-Plan-No.-820200090-MCPB-No.-20-030-04232020.pdf,base_units_permitted,170,"BOZ data table: 200,000 sf residential incl 29,520 sf MPDU density (17.6% MPDUs) and 117,069 sf BOZ; base excludes only the MPDU density: 200 x 170,480/200,000"
+820190070__Avalon-Residential-Site-Plan-No.-820190070-MCPB-No.-19-074-06202019.pdf,base_units_permitted,41.12,"TF-5 floating zone: master plan base density 4 du/ac x 10.28 ac; MPDU bonus added on top (4.87 du/ac, 50 du)"
