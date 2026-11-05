@@ -1,5 +1,7 @@
 # Notes on Audrey's Montgomery_MPDU pipeline
 
+Paths before 5 Nov 2026: the working copy `~/mpdu_data/full_run` is now this repo (`~/Desktop/montgomery_mpdu`), and the files once staged in `replication/` are in `code/`, `data/raw/` and `docs/`; its downloaded documents are in `sources/planning_board/` and `sources/subsidy/` (outside git).
+
 ## Kink bunching split at the October 2018 schedule change (Oct 31 2026)
 
 - `07_kink_bunching_by_regime.py` (in `code/03_analysis` of the working copy, run last by `run_all.py`) redoes Audrey's kink counts and figure separately for each schedule. Audrey's `04_kink_bunching_figure.py` pools all years, and its comment dates the 20% tier to the 2014 rewrite; it came with ZTA 18-06 (Ord. 18-52, effective 29 Oct 2018).
@@ -173,7 +175,7 @@ Every row cites its passage: each quote was matched word for word against the te
 
 ## Plan numbers for the 2024-report projects, and a third hand-coding round (Nov 2 2026)
 - **Why they had no base.** The 2024 annual report prints no site plan numbers, and its projects that no other report lists never got one from Audrey's linking steps. So `04` had no resolution to read.
-- **Fix: `data/raw/mpdu_annual_reports/site_plan_fills.csv`**, a hand-made file (file, project_name, site_plan, note). It is copied from `replication/site_plan_fills.csv`. Each plan number was found by name, aka and units in the Planning GIS site plan layer, then checked against the resolution's approved units.
+- **Fix: `data/raw/mpdu_annual_reports/site_plan_fills.csv`**, a hand-made file (file, project_name, site_plan, note). Each plan number was found by name, aka and units in the Planning GIS site plan layer, then checked against the resolution's approved units.
   - `01_combine_reports.py` applies it as step d., after Audrey's linking, and only to offerings that still have no plan. It flags them in `site_plan_hand`. Without the file the port still reproduces Audrey's `.dta`.
   - 12 offerings on 9 report projects were filled: Armstrong Property 820160110, 7607 Old Georgetown Road 820190030, Bloom MV Areas (2 offerings) 820170130, Strathmore Square 820220070, 8787 Georgia 820180100, Westside Shady Grove 820130220 (name match only; that plan is dropped anyway), St. Elmo 82017003A, 8015 Old Georgetown Road 820200130, 4909 Auburn Avenue 820190100.
   - Heritage Gardens is left out. It has Preliminary Plan 120230070 (63 du) and no site plan.
@@ -199,7 +201,7 @@ Every row cites its passage: each quote was matched word for word against the te
   - **Staff reports split into parts.** For Eton Square, Lionsgate and Woodlake we had only part 1. The data tables are in parts A/B.
 - **Changes to `12_download_pb_staff_reports.py`:**
   - It also indexes the 2006 `.shtm` agenda pages (`index_2006_shtm.csv`: 15 pages, 478 links, 225 with a plan number).
-  - It reads an optional hand-made `data/raw/pb_archive_reports/document_fills.csv` (site_plan, url, note), copied from `replication/document_fills.csv`. It has 82 documents for 25 site plans. Each is filed under the **report project's** plan stem, even where that number is wrong, so `03` ties it to the report project. The note says what the document is for.
+  - It reads an optional hand-made `data/raw/pb_archive_reports/document_fills.csv` (site_plan, url, note). It has 82 documents for 25 site plans. Each is filed under the **report project's** plan stem, even where that number is wrong, so `03` ties it to the report project. The note says what the document is for.
   - The run downloaded 283 documents: 52 from the hand list and the rest from the 2006 pages and the plans they cite.
 - **The parser alone then gave bases for 10 more projects.** All 10 were checked by hand. Leaman Farm and The Argent are right. The other 8 were wrong (wrong acreage, misread unit counts, or the MPDU share read as the bonus) and were recoded.
 - **Fourth hand-coding round.** Same rules and checks as before: all 54 quotes were found word for word. I checked the image-only tables myself for Cameron (Item 3, PDF p. 6), Meadows (item3_050103 p. 22) and Eton Square (ITEM13A p. 5). 57 rows were added to `manual_coding_additions.csv`. That includes `same_project` = True on the right document for the wrong-number cases (Meadows, Woodlake, Sandy Spring Village, The Astrid).
@@ -321,7 +323,7 @@ Every row cites its passage: each quote was matched word for word against the te
   3. the row whose totals match that approval;
   4. otherwise the latest report.
 - **Not duplicates:** separate buildings or phases on one plan, each with its own units: Park Potomac Townhomes / The Perry, The Darcy / The Flats, Glenmont Metrocentre 1.1 / 1.3 / The Atelier, the Cabin Branch phases, Clarksburg Village Phases 1, 2 and 3 (Encore), Whitehall Square / White Oak Phase 2, Preserve at Rock Creek (two builders' sections) and the Westside at Shady Grove phases. Where their density is set plan-wide they already share the plan's ratio (`PLAN_GROUPS` in `08`). The units-only matches (similar size, different plan, name and place, e.g. Mt. Prospect and The Claude, both 186 / 24) are coincidences.
-- **`data/raw/mpdu_annual_reports/project_fixes.csv`**, hand-made, copied from `replication/project_fixes.csv` (site_plan, total_units, total_mpdus, source, fix, same_as, note). `06` leaves out every listed row. `08` reads `06`'s table. `07` leaves out the duplicates and parts. Audrey's scripts, the simulation and her figures (02-05) still count every row. Each script asserts that every listed row is in the results, so a stale list stops the run.
+- **`data/raw/mpdu_annual_reports/project_fixes.csv`**, hand-made (site_plan, total_units, total_mpdus, source, fix, same_as, note). `06` leaves out every listed row. `08` reads `06`'s table. `07` leaves out the duplicates and parts. Audrey's scripts, the simulation and her figures (02-05) still count every row. Each script asserts that every listed row is in the results, so a stale list stops the run.
 
   | Left out | Kept | Why |
   |---|---|---|
@@ -358,7 +360,7 @@ Every row cites its passage: each quote was matched word for word against the te
   - Black Hill: the 1,227 units were the applicant's own cut from 1,618 (2016 staff report p. 7, note 1), so they are not a cap. The 2009 Germantown sector plan (p. 63) limits the Lerner site to 0.7 FAR in total, with no limit on units. (The staff report's "40% of the 0.7 FAR" is the plan's rule for site NE-1.) Residential 1,851,560 sf is all of the 0.7 FAR left after the 1,432,440 sf commercial, so it stays at base under the CR "total less commercial" test. Only the coding note changed.
   - 8787 Georgia (Sketch Plan 320170060), AVA Wheaton (320140020) and MHP-Nebel (320210110): each staff report gives the sketch plan's floor area as the applicant's proposal, approved as asked, with nothing in the sector plans limiting units. Not caps; all three stay below base (30%, 49%, 36%).
 - **Not ruled out:** physical limits. 8787 Georgia would need about 4.2 FAR on its lot under the 90-foot height, and MHP-Nebel's lot is mostly stream valley buffer. "Below base" means below what zoning allowed.
-- **Sources** saved in `replication/sources/`: the Blairs 2013 staff report, the AVA Wheaton and MHP-Nebel sketch plan staff reports, and pp. 62-63 of the Germantown sector plan.
+- **Sources** saved in `sources/planning_board/`: the Blairs 2013 staff report, the AVA Wheaton and MHP-Nebel sketch plan staff reports, and pp. 62-63 of the Germantown sector plan.
 - **Result:** no value changes; counts as in the Northpark entry.
 
 ## TDR flag (Nov 3 2026)
@@ -420,7 +422,7 @@ Every row cites its passage: each quote was matched word for word against the te
 
 ## Call 11 decided: PSTA keeps the 0.5 FAR standard-method cap (Nov 3 2026, Jacob)
 - PSTA (820220050, CR-1.0 C-0.5 R-1.0 H-150, standard method, approved Apr 2022): base = the CR standard-method cap, the lesser of mapped FAR or the greater of 0.5 FAR or 10,000 sf = 1,048,244 sf total; approved 1,040,876 sf (0.497 FAR). As coded: base 634 for 630.
-- The cap stood in 2022: Planning staff's report on ZTA 22-08 (1 Sep 2022, pp. 1-3; `sources/ZTA-22-08-Planning-staff-report_2022-09-01.pdf`) quotes Sec. 4.5.3.C as then in force ("CR Density, FAR: The lesser of: mapped FAR or the greater of 10,000 SF or 0.5 FAR") and says CR projects reach the MPDU provisions only through the optional method. The county's ZTA list (data.montgomerycountymd.gov 3hex-pk9g) shows no change to CR standard-method density from 2014 to 2022. MCPB 22-037's "up to 2,096,488 sf" is the mapped FAR. No value changes.
+- The cap stood in 2022: Planning staff's report on ZTA 22-08 (1 Sep 2022, pp. 1-3; `sources/planning_board/ZTA-22-08-Planning-staff-report_2022-09-01.pdf`) quotes Sec. 4.5.3.C as then in force ("CR Density, FAR: The lesser of: mapped FAR or the greater of 10,000 SF or 0.5 FAR") and says CR projects reach the MPDU provisions only through the optional method. The county's ZTA list (data.montgomerycountymd.gov 3hex-pk9g) shows no change to CR standard-method density from 2014 to 2022. MCPB 22-037's "up to 2,096,488 sf" is the mapped FAR. No value changes.
 
 ## Calls 1, 6 and 7 decided: kept as coded (Nov 3 2026, Jacob)
 - Call 1: a plan maximum is the base only if it is zoning (mapped zone, Council DP/DPA or binding element, master or sector plan limit, or a Board cut below the request with a reason).

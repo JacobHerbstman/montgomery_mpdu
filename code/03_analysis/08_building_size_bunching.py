@@ -54,7 +54,7 @@ report's plan number has no GIS record; no date makes it unclear):
                     Bethesda Overlay projects stay under Bethesda Overlay.
   unclear           C-2 and I-3 residential (old code text not found; UNCLEAR);
                     no zone parsed before Oct 2018
-Sources and caveats: replication/NOTES.md. The zone parsed from the resolution
+Sources and caveats: docs/NOTES.md. The zone parsed from the resolution
 can be the current zone of an amendment (e.g. Century), and the code that
 applied follows the application's review basis, which date_regime only
 approximates.
