@@ -1,18 +1,21 @@
-                                            projects  w_lo_min  w_lo_max  w_hi_min  w_hi_max
-bound           group           position                                                    
-exact           bonus available above 22%          1     1.442     1.442     1.442     1.442
-                                between           13     0.141     0.161     0.141     0.161
-height binds    height limit    at base            7     0.000     0.000       NaN       NaN
-interval        bonus available at 22%             2     0.164     0.164     0.788     0.788
-lower           bonus available at 22%            25     0.164     0.164       NaN       NaN
-not modeled     own schedule    above 22%          7       NaN       NaN       NaN       NaN
-                                between            3       NaN       NaN       NaN       NaN
-upper           bonus available at base            4     0.000     0.000     0.114     0.114
-upper (average) lump at 15%     at base            5     0.000     0.000     0.167     0.167
-zero            bonus available at base            2     0.000     0.000     0.000     0.000
-                                below base        22     0.000     0.000     0.000     0.000
-                                between            1     0.000     0.000     0.000     0.000
-                height limit    below base         5     0.000     0.000     0.000     0.000
-                lump at 15%     below base         3     0.000     0.000     0.000     0.000
+                                                     projects  w_lo_min  w_lo_max  w_hi_min  w_hi_max
+bound                    group           position                                                    
+exact                    bonus available above 22%          1     1.442     1.442     1.442     1.442
+                                         between            9     0.124     0.138     0.124     0.138
+height binds             height limit    at base            7     0.000     0.000       NaN       NaN
+inside last step         bonus available between            1       NaN       NaN       NaN       NaN
+interval                 bonus available at 22%             2     0.164     0.164     0.788     0.788
+interval (average upper) bonus available between            2     0.140     0.140     0.325     0.325
+lower (average)          bonus available at 22%            25     0.325     0.325       NaN       NaN
+not modeled              bonus available between            1       NaN       NaN       NaN       NaN
+                         own schedule    above 22%          7       NaN       NaN       NaN       NaN
+                                         between            3       NaN       NaN       NaN       NaN
+upper                    bonus available at base            4     0.000     0.000     0.100     0.100
+upper (average)          lump at 15%     at base            5     0.000     0.000     0.167     0.167
+zero                     bonus available at base            2     0.000     0.000     0.000     0.000
+                                         below base        22     0.000     0.000     0.000     0.000
+                                         between            1     0.000     0.000     0.000     0.000
+                         height limit    below base         5     0.000     0.000     0.000     0.000
+                         lump at 15%     below base         3     0.000     0.000     0.000     0.000
 
-100 projects: zero 33, lower 25, exact 14, not modeled 10, height binds 7, upper (average) 5, upper 4, interval 2
+100 projects: zero 33, lower (average) 25, not modeled 11, exact 10, height binds 7, upper (average) 5, upper 4, interval (average upper) 2, interval 2, inside last step 1

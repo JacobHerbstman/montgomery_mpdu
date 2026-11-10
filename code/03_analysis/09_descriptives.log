@@ -21,9 +21,9 @@ units, 25th pct                                 69.5     69.5     55.2     46.0
 units, 75th pct                                309.8    316.8    239.8    222.0
 MPDUs, total                                  7256.0   6994.0   3304.0   1929.0
 MPDU share, median (%)                          14.3     14.3     15.0     15.0
-at its minimum (%)                              50.5     51.7     37.8     36.9
-at 15% (%)                                      21.5     21.9     36.7     49.2
-15% minimum (%)                                  9.7      9.0      7.8      0.0
+at its minimum (%)                              50.0     51.7     37.8     36.9
+at 15% (%)                                      22.0     21.9     36.7     49.2
+15% minimum (%)                                  9.1      9.0      7.8      0.0
 fully affordable (%)                             1.1      1.1      2.2      0.0
 rental (%)                                      47.3     48.3     38.9     32.3
 for-sale (%)                                    50.5     50.0     58.9     66.2
@@ -38,9 +38,9 @@ regime             old  new  unknown  total
 share_category                             
 fully affordable     1    1        0      2
 below its minimum    5    0        0      5
-at its minimum      78   16        0     94
+at its minimum      78   15        0     93
 minimum to 15%      19    0        0     19
-at 15%              37    2        1     40
+at 15%              37    3        1     41
 15-20%               3    3        0      6
 at 20%               2    1        0      3
 20-25%               1    0        0      1
@@ -113,4 +113,8 @@ tenure For-Sale                     16        3        9      15          0     
        Rental                        3        1        4      12          1     21
        unknown                       1        0        0       0          0      1
 
+projects: 186 rows, 178 with a base row, choice 65, wedge 100
+
 [saved] /Users/jacobherbstman/Desktop/montgomery_mpdu/output/tables/descriptives_*.csv; /Users/jacobherbstman/Desktop/montgomery_mpdu/output/figures/descriptives.pdf; /Users/jacobherbstman/Desktop/montgomery_mpdu/output/figures/descriptives/*.png
+/Users/jacobherbstman/Desktop/montgomery_mpdu/code/03_analysis/09_descriptives.py:255: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  p["wedge_sample"] = p["wedge_sample"].fillna(False).astype(bool)

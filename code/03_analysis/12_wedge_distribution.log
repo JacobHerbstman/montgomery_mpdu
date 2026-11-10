@@ -1,0 +1,27 @@
+88 projects with a bound: interval 38, zero 33, exact 10, none 7
+
+No shape assumed (88 projects): median between 0.000 and 0.137; mean at least 0.129, no upper bound
+
+Fits (w in d; median etc. over all informative projects, *_if_binds over w > 0):
+   family                params  loglik    p0  median   p75   p90  mean  median_if_binds  mean_if_binds  share_above_0325
+lognormal  s=1.376 scale=0.3692 -85.893 0.407   0.092 0.484 1.382 0.564            0.369          0.952             0.318
+    gamma a=0.8805 scale=0.6686 -86.507 0.407   0.082 0.490 1.064 0.349            0.386          0.589             0.328
+  weibull c=0.8978 scale=0.5802 -86.462 0.407   0.081 0.492 1.102 0.362            0.386          0.611             0.327
+
+Old-schedule bonus projects with w > 0 (40), observed vs predicted by position:
+position    w_range  observed  lognormal  gamma  weibull
+ at base      0-0.1         4        6.9    7.3      7.5
+ between   0.1-0.14         9        2.8    2.3      2.3
+  at 20% 0.14-0.325         2        8.9    8.3      8.2
+  at 22%  0.325-inf        25       21.5   22.1     22.1
+
+Lognormal, 500 bootstrap draws over projects (95% percentile intervals):
+                  estimate  lo_2.5  hi_97.5
+p0                   0.407   0.306    0.506
+median               0.092   0.000    0.194
+p75                  0.484   0.269    0.946
+p90                  1.382   0.649    4.272
+mean                 0.564   0.244    2.808
+median_if_binds      0.369   0.234    0.640
+mean_if_binds        0.952   0.430    4.353
+share_above_0325     0.318   0.213    0.416

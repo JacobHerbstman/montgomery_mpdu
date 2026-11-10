@@ -76,9 +76,9 @@ All 186, base 178, bonus 90, choice 65, wedge 100.
 | Units, median (25th-75th pct) | 170 (70-310) | 174 (70-317) | 126 (55-240) | 112 (46-222) |
 | MPDUs, total | 7,256 | 6,994 | 3,304 | 1,929 |
 | MPDU share, median | 14.3% | 14.3% | 15.0% | 15.0% |
-| At its required minimum | 51% | 52% | 38% | 37% |
+| At its required minimum | 50% | 52% | 38% | 37% |
 | At exactly 15% (above a 12.5% minimum) | 22% | 22% | 37% | 49% |
-| 15% minimum required | 10% | 9% | 8% | 0% |
+| 15% minimum required | 9% | 9% | 8% | 0% |
 | Rental / for-sale | 47% / 51% | 48% / 50% | 39% / 59% | 32% / 66% |
 | First MPDU offering, median year (range) | 2016 (2005-2025) | 2017 | 2016 | 2014 |
 | Under the new rules (ZTA 18-06) | 18% | 18% | 22% | 8% |
@@ -94,9 +94,9 @@ A plan group takes its first phase's tenure, rent and minimum, its earliest offe
 |---|---|---|---|
 | Fully affordable | 1 | 1 | 2 |
 | Below its minimum | 5 | 0 | 5 |
-| At its minimum (12.5%, or 15% where required) | 78 | 16 | 94 |
+| At its minimum (12.5%, or 15% where required) | 78 | 15 | 93 |
 | Between the minimum and 15% | 19 | 0 | 19 |
-| At 15% | 37 | 2 | 40 |
+| At 15% | 37 | 3 | 41 |
 | 15-20% | 3 | 3 | 6 |
 | At 20% | 2 | 1 | 3 |
 | 20-25% | 1 | 0 | 1 |

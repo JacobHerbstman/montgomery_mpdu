@@ -173,6 +173,12 @@ def main():
     a = by_plan(a)
     a["group"] = a["group"].fillna("no resolution base")
     b = pd.read_csv(BSB, dtype={"plan": str}, parse_dates=["date_regime"])
+    # a plan group is keyed by its name, any other project by its id; 08's minimum where it has the project
+    # (06 applies MIN_SHARE_FIXES, which the regime file does not have)
+    key_a = a["plan_group"].fillna(a["id"].astype("Int64").astype(str))
+    key_b = b["project_name"].where(b["id"].isna(), b["id"].astype("Int64").astype(str))
+    assert key_b.isin(key_a).all(), f"08 rows not in the all sample: {list(b.loc[~key_b.isin(key_a), 'project_name'])}"
+    a["min_share"] = key_a.map(b.set_index(key_b)["min_share"]).fillna(a["min_share"])
     for d in (a, b):
         d["share_category"] = share_category(d)
     b["period"] = pd.Categorical(np.select([b["date_regime"] < CODE_2014, b["date_regime"] < NEW_RULES],
@@ -236,6 +242,20 @@ def main():
                     "tenure": pd.crosstab(tenure, choice["position"])}).reindex(columns=POSITIONS, fill_value=0)
     by["total"] = by.sum(axis=1)
     save(by, "choice_by")
+
+    # one row per project of the all sample, with its 08 row (none for the projects with no resolution base)
+    cols = ["plan", "zone", "bonus_rule", "frontier_base_units", "bonus_used", "position", "wedge_sample", "tdr",
+            "subsidy", "impact_tax", "other_program", "base_check", "period"]
+    p = a[["project_name", "site_plan", "year_offering", "tenure", "planning_area", "actual_units_total",
+           "actual_units_mpdu", "actual_sh_mpdu", "min_share", "regime", "share_category", "group"]].copy()
+    p.index = key_a.values
+    p = p.join(b.set_index(key_b)[cols + ["project_name"]], rsuffix="_08").reset_index(drop=True)
+    p["project_name"] = p.pop("project_name_08").fillna(p["project_name"])   # 08 fills missing names
+    p["choice"] = p["group"].eq("bonus available") & real_choice(p.fillna({"subsidy": "", "impact_tax": ""}))
+    p["wedge_sample"] = p["wedge_sample"].fillna(False).astype(bool)
+    p.to_csv(TAB_DIR / "descriptives_projects.csv", index=False)
+    print(f"\nprojects: {len(p)} rows, {p['plan'].notna().sum()} with a base row, choice {p['choice'].sum()}, "
+          f"wedge {p['wedge_sample'].sum()}")
 
     # figures
     PNG_DIR.mkdir(parents=True, exist_ok=True)

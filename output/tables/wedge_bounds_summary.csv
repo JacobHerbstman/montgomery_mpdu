@@ -1,12 +1,15 @@
 bound,group,position,projects,w_lo_min,w_lo_max,w_hi_min,w_hi_max
 exact,bonus available,above 22%,1,1.44,1.44,1.44,1.44
-exact,bonus available,between,13,0.141,0.161,0.141,0.161
+exact,bonus available,between,9,0.124,0.138,0.124,0.138
 height binds,height limit,at base,7,0,0,,
+inside last step,bonus available,between,1,,,,
 interval,bonus available,at 22%,2,0.164,0.164,0.788,0.788
-lower,bonus available,at 22%,25,0.164,0.164,,
+interval (average upper),bonus available,between,2,0.14,0.14,0.325,0.325
+lower (average),bonus available,at 22%,25,0.325,0.325,,
+not modeled,bonus available,between,1,,,,
 not modeled,own schedule,above 22%,7,,,,
 not modeled,own schedule,between,3,,,,
-upper,bonus available,at base,4,0,0,0.114,0.114
+upper,bonus available,at base,4,0,0,0.1,0.1
 upper (average),lump at 15%,at base,5,0,0,0.167,0.167
 zero,bonus available,at base,2,0,0,0,0
 zero,bonus available,below base,22,0,0,0,0

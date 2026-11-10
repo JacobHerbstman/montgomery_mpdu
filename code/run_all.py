@@ -66,6 +66,9 @@ STEPS = [
     ["03_analysis/09_descriptives.py"],
     # what each project's position reveals about its wedge, in units of the MPDU discount
     ["03_analysis/10_wedge_bounds.py"],
+    # Evan's 02, 04 and 07 figures on the project-level dataset, and the list of projects
+    ["03_analysis/11_dataset_figures.py"],
+    ["03_analysis/12_wedge_distribution.py"],     # one fitted distribution of w from 10's bounds
 ]
 
 

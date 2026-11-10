@@ -671,3 +671,47 @@ All 47 (21 between, 26 at 22%). Rows and quotes: `docs/checks_2026-11-10/bonus_g
 - **Base rounding.** Evan's simulation rounds the frontier base to whole units; computing position from the plan ratio instead changes 3 positions in 178 (Manor Oaks at 22% -> between, 2115 East Jefferson at base -> below, Towns at Oak Hill within its ceiling) and shifts exact values by up to about half a point.
 - **Correction to Nov 9.** Olney Estates' "G-822, 30 incl. 4" came from Rock Creek Woods pages misfiled under 82006019; call 12 itself (the one converted MPDU) is unaffected.
 - **Confirmed (the rest):** Gateway Commons, Clarksburg Village (base 2,255 matches 2,751/1.22), Leaman Farm, Trotters Glen, Tapestry, Buckingham Station (report's 200 is Phase 2; plan 604 of 610 = 500 x 1.22), Citron, Bethesda Crest, Hallman Grove, The Portico, 7001 Arlington (the staff report: "maximum density for the site is 145", "145 (including 22% density bonus for 15% MPDUs)"; no reason for 140), Millstone, 12710 Twinbrook, Tregoning, Olney Estates, Potomac Highlands, Fairwood Crossing, Orchards of Sandy Spring, Norbeck Crossing, Poplar Run, The Lauren, Grosvenor Heights, Solaire Bethesda, Bainbridge, 7770 Norfolk (2015 amendment 250 -> 200 in the same envelope), 8001 Woodmont (2020 amendment 450 -> 322, same 440,000 sf), Thayer & Spring, Cheval, Solaire 8250, Solaire/1150 Ripley, Gallery Bethesda, Solaire 8200 Dixon, Brody (certified plan still "120 TOTAL UNITS"), Whitehall Square, Strathmore Square.
+
+## Dataset overview for Evan (Nov 10 2026)
+
+`docs/dataset_overview.md` / `.pdf`: main changes since the Oct 29 pipeline, the samples, position by group, Evan's `02`, `04` and `07` figures redrawn on the 186 projects (his are on the 219 report rows), and one row per project. Build: `cat docs/dataset_overview.md output/tables/dataset_projects.md <heading> output/tables/dataset_wedge.md | pandoc -s --embed-resources --resource-path=docs --css docs/dataset_overview.css`, then Chrome `--print-to-pdf` (run from `docs/`).
+
+- `09` now writes `descriptives_projects.csv`: the all sample (186) joined to its `08` row by plan-group name or id, with `choice` and `wedge_sample`.
+- New `11_dataset_figures.py` (in `run_all`): the four figures (`output/figures/dataset/`) and `output/tables/dataset_projects.md`; and for the wedge sample (the estimation sample), `wedge_schedule.png` (each project against the schedule its group faced: old Chapter 25A table, ZTA 18-06, CR lump) and `output/tables/dataset_wedge.md` (one row per project with `10`'s bound). The PDF also shows `09`'s `wedge_sample.png` and `10`'s `wedge_bounds.png`. Imports Evan's `rules.bonus_pct`; his scripts are unchanged.
+- **Fixed in `09`:** the all sample took `min_share` from Audrey's regime file, so Strathmore Square stayed at a 15% minimum there although `06` sets 12.5% (`MIN_SHARE_FIXES`). It now takes `08`'s minimum where `08` has the project. Only Strathmore Square moves: new rules, at its minimum 16 -> 15, at 15% 2 -> 3; all sample at its minimum 50.5% -> 50.0%, 15% minimum 9.7% -> 9.1%. `descriptives.md`/`.pdf` updated.
+
+## Wedge bounds on the actual pre-2018 schedule (Nov 10 2026, Jacob: "make sure we capture the actual schedule before 2018")
+
+`10` priced every project on ZTA 18-06's 8.8 points of bonus per point of MPDUs, old-schedule projects too (83 of the 100). The old rule, read from the struck text of Bill 34-17 (`sources/law/3_bill_34-17_2018.pdf` pp. 19-20, checked on the page image: the percentages are in single brackets, existing law deleted by the bill): a bonus "Up to 1%" needs 12.6% MPDUs, ... "Up to 20%" 14.5%, "Up to 22%" 15.0%. The sentence "To obtain a density bonus, an applicant must provide at least one more MPDU..." is underlined, so it was proposed by the bill and removed by amendment; never law.
+
+- **`10`, old schedule (`old_bounds`).** 1% steps taken as a line (10 points of bonus per point of MPDUs); the 20 -> 22% step as a lump. Positions in whole units on the frontier base: at 22% when N reaches floor(1.22B); at 20% when N needs the 20% step (above floor(1.19B)); inside the last step between those. Bounds: at base w <= 0.100; between w = 0.1(2n - 1); at 20% 0.140 <= w <= 0.325 (average over the last step, (0.15 x 1.22 - 0.145 x 1.20)/0.02 - 0.125); at 22% average >= 0.325, no upper bound. ZTA 18-06 projects unchanged.
+- **RMX (Buckingham Station) -> not modeled.** Old 59-C-10.3.7(c): units rise by the number of MPDUs, so above base the bonus adds no market units; the 25A price does not apply.
+- **Result.** 100 projects: zero 33, upper 4 (0.100, was 0.114), upper (average) 5, height binds 7, exact 10 (9 old between, 0.124-0.138, was 0.141-0.161; plus Flats at Knowles Station 1.442), interval (average upper) 2 (Tapestry, North Bethesda Market), interval 2 (ZTA 18-06 at 22%), lower (average) 25 (>= 0.325, was >= 0.164), inside last step 1 (Reserve at Fair Hill: 133 built, 132 at 20%, 134 at 22%; its master plan cap is 133), not modeled 11. Trotters Glen and Leaman Farm reach 69 units at the 19% step (14.4% -> 10 MPDUs), so they stay between, as their documents say. `10`'s figure now marks the old prices (0.10, 0.325) and the 2018 ones (0.114, 0.164).
+- **Not changed: integer MPDUs.** For small projects whole MPDUs make the price lumpy (Trotters Glen: a 70th unit needs the 22% step, 11 MPDUs, and adds no market unit). Bounds from each project's whole-unit menu would be exact, but they hinge on the base to the unit, i.e. on the open base-rounding question.
+- **At 22% but short of the table's 15%:** Olney Estates (6 of 42, call 12), Manor Oaks (8 of 54; at 22% only through the rounded base) and Thayer & Spring (59 of 399, the Board treated it as 15%). Bounds as for at 22%; flagged here only.
+
+
+## One fitted distribution of the wedge (Nov 10 2026, Jacob: "the density part is what we want, and im fine with a smoothness assumption")
+
+New `12_wedge_distribution.py` (in `run_all`). It takes `10`'s range for w (in MPDU discounts d) for the 88 bounded projects and fits a mass p0 at zero plus a curve for w > 0. Each project counts as "w fell in my range" (interval-censored likelihood, as a Tobit). At-base ranges get no zero mass. The 7 height-limited projects add nothing. Averages over a step (the old last step, the CR lump) are used as bounds on w itself. The main curve is lognormal, with gamma and Weibull as checks. Outputs: `output/tables/wedge_distribution.csv`, `_check.csv`, `_bootstrap.csv`; `output/figures/wedge_distribution.pdf`/`.png`.
+
+- **No shape (88):** median w between 0 and 0.137; mean at least 0.129, no upper bound. Among the 40 old-schedule bonus projects at or above base, 25 are at 22%, so their median is at least 0.325.
+- **Fit.** p0 = 33/81 = 0.41 (bootstrap 0.31-0.51).
+  - Where the limit binds, median w is 0.37 (lognormal; bootstrap 0.23-0.64), 0.39 (gamma) and 0.39 (Weibull).
+  - Share of all projects with w > 0.325: 0.32-0.33 under all three curves.
+  - Mean over all projects: 0.56 (lognormal, bootstrap 0.24-2.81), 0.35 (gamma), 0.36 (Weibull). The mean is set by the tail above 0.325, which only the curve's shape and 3 ZTA 18-06 projects pin down.
+  - All three fitted CDFs lie inside the band the bounds allow.
+- **Check: the fit misses the between group.** Old-schedule bonus projects with w > 0 (40), observed vs lognormal-predicted counts:
+  - at base: 4 vs 6.9
+  - between (w 0.10-0.14): 9 vs 2.8
+  - at 20% (0.14-0.325): 2 vs 8.9
+  - at 22%: 25 vs 21.5
+
+  Gamma and Weibull are about the same. The old price rises only from 0.10 to 0.14 across the whole between range, so a smooth w puts few projects there. The documents give several of the 9 another reason to stop:
+  - Gateway Commons: fire access;
+  - Leaman Farm: impervious maximum;
+  - The Portico: units cut for compatibility, and 15.2% MPDUs, more than its 16% bonus needs;
+  - Trotters Glen, Bethesda Crest, Hallman Grove: whole MPDUs.
+
+  For those, w at the observed n is really a lower bound.
+- **Sensitivity (scratch, not in `12`):** with old between and at-20% projects as lower bounds (w at least the price at n), the tail is no longer pinned. Median where binding 1.2-2.0, mean over all 1.5-87. So the fitted median and mean lean on reading the 9 between projects as exact.

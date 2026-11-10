@@ -1,0 +1,3 @@
+wedge sample: 100; bounds {'zero': 33, 'lower (average)': 25, 'not modeled': 11, 'exact': 10, 'height binds': 7, 'upper (average)': 5, 'upper': 4, 'interval (average upper)': 2, 'interval': 2, 'inside last step': 1}
+projects: 186; at its minimum 93; with a base 178; regime {'old': 152, 'new': 33, 'unknown': 1}
+[saved] /Users/jacobherbstman/Desktop/montgomery_mpdu/output/figures/dataset/*.png; /Users/jacobherbstman/Desktop/montgomery_mpdu/output/tables/dataset_projects.md; /Users/jacobherbstman/Desktop/montgomery_mpdu/output/tables/dataset_wedge.md

@@ -32,10 +32,10 @@ id,project_name,plan,group,period,min_share,tenure,planning_area,actual_units_to
 182,White Oak Apartments,820220110,bonus available,new,0.125,Rental,Fairland,387,59,391,-0.01023,below base,0,0,zero,1363,2025
 203,Grandview,820210190,bonus available,new,0.15,Rental,North Bethesda,512,77,512,0,at base,0,0,zero,2075,2023
 211,12710 Twinbrook Parkway,820220010,bonus available,new,0.15,For-Sale,North Bethesda,49,8,41,0.1951,between,0,0,zero,1737,2024
-52,Woodward Crossing,820070250,bonus available,old,0.125,Rental,Gaithersburg Vicinity,32,4,33,-0.0303,at base,0,0.1136,upper,1773,2013
-16,Woodcrest,820050090,bonus available,old,0.125,For-Sale,Clarksburg,86,11,86,0,at base,0,0.1136,upper,2821,2007
-55,Wootton Crossing,820100070,bonus available,old,0.125,For-Sale,Gaithersburg Vicinity,39,5,39,0,at base,0,0.1136,upper,1711,2013
-87,Residences at Shady Grove,820090070,bonus available,old,0.125,For-Sale,Gaithersburg Vicinity,149,19,149,0,at base,0,0.1136,upper,2013,2015
+52,Woodward Crossing,820070250,bonus available,old,0.125,Rental,Gaithersburg Vicinity,32,4,33,-0.0303,at base,0,0.1,upper,1773,2013
+16,Woodcrest,820050090,bonus available,old,0.125,For-Sale,Clarksburg,86,11,86,0,at base,0,0.1,upper,2821,2007
+55,Wootton Crossing,820100070,bonus available,old,0.125,For-Sale,Gaithersburg Vicinity,39,5,39,0,at base,0,0.1,upper,1711,2013
+87,Residences at Shady Grove,820090070,bonus available,old,0.125,For-Sale,Gaithersburg Vicinity,149,19,149,0,at base,0,0.1,upper,2013,2015
 134,"Elm, The",820160200,lump at 15%,old,0.125,Rental,Bethesda/Chevy Chase,456,57,456,0,at base,0,0.1667,upper (average),2191,2020
 146,Chevy Chase Lake - Block B,820160190,lump at 15%,old,0.125,Rental,Bethesda/Chevy Chase,531,69,531,0,at base,0,0.1667,upper (average),2134,2021
 166,The Crescent at Chevy Chase,820180130,lump at 15%,old,0.125,Rental,Bethesda/Chevy Chase,111,14,111,0,at base,0,0.1667,upper (average),1941,2023
@@ -48,50 +48,50 @@ id,project_name,plan,group,period,min_share,tenure,planning_area,actual_units_to
 98,Element 28,820130240,height limit,old,0.125,Rental,Bethesda/Chevy Chase,101,13,101,0,at base,0,inf,height binds,2234,2016
 114,Central/8455 Fenton Street,820130050,height limit,old,0.125,Rental,Silver Spring,243,31,243,0,at base,0,inf,height binds,1566,2017
 198,Guardian Building,820170100,height limit,old,0.125,Rental,Silver Spring,176,22,176,0,at base,0,inf,height binds,1781,2022
-10,Bethesda Crest,820030050,bonus available,old,0.125,For-Sale,Bethesda/Chevy Chase,28,4,25,0.12,between,0.1409,0.1409,exact,1850,2006
-62,Hallman Grove,82007024A,bonus available,old,0.125,For-Sale,Darnestown,28,4,25,0.12,between,0.1409,0.1409,exact,2141,2013
-50,Citron Apartments,81999002H,bonus available,old,0.125,Rental,Silver Spring,222,31,198,0.1212,between,0.1412,0.1412,exact,1781,2013
-24,"Portico, The",820050200,bonus available,old,0.125,Rental,Silver Spring,151,23,130,0.1615,between,0.1503,0.1503,exact,1781,2008
-19,Gateway Commons (2007),82003023A,bonus available,old,0.125,For-Sale,Clarksburg,284,43,242,0.1736,between,0.1531,0.1531,exact,2256,2008
-82,7001 Arlington Road,820120140,bonus available,old,0.125,Rental,Bethesda/Chevy Chase,140,21,119,0.1765,between,0.1537,0.1537,exact,1751,2015
-,Clarksburg Village Phases I-II (1-01030),820050410,bonus available,old,0.125,For-Sale,Clarksburg,2653,398,2255,0.1765,between,0.1537,0.1537,exact,1947,2012
-26,Leaman Farm,820050400,bonus available,old,0.125,For-Sale,Germantown,69,10,58,0.1897,between,0.1567,0.1567,exact,2478,2008
-120,Trotters Glen,820130060,bonus available,old,0.125,For-Sale,Olney,69,10,58,0.1897,between,0.1567,0.1567,exact,459,2018
-148,North Bethesda Market,82006017A,bonus available,old,0.125,Rental,North Bethesda,424,64,356,0.191,between,0.157,0.157,exact,2171,2022
-141,Tapestry,820050370,bonus available,old,0.125,For-Sale,Clarksburg,67,10,56,0.1964,between,0.1583,0.1583,exact,1987,2021
-13,Buckingham Station,820030030,bonus available,old,0.125,For-Sale,Germantown,200,30,166,0.2048,between,0.1602,0.1602,exact,1532,2006
-33,"Reserve at Fair Hill, The",82005028A,bonus available,old,0.125,For-Sale,Upper Rock Creek,133,20,110,0.2091,between,0.1612,0.1612,exact,985,2009
+10,Bethesda Crest,820030050,bonus available,old,0.125,For-Sale,Bethesda/Chevy Chase,28,4,25,0.12,between,0.124,0.124,exact,1850,2006
+62,Hallman Grove,82007024A,bonus available,old,0.125,For-Sale,Darnestown,28,4,25,0.12,between,0.124,0.124,exact,2141,2013
+50,Citron Apartments,81999002H,bonus available,old,0.125,Rental,Silver Spring,222,31,198,0.1212,between,0.1242,0.1242,exact,1781,2013
+24,"Portico, The",820050200,bonus available,old,0.125,Rental,Silver Spring,151,23,130,0.1615,between,0.1323,0.1323,exact,1781,2008
+19,Gateway Commons (2007),82003023A,bonus available,old,0.125,For-Sale,Clarksburg,284,43,242,0.1736,between,0.1347,0.1347,exact,2256,2008
+82,7001 Arlington Road,820120140,bonus available,old,0.125,Rental,Bethesda/Chevy Chase,140,21,119,0.1765,between,0.1353,0.1353,exact,1751,2015
+,Clarksburg Village Phases I-II (1-01030),820050410,bonus available,old,0.125,For-Sale,Clarksburg,2653,398,2255,0.1765,between,0.1353,0.1353,exact,1947,2012
+26,Leaman Farm,820050400,bonus available,old,0.125,For-Sale,Germantown,69,10,58,0.1897,between,0.1379,0.1379,exact,2478,2008
+120,Trotters Glen,820130060,bonus available,old,0.125,For-Sale,Olney,69,10,58,0.1897,between,0.1379,0.1379,exact,459,2018
+148,North Bethesda Market,82006017A,bonus available,old,0.125,Rental,North Bethesda,424,64,356,0.191,between,0.14,0.325,interval (average upper),2171,2022
+141,Tapestry,820050370,bonus available,old,0.125,For-Sale,Clarksburg,67,10,56,0.1964,between,0.14,0.325,interval (average upper),1987,2021
 156,Avalon Residential,820190070,bonus available,new,0.125,For-Sale,Clarksburg,50,8,41,0.2195,at 22%,0.1636,0.7875,interval,2256,2023
 171,Strathmore Square,820220070,bonus available,new,0.125,Rental,North Bethesda,220,33,180,0.2222,at 22%,0.1636,0.7875,interval,1925,2024
-60,Batchellors Forest,820080190,bonus available,old,0.125,For-Sale,Olney,37,6,31,0.1935,at 22%,0.1636,inf,lower,459,2013
-70,Olney Estates,820060190,bonus available,old,0.125,For-Sale,Olney,42,6,35,0.2,at 22%,0.1636,inf,lower,459,2014
-112,Manor Oaks,820090130,bonus available,old,0.125,For-Sale,Olney,54,8,45,0.2,at 22%,0.1636,inf,lower,1872,2017
-115,Potomac Highlands,820130260,bonus available,old,0.125,For-Sale,Potomac,23,4,19,0.2105,at 22%,0.1636,inf,lower,1566,2017
-40,Fairwood Crossing at Blackburn Village,820080090,bonus available,old,0.125,For-Sale,Fairland,63,10,52,0.2115,at 22%,0.1636,inf,lower,1802,2011
-54,Orchards of Sandy Spring,820060160,bonus available,old,0.125,For-Sale,Patuxent,40,6,33,0.2121,at 22%,0.1636,inf,lower,1330,2013
-91,The Lauren,820070060,bonus available,old,0.125,For-Sale,Bethesda/Chevy Chase,40,6,33,0.2121,at 22%,0.1636,inf,lower,2191,2016
-88,Grosvenor Heights,820130130,bonus available,old,0.125,For-Sale,North Bethesda,152,23,125,0.216,at 22%,0.1636,inf,lower,2926,2015
-39,Symphony Park,820080010,bonus available,old,0.125,For-Sale,North Bethesda,112,17,92,0.2174,at 22%,0.1636,inf,lower,1925,2011
-119,Brody Apartments,82008003A,bonus available,old,0.125,Rental,Bethesda/Chevy Chase,112,17,92,0.2174,at 22%,0.1636,inf,lower,2191,2018
-61,Millstone at Kingsview,81997007A,bonus available,old,0.125,Rental,Germantown,195,64,160,0.2188,at 22%,0.1636,inf,lower,1925,2013
-,Whitehall Square (820050180),820050180,bonus available,old,0.125,For-Sale,White Oak,128,20,105,0.219,at 22%,0.1636,inf,lower,1634,2006
-38,Poplar Run,820070020,bonus available,old,0.125,For-Sale,Kensington/Wheaton,773,116,634,0.2192,at 22%,0.1636,inf,lower,1777,2011
-96,Solaire Bethesda,820130230,bonus available,old,0.125,Rental,Bethesda/Chevy Chase,139,21,114,0.2193,at 22%,0.1636,inf,lower,1751,2016
-74,Bainbridge Bethesda,820090110,bonus available,old,0.125,Rental,Bethesda/Chevy Chase,200,30,164,0.2195,at 22%,0.1636,inf,lower,1924,2014
-92,7770 Norfolk Avenue,820120120,bonus available,old,0.125,Rental,Bethesda/Chevy Chase,200,30,164,0.2195,at 22%,0.1636,inf,lower,1924,2016
-76,Norbeck Crossing,820110040,bonus available,old,0.125,For-Sale,Olney,261,40,214,0.2196,at 22%,0.1636,inf,lower,459,2014
-143,8001 Woodmont,820130170,bonus available,old,0.125,Rental,Bethesda/Chevy Chase,322,49,264,0.2197,at 22%,0.1636,inf,lower,1924,2021
-124,Thayer & Spring,820130010,bonus available,old,0.125,Rental,Silver Spring,399,59,327,0.2202,at 22%,0.1636,inf,lower,1781,2019
-125,Solaire 8250,820150130,bonus available,old,0.125,Rental,Silver Spring,338,51,277,0.2202,at 22%,0.1636,inf,lower,1781,2019
-43,Solaire/1150 Ripley,82008015C,bonus available,old,0.125,Rental,Silver Spring,293,44,240,0.2208,at 22%,0.1636,inf,lower,1781,2012
-66,Gallery Bethesda,820110020,bonus available,old,0.125,Rental,Bethesda/Chevy Chase,453,68,371,0.221,at 22%,0.1636,inf,lower,1924,2013
-154,Solaire 8200 Dixon,82016007A,bonus available,old,0.125,Rental,Silver Spring,403,61,330,0.2212,at 22%,0.1636,inf,lower,1781,2022
-116,Cheval Bethesda,820140060,bonus available,old,0.125,For-Sale,Bethesda/Chevy Chase,71,11,58,0.2241,at 22%,0.1636,inf,lower,2234,2017
-44,Layhill Overlook,820080160,bonus available,old,0.125,For-Sale,Aspen Hill,38,6,31,0.2258,at 22%,0.1636,inf,lower,643,2012
+60,Batchellors Forest,820080190,bonus available,old,0.125,For-Sale,Olney,37,6,31,0.1935,at 22%,0.325,inf,lower (average),459,2013
+70,Olney Estates,820060190,bonus available,old,0.125,For-Sale,Olney,42,6,35,0.2,at 22%,0.325,inf,lower (average),459,2014
+112,Manor Oaks,820090130,bonus available,old,0.125,For-Sale,Olney,54,8,45,0.2,at 22%,0.325,inf,lower (average),1872,2017
+115,Potomac Highlands,820130260,bonus available,old,0.125,For-Sale,Potomac,23,4,19,0.2105,at 22%,0.325,inf,lower (average),1566,2017
+40,Fairwood Crossing at Blackburn Village,820080090,bonus available,old,0.125,For-Sale,Fairland,63,10,52,0.2115,at 22%,0.325,inf,lower (average),1802,2011
+54,Orchards of Sandy Spring,820060160,bonus available,old,0.125,For-Sale,Patuxent,40,6,33,0.2121,at 22%,0.325,inf,lower (average),1330,2013
+91,The Lauren,820070060,bonus available,old,0.125,For-Sale,Bethesda/Chevy Chase,40,6,33,0.2121,at 22%,0.325,inf,lower (average),2191,2016
+88,Grosvenor Heights,820130130,bonus available,old,0.125,For-Sale,North Bethesda,152,23,125,0.216,at 22%,0.325,inf,lower (average),2926,2015
+39,Symphony Park,820080010,bonus available,old,0.125,For-Sale,North Bethesda,112,17,92,0.2174,at 22%,0.325,inf,lower (average),1925,2011
+119,Brody Apartments,82008003A,bonus available,old,0.125,Rental,Bethesda/Chevy Chase,112,17,92,0.2174,at 22%,0.325,inf,lower (average),2191,2018
+61,Millstone at Kingsview,81997007A,bonus available,old,0.125,Rental,Germantown,195,64,160,0.2188,at 22%,0.325,inf,lower (average),1925,2013
+,Whitehall Square (820050180),820050180,bonus available,old,0.125,For-Sale,White Oak,128,20,105,0.219,at 22%,0.325,inf,lower (average),1634,2006
+38,Poplar Run,820070020,bonus available,old,0.125,For-Sale,Kensington/Wheaton,773,116,634,0.2192,at 22%,0.325,inf,lower (average),1777,2011
+96,Solaire Bethesda,820130230,bonus available,old,0.125,Rental,Bethesda/Chevy Chase,139,21,114,0.2193,at 22%,0.325,inf,lower (average),1751,2016
+74,Bainbridge Bethesda,820090110,bonus available,old,0.125,Rental,Bethesda/Chevy Chase,200,30,164,0.2195,at 22%,0.325,inf,lower (average),1924,2014
+92,7770 Norfolk Avenue,820120120,bonus available,old,0.125,Rental,Bethesda/Chevy Chase,200,30,164,0.2195,at 22%,0.325,inf,lower (average),1924,2016
+76,Norbeck Crossing,820110040,bonus available,old,0.125,For-Sale,Olney,261,40,214,0.2196,at 22%,0.325,inf,lower (average),459,2014
+143,8001 Woodmont,820130170,bonus available,old,0.125,Rental,Bethesda/Chevy Chase,322,49,264,0.2197,at 22%,0.325,inf,lower (average),1924,2021
+124,Thayer & Spring,820130010,bonus available,old,0.125,Rental,Silver Spring,399,59,327,0.2202,at 22%,0.325,inf,lower (average),1781,2019
+125,Solaire 8250,820150130,bonus available,old,0.125,Rental,Silver Spring,338,51,277,0.2202,at 22%,0.325,inf,lower (average),1781,2019
+43,Solaire/1150 Ripley,82008015C,bonus available,old,0.125,Rental,Silver Spring,293,44,240,0.2208,at 22%,0.325,inf,lower (average),1781,2012
+66,Gallery Bethesda,820110020,bonus available,old,0.125,Rental,Bethesda/Chevy Chase,453,68,371,0.221,at 22%,0.325,inf,lower (average),1924,2013
+154,Solaire 8200 Dixon,82016007A,bonus available,old,0.125,Rental,Silver Spring,403,61,330,0.2212,at 22%,0.325,inf,lower (average),1781,2022
+116,Cheval Bethesda,820140060,bonus available,old,0.125,For-Sale,Bethesda/Chevy Chase,71,11,58,0.2241,at 22%,0.325,inf,lower (average),2234,2017
+44,Layhill Overlook,820080160,bonus available,old,0.125,For-Sale,Aspen Hill,38,6,31,0.2258,at 22%,0.325,inf,lower (average),643,2012
 208,Flats at Knowles Station,82021003A,bonus available,new,0.125,Rental,Kensington/Wheaton,84,21,63,0.3333,above 22%,1.442,1.442,exact,1592,2024
 219,Tregoning Property,820240080,own schedule,new,0.125,Rental,Goshen,44,6,39,0.1282,between,,,not modeled,1947,2025
 144,Maizon Bethesda,820180120,own schedule,old,0.15,Rental,Bethesda/Chevy Chase,229,35,202,0.1337,between,,,not modeled,2234,2021
 165,The Camille,820200090,own schedule,new,0.15,Rental,Bethesda/Chevy Chase,181,32,154,0.1753,between,,,not modeled,1751,2023
+13,Buckingham Station,820030030,bonus available,old,0.125,For-Sale,Germantown,200,30,166,0.2048,between,,,not modeled,1532,2006
+33,"Reserve at Fair Hill, The",82005028A,bonus available,old,0.125,For-Sale,Upper Rock Creek,133,20,110,0.2091,between,,,inside last step,985,2009
 202,4725 Cheltenham Drive,820220060,own schedule,new,0.15,Rental,Bethesda/Chevy Chase,110,17,67,0.6418,above 22%,,,not modeled,1924,2023
 175,8015 Old Georgetown Road,820200130,own schedule,new,0.15,Rental,Bethesda/Chevy Chase,297,45,180,0.65,above 22%,,,not modeled,1924,2024
 181,Metro Tower,820190110,own schedule,new,0.15,Rental,Bethesda/Chevy Chase,366,55,189,0.9365,above 22%,,,not modeled,2191,2025
