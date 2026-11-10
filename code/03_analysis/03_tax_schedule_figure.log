@@ -1,4 +1,4 @@
 [saved] /Users/jacobherbstman/Desktop/montgomery_mpdu/output/figures/mpdu_tax_schedule.pdf; /Users/jacobherbstman/Desktop/montgomery_mpdu/output/tables/mpdu_tax_schedule_bins.csv
-projects: 217; frontier points: 51,094; median k = 0.430
+projects: 217; frontier points: 50,346; median k = 0.430
   12.5% minimum: ATR at base 6.7% -> at ~22% bonus 8.1%; max bin 17.9%
   15% minimum: ATR at base 8.0% -> at ~22% bonus 8.2%; max bin 17.9%

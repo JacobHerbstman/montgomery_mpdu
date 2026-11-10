@@ -1,14 +1,14 @@
-gross residential sf per unit: all 1,077 (n=184); MF 1,070; TH 2,796 (n=2)
+gross residential sf per unit: all 1,070 (n=184); MF 1,063; TH 2,796 (n=2)
 site plans with a usable resolution: 392
 route used (consistent / total):
                sum  size
 route                   
-cr_floor_area   31    45
-cr_mapped_fa    18    29
+cr_floor_area   30    44
+cr_mapped_fa    17    28
 none             0    65
-stated_base    126   141
-stated_bonus    48    51
-zone_table      34    61
-consistent bases: 257; of which binding (built at or above base): 133
-built below base: gross-area method 125 of 257; adjusted 124 of 257
+stated_base    138   153
+stated_bonus    45    48
+zone_table      27    54
+consistent bases: 257; of which binding (built at or above base): 135
+built below base: gross-area method 123 of 257; adjusted 122 of 257
 [saved] /Users/jacobherbstman/Desktop/montgomery_mpdu/data/int/02_data_cleaning/04_base_density_by_plan.csv

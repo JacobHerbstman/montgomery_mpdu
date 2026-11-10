@@ -1,5 +1,5 @@
-agreements: 213; matched to report projects: 177 ({'counts': 158, '': 36, 'site plan': 15, 'name': 4})
-  totals equal a report project's: 158 of 173 matched by counts or site plan
+agreements: 213; matched to report projects: 177 ({'counts': 156, '': 36, 'site plan': 17, 'name': 4})
+  totals equal a report project's: 156 of 173 matched by counts or site plan
 not in the sample: 36; added: 32
  year                      project_name site_plan  total_units  mpdus  starred  add_to_sample
  2005                Rock Spring Center 820040170          392    107     True              0

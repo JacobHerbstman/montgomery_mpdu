@@ -14,6 +14,7 @@ __pycache__/
 !/data.nosync/raw/mpdu_annual_reports/project_subsidy.csv
 !/data.nosync/raw/mpdu_annual_reports/project_tdr.csv
 !/data.nosync/raw/mpdu_annual_reports/site_plan_fills.csv
+!/data.nosync/raw/mpdu_annual_reports/total_fixes.csv
 !/data.nosync/raw/pb_resolutions/manual_coding.csv
 !/data.nosync/raw/pb_archive_reports/document_fills.csv
 !/data.nosync/raw/zoning_rules/zone_density_table.csv

@@ -4,6 +4,7 @@ b. site plan filled from unnamed offerings with the same totals: 3
 c. project_name filled from same site plan and totals: 12
 c. developer filled from same site plan and totals: 37
 d. site plan filled by hand (site_plan_fills.csv): 12
+e. total units corrected by hand (total_fixes.csv): 4
 report_series  foia  published
 offering_year                 
 2005.0           16          0

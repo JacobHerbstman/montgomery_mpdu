@@ -61,7 +61,7 @@ approximates.
 
 PLAN_GROUPS: phases of one plan whose density limit and MPDU obligation are
 set for the whole plan (Cabin Branch, Clarksburg Village, Whitehall Square), and buildings
-listed separately under one capped plan (Park Potomac, Darcy/Flats), are coded
+listed separately under one capped plan (Park Potomac, Darcy/Flats, North Bethesda Center), are coded
 at plan level, so they share one base ratio; they are summed into one row,
 whose bonus_used is the group's units over its base, and whose flags list
 those of its phases.
@@ -146,8 +146,21 @@ PLAN_CAPS = {
     "820120090": "Germantown Park: Zoning Case G-878 binding element, max 105 du including MPDUs",
     "820220020": "Park Montgomery: LMA H-140 binding element, max 217 du including MPDUs",
     "820040270": "Leesborough: G-798 binding element, max 201 du including MPDUs",
+    "820210010": "Linthicum West: Clarksburg Master Plan, 225 du plus 28 MPDUs; Preliminary Plan 12005003A limited "
+                 "to 253 including 32 MPDUs",
     "820070190": "Villa Cortese: Development Plan Amendment 07-1, Building V max 48 du including MPDUs",
-    "82008011A": "Aurora (North Bethesda Center Parcel F): Development Plan G-801, max 500 du",
+    "820120070": "Little Falls Place (Hoyt Property): G-907 binding element, no more than 30 townhouses of which "
+                 "no more than 5 MPDUs",
+    "820220220": "4910-4920 Strathmore: LMA H-143 binding element, up to 125 du including a minimum of 15% MPDUs",
+    "820120100": "Clarksburg Square: Development Plan G-832, 408 du including 51 MPDUs (11 du/ac)",
+    "820060150": "Towns at Oak Hill (Gateway Park Residential): Schematic Development Plan G-833 binding element, "
+                 "not more than 29 one-family attached units including MPDUs",
+    "820040220": "Arora Hills (Greenway Village Ph. 3-5): Development Plan G-735, 1,330 du including MPDUs; 486 in "
+                 "Phases 1-2, so this site plan is limited to 844",
+    "820130140": "Kensington Overlook: LMA G-877, max 27 du including MPDUs",
+    **dict.fromkeys(["82008011A", "820050340", "820180010", "820220100"],
+                    "North Bethesda Center (Parcels F Aurora, E Wentworth House, G Arrowwood, H): Development Plan "
+                    "G-801, 1,350 du for the whole site; 1,312 approved, 38 left (MCPB 22-066)"),
     "820150060": "Black Hill: Sector Plan 0.7 FAR total; residential is all of it left after the commercial",
     "820070220": "Clarksburg Town Center: Project Plan 9-94004, max 1,300 du; MCPB 09-015 re-approved the whole "
                  "town center at 1,213 du including 152 MPDUs",
@@ -204,6 +217,8 @@ PLAN_GROUPS = {
     # Townhomes 14 of 150: 75 of 600, the master plan's 75; The Darcy 13 of 88, The Flats 14 of 162)
     "82004015A": "Park Potomac (82004015A)",
     "820070180": "Darcy/Flats (820070180)",
+    # four parcels under one G-801 cap of 1,350 du, each with its own MPDUs (MCPB 18-003, 22-066)
+    **dict.fromkeys(["82008011A", "820050340", "820180010", "820220100"], "North Bethesda Center (G-801)"),
 }
 # zones whose old-code text on MPDU density I could not get, and documents that state no bonus
 UNCLEAR = {

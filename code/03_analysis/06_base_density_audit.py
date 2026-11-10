@@ -93,6 +93,11 @@ a measure of the MPDU bonus alone. Column other_program: Bethesda Overlay,
 workforce housing, master plan bonus, PD zone bonus, ZTA 21-07 (floor area for
 income-restricted housing exempt from FAR), or none.
 
+MIN_SHARE_FIXES: minimums that 07_site_plan_regime.py sets from location and
+date but the law sets otherwise. Bill 38-17 Sec. 2 reviews an applicant whose
+sketch plan was accepted as complete before Oct 31, 2018 under the 12.5%
+minimum (Jacob, Nov 9 2026).
+
 Inputs:
   data/int/03_analysis/01_mpdu_simulation_results.csv
   data/raw/mpdu_annual_reports/project_fixes.csv
@@ -129,8 +134,8 @@ IMPACT_TAX = ROOT / "data" / "raw" / "mpdu_annual_reports" / "project_impact_tax
 ROUTES = ["stated_bonus", "stated_base", "cr_floor_area", "zone_table", "cr_mapped_fa"]
 SNIPPET_CHARS = 300
 BASE_UNVERIFIED = {
-    "820050340": ("unverified", "Wentworth House: Parcel E of G-801; the 500 du per parcel cap is stated only "
-                                "for Parcels F and G"),
+    # Wentworth House (820050340, Parcel E of G-801) is coded at plan level on the site-wide 1,350 du cap
+    # (MCPB 22-066), which the Parcel G and H resolutions state, and grouped with Parcels F, G and H in 08
     "82005001A": ("unverified", "The Veridian: the approved 2005 staff report has no data table"),
     "820060380": ("unverified", "Heritage at Silver Spring: no data table"),
     # White Oak (82005018C, Whitehall Square Phase 2) takes Phase 1's ratio; checked against the 2014 staff
@@ -167,6 +172,11 @@ OTHER_RULE = {
                  "30,805 sf of MPDUs exempt from FAR under Sec. 59.4.7.3.D.6.c.iii",
     "820240080": "Tregoning: RE-1 MPDU optional method, 1.22 du/ac (46) against standard 1.09 (41.26), "
                  "6 MPDUs (MCPB 24-091 p. 8)",
+}
+
+MIN_SHARE_FIXES = {
+    "820220070": (0.125, "Strathmore Square: Sketch Plan 320190010 accepted Aug 3, 2018, before Oct 31, 2018 "
+                         "(Bill 38-17 Sec. 2); it chose 15% under the 2014 CR rule (Sec. 59.4.7.3.D.6.c.iii)"),
 }
 
 
@@ -248,6 +258,10 @@ def main():
     d["far_zone"] = (d["route"].isin(["cr_floor_area", "cr_mapped_fa"])
                      | d["zone_norm"].fillna("").str.match(r"^(TS|CBD)"))
     d["gross_acres"] = (d["route"] == "zone_table") & d["density_acres"].isna()
+    assert set(MIN_SHARE_FIXES) <= set(d["plan"]), \
+        f"MIN_SHARE_FIXES: not in the results: {set(MIN_SHARE_FIXES) - set(d['plan'])}"
+    fix = d["plan"].map({k: v[0] for k, v in MIN_SHARE_FIXES.items()})
+    d["min_share"] = fix.fillna(d["min_share"])
     min_mpdus = np.ceil(d["min_share"] * d["actual_units_total"] - 1e-9)
     d["mpdu_vs_min"] = np.select([d["actual_units_mpdu"] < min_mpdus, d["actual_units_mpdu"] == min_mpdus],
                                  ["below", "at"], "above")

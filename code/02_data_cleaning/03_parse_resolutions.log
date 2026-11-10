@@ -9,5 +9,5 @@ documents parsed: 1276 (staff report rows: 825, usable: 338)
   mpdu_pct                590 / 1276
   mpdu_count              414 / 1276
   units_per_acre           65 / 1276
-  bonus_pct                93 / 1276
+  bonus_pct                90 / 1276
 [saved] /Users/jacobherbstman/Desktop/montgomery_mpdu/data/int/02_data_cleaning/03_pb_resolutions_parsed.csv

@@ -27,6 +27,12 @@ site_plan_hand). These are 2024-report projects that no other report links,
 looked up by name, aka and units in the Planning GIS site plan layer. Without
 the file the output is the same as the .do file's.
 
+Also not in the .do file: where data/raw/mpdu_annual_reports/total_fixes.csv
+exists (file, project_name, total_units_reported, total_units, note), the
+total units of that report's offerings of that project are corrected (e.;
+flagged in totals_hand). For totals that no Planning Board document, the GIS
+or the county's later records support. Without the file the output is the same.
+
 total_mpdus is a project attribute repeated on every offering row; sum
 mpdus_in_offering, not total_mpdus, for MPDUs built.
 
@@ -41,6 +47,7 @@ ROOT = Path(__file__).resolve().parents[2]
 INT = ROOT / "data" / "int" / "02_data_cleaning"
 OUT_FILE = INT / "01_mpdu_offerings_combined.dta"
 FILLS = ROOT / "data" / "raw" / "mpdu_annual_reports" / "site_plan_fills.csv"
+TOTAL_FIXES = ROOT / "data" / "raw" / "mpdu_annual_reports" / "total_fixes.csv"
 
 PLACEHOLDER = r"(?i)(n\s*/?\s*a|none|null|tbd|unknown|not applicable|-+)"
 TOTALS = ["total_units", "total_mpdus"]
@@ -57,6 +64,7 @@ LABELS = {
     "project_name_orig": "Project name as extracted, before cross-report linking",
     "key_linked": "Site plan or name filled/changed by cross-report linking",
     "site_plan_hand": "Site plan filled by hand (site_plan_fills.csv)",
+    "totals_hand": "Total units corrected by hand (total_fixes.csv)",
 }
 
 
@@ -138,6 +146,18 @@ def main():
         d.loc[fix, "site_plan"] = plan[fix]
         d["site_plan_hand"] = fix
     d["site_plan_hand"] = d["site_plan_hand"].astype("int8")
+
+    # e. total units corrected by hand
+    d["totals_hand"] = 0
+    if TOTAL_FIXES.exists():
+        for r in pd.read_csv(TOTAL_FIXES).itertuples(index=False):
+            rows = (d["file"] == r.file) & (d["project_name"] == r.project_name)
+            assert rows.any() and (d.loc[rows, "total_units"] == r.total_units_reported).all(), \
+                f"total_fixes.csv: {r.project_name} in {r.file} is not {r.total_units_reported} units"
+            d.loc[rows, "total_units"] = r.total_units
+            d.loc[rows, "totals_hand"] = 1
+        print(f"e. total units corrected by hand (total_fixes.csv): {int(d['totals_hand'].sum())}")
+    d["totals_hand"] = d["totals_hand"].astype("int8")
     d = d.drop(columns="name_key")
     d = d[FIRST_COLS + [c for c in d.columns if c not in FIRST_COLS]]
     d = d.sort_values(["offering_date", "report_series"], kind="stable")

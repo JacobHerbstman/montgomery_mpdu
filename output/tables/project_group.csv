@@ -1,17 +1,13 @@
 id,plan_group,group
 164,,bonus available
-184,,bonus available
 136,,lump at 15%
 176,,bonus available
 188,,bonus available
-148,,bonus available
 31,,bonus available
-23,,bonus available
 48,,bonus available
-22,,height limit
 57,,height limit
 67,,height limit
-132,,lump at 15%
+68,,bonus available
 190,,bonus available
 126,,bonus available
 99,,ceiling at base
@@ -21,18 +17,14 @@ id,plan_group,group
 160,,bonus available
 107,,ceiling at base
 193,,bonus available
-129,,lump at 15%
 186,,bonus available
 12,,bonus available
 207,,bonus available
 59,,bonus available
-69,,ceiling at base
 109,,bonus available
 172,,lump at 15%
-68,,bonus available
-185,,bonus available
 149,,bonus available
-212,,bonus available
+132,,lump at 15%
 128,,ceiling at base
 138,,ceiling at base
 169,,bonus available
@@ -46,23 +38,29 @@ id,plan_group,group
 71,,bonus available
 167,,bonus available
 103,,bonus available
-4,,bonus available
 122,,bonus available
+4,,bonus available
+22,,height limit
 200,,bonus available
 77,,bonus available
 11,,bonus available
 90,,unclear
 25,,ceiling at base
 17,,bonus available
-42,,bonus available
 6,,bonus available
 83,,ceiling at base
 191,,bonus available
 131,,ceiling at base
 189,,ceiling at base
-101,,bonus available
+101,,ceiling at base
+94,,ceiling at base
+42,,ceiling at base
 197,,bonus available
 52,,bonus available
+129,North Bethesda Center (G-801),ceiling at base
+69,North Bethesda Center (G-801),ceiling at base
+23,North Bethesda Center (G-801),ceiling at base
+185,North Bethesda Center (G-801),ceiling at base
 152,,ceiling at base
 214,,bonus available
 182,,bonus available
@@ -78,10 +76,12 @@ id,plan_group,group
 27,,ceiling at base
 28,,height limit
 35,,ceiling at base
+41,,ceiling at base
 51,,ceiling at base
 55,,bonus available
 58,,height limit
 64,,ceiling at base
+65,,ceiling at base
 72,Pike & Rose (320110010),ceiling at base
 78,,ceiling at base
 79,,ceiling at base
@@ -89,6 +89,7 @@ id,plan_group,group
 84,Darcy/Flats (820070180),ceiling at base
 85,Darcy/Flats (820070180),ceiling at base
 86,Park Potomac (82004015A),ceiling at base
+87,,bonus available
 93,,height limit
 95,,ceiling at base
 97,,ceiling at base
@@ -113,17 +114,16 @@ id,plan_group,group
 158,,unclear
 159,,ceiling at base
 166,,lump at 15%
+184,,ceiling at base
 196,,lump at 15%
 198,,height limit
 201,,ceiling at base
 203,,bonus available
 209,,lump at 15%
+212,,ceiling at base
 216,,bonus available
-41,,bonus available
 192,,bonus available
-87,,bonus available
 137,,bonus available
-94,,bonus available
 121,Chevy Chase Lake (32014003A/120150130),lump at 15%
 102,Chevy Chase Lake (32014003A/120150130),lump at 15%
 10,,bonus available
@@ -141,20 +141,21 @@ id,plan_group,group
 30,Clarksburg Village Phases I-II (1-01030),bonus available
 26,,bonus available
 120,,bonus available
+148,,bonus available
+60,,bonus available
 211,,bonus available
 141,,bonus available
 215,,bonus available
-65,,bonus available
 70,,bonus available
 112,,bonus available
-33,,bonus available
-39,,bonus available
 13,,bonus available
+33,,bonus available
 115,,bonus available
 40,,bonus available
 54,,bonus available
 91,,bonus available
 88,,bonus available
+39,,bonus available
 119,,bonus available
 9,Whitehall Square (820050180),bonus available
 61,,bonus available
@@ -176,7 +177,6 @@ id,plan_group,group
 116,,bonus available
 44,,bonus available
 56,,bonus available
-60,,bonus available
 173,Shady Grove Station-Westside (820130220),other program
 155,Shady Grove Station-Westside (820130220),other program
 157,Shady Grove Station-Westside (820130220),other program

@@ -1,25 +1,24 @@
 left out (project_fixes.csv): {'duplicate': 10, 'part': 3, "other project's plan": 1}
-projects with a resolution base: 198 (put back: OTHER_RULE 2, OTHER_PROGRAM 19), below base: 69
-parsed approved units agree with GIS (5%): 167 of 191
+projects with a resolution base: 198 (put back: OTHER_RULE 2, OTHER_PROGRAM 19), below base: 67
+parsed approved units agree with GIS (5%): 163 of 191
 
 below base by route (below / all):
 below_base     False  True 
 route                      
-cr_floor_area      1      5
-cr_mapped_fa       0      1
-stated_base       92     53
-stated_bonus      30      0
-zone_table         6     10
+cr_floor_area      1      4
+stated_base       99     57
+stated_bonus      27      0
+zone_table         4      6
 
 likely cause:
 likely_cause
-at or above base                           129
-stated base, really below                   41
-within 5% of base (rounding)                13
-floor area -> units (assumed unit size)      6
-approved units disagree with GIS             4
-CR floor area, really below                  3
-units/acre x gross tract acres               2
+at or above base                           131
+stated base, really below                   39
+within 5% of base (rounding)                19
+approved units disagree with GIS             3
+floor area -> units (assumed unit size)      3
+CR floor area, really below                  2
+units/acre x gross tract acres               1
 
 TDRs (project_tdr.csv):
 tdr
@@ -54,12 +53,11 @@ ZTA 21-07              1
 
 base check:
 base_check
-checked       195
-unverified      3
+checked       196
+unverified      2
 
 MPDUs vs minimum, below-base projects:
 mpdu_vs_min
 at       52
-above    16
-below     1
+above    15
 [saved] /Users/jacobherbstman/Desktop/montgomery_mpdu/output/tables/base_density_audit.csv
