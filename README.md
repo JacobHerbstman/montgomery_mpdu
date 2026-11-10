@@ -12,13 +12,15 @@ The layout is Evan's Dropbox folder `DensityBonus/Montgomery_MPDU`:
   `.gitignore`).
 - `output/tables`, `output/figures`.
 - `policy/`: the law and staff reports `rules.py` cites.
-- `docs/`: `NOTES.md` (every check and hand-coded value, with sources),
-  `descriptives.md`/`.pdf`, `judgment_calls.md`/`.pdf`.
+- `docs/`: `CONTEXT.md` (start here: reading order, working rules, open
+  decisions, what is not in git), `NOTES.md` (every check and hand-coded value,
+  with sources), `dataset_overview.md`/`.pdf`, `descriptives.md`/`.pdf`,
+  `judgment_calls.md`/`.pdf`.
 
 The first commit is Evan's and Audrey's files as they were in the Dropbox on
 29 Oct 2026 (copy at `~/mpdu_data/Montgomery_MPDU_snapshot_2026-10-29`). The
 commits after it are ours. Their scripts are not edited; our checks are new
-files (`06`-`10` in `03_analysis`, `02_data_cleaning/01_combine_reports.py`,
+files (`06`-`12` in `03_analysis`, `02_data_cleaning/01_combine_reports.py`,
 `01_data_collection/12_download_pb_staff_reports.py`, `run_all.py`) and
 hand-coded inputs.
 
